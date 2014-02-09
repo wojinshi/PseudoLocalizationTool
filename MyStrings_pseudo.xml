@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010-2013, RingCentral, Inc. All Rights Reserved. --><!--
+  =====================================================================
+    IMPORTANT!!!
+    
+    This file MUST NOT contain any brand-dependent string definitions,
+    including but not limited to any strings containing the application or
+    company name like 'RingCentral', 'RingCentral Mobile', etc.
+    
+    All brand-dependent string definitions must be defined in the 'strings_branded.xml' files
+    separately for each brand.
+    The 'strings.xml' file must contain only references to the actual branded definitions.
+  =====================================================================
+--><resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- ==================================================================== -->
+    <!-- ========================= Application label ======================== -->
+    <!-- =====================================================================-->
+
+
+    <!-- This is the EXTERNAL application name -->
+    <!-- as seen in the App Store, on the Android desktop etc. -->
+    <string name="app_label">@string/brand_AppLabel</string>
+	
+    <!-- This is the INTERNAL application name used inside the application UI -->
+   	<string name="app_name">@string/brand_AppName</string>
+
+    <!-- =====================================================================-->
+    <!-- ========================= Common dialogs ============================-->
+    <!-- =====================================================================-->
+	<string name="dialog_btn_ok">[ÖĶ]</string>
+	<string name="dialog_btn_cancel">[Çåñçéļ]</string>	
+	<string-array name="config_group_title">
+       <item>[Öûţļööķ·çöɱ]</item>
+       <item>[Šåɱšûñĝ åççöûñţ]</item>
+       <item>[Šķýþé™]</item>
+       <item>[Ṁîçŕöšöƒţ Éẋçĥåñĝé ÅçţîṽéŠýñç]</item>
+       <item>[Ýåĥöö]</item>
+       <item>[Ƒåçéƀööķ]</item>
+       <item>[Ĝööĝļé]</item>
+    </string-array>
+</resources> one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen

@@ -1,0 +1,1240 @@
+[<?xml version="1.0" encoding="utf-8"?>
+
+
+  
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    
+    
+
+
+    
+    
+    <string name="app_label">՞šţŕîñĝ⁄ƀŕåñð‿ÅþþĻåƀéļ</string>
+	
+    
+   	<string name="app_name">՞šţŕîñĝ⁄ƀŕåñð‿ÅþþÑåɱé</string>
+
+    
+    
+    
+	<string name="dialog_btn_ok">ÖĶ</string>
+	<string name="dialog_btn_cancel">Çåñçéļ</string>
+	<string name="dialog_btn_retry">Ŕéţŕý</string>
+	<string name="dialog_btn_delete">Ðéļéţé</string>
+	<string name="dialog_btn_remove">Ŕéɱöṽé</string>
+    <string name="dialog_btn_save">Šåṽé</string>
+    <string name="dialog_btn_done">Ðöñé</string>
+    <string name="dialog_title_error">Éŕŕöŕ</string>
+    <string name="dialog_title_warning">Ŵåŕñîñĝ</string>
+    <string name="dialog_title_quit">Ǫûîţ</string>
+
+    
+    
+    
+    <string name="loginscreen_setup_dialog_title">Éẋþŕéšš Šéţûþ îš Îñçöɱþļéţé</string>
+    <string name="loginscreen_setup_dialog_msg">՞šţŕîñĝ⁄ƀŕåñðéð‿ļöĝîñšçŕééñ‿šéţûþ‿ðîåļöĝ‿ɱšĝ</string> 
+    <string name="loginscreen_setup_dialog_yes">Çöɱþļéţé Šéţûþ Ñöŵ</string> 
+    <string name="loginscreen_setup_dialog_no">Šķîþ Šéţûþ</string> 
+    <string name="loginscreen_setup_dialog_later">Ðéçîðé Ļåţéŕ</string> 
+    <string name="loginscreen_trial_dlg_title">Ûþĝŕåðé ýöûŕ šéŕṽîçé</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expired">՞šţŕîñĝ⁄ƀŕåñðéð‿ļöĝîñšçŕééñ‿ţŕîåļ‿ðļĝ‿ɱšĝ‿åðɱîñ‿éẋþîŕéð</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expireinxdays">՞šţŕîñĝ⁄ƀŕåñðéð‿ļöĝîñšçŕééñ‿ţŕîåļ‿ðļĝ‿ɱšĝ‿åðɱîñ‿éẋþîŕéîñẋðåýš</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expirein1day">՞šţŕîñĝ⁄ƀŕåñðéð‿ļöĝîñšçŕééñ‿ţŕîåļ‿ðļĝ‿ɱšĝ‿åðɱîñ‿éẋþîŕéîñ①ðåý</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expiretoday">՞šţŕîñĝ⁄ƀŕåñðéð‿ļöĝîñšçŕééñ‿ţŕîåļ‿ðļĝ‿ɱšĝ‿åðɱîñ‿éẋþîŕéţöðåý</string>
+    <string name="loginscreen_trial_dlg_msg_user_expired">՞šţŕîñĝ⁄ƀŕåñðéð‿ļöĝîñšçŕééñ‿ţŕîåļ‿ðļĝ‿ɱšĝ‿ûšéŕ‿éẋþîŕéð</string>
+    <string name="loginscreen_trial_dlg_ok">՞šţŕîñĝ⁄ðîåļöĝ‿ƀţñ‿öķ</string>
+    <string name="loginscreen_trial_dlg_cancel">՞šţŕîñĝ⁄ðîåļöĝ‿ƀţñ‿çåñçéļ</string>
+    <string name="loginscreen_trial_dlg_upgrade">Ûþĝŕåðé Ñöŵ</string>
+	<string name="login_text">Ļöĝ îñ</string>
+	<string name="signup_text">Šîĝñ ûþ</string>
+	
+	<string name="loginscreen_passwordrecovery_link">Ƒöŕĝöţ ýöûŕ þåššŵöŕð¿</string>
+    
+    
+    
+    
+    <string name="tab_name_conference">Çöñƒéŕéñçîñĝ</string>
+    <string name="tab_name_favorites">Ƒåṽöŕîţéš</string>
+    <string name="tab_name_recents">Çåļļ Ļöĝ</string>
+    <string name="tab_name_contacts">Çöñţåçţš</string>
+    <string name="add_favorites">ÅððƑåṽöŕîţéš</string>
+    <string name="tab_name_zoom_video">Ṁééţîñĝš</string>
+    
+    
+    
+    
+
+
+    
+    <string name="topleftback">&lt; Ɓåçķ</string>
+    <string name="toprightadd">Åðð ⁺</string>
+    
+    <string name="ringout_context_menu_title">Éðîţ</string>
+    <string name="cut">Çûţ</string>
+    <string name="copy">Çöþý</string>
+    <string name="paste">Þåšţé</string>
+    
+    
+    <string name="ringout_status_top_label_text">Ñöŵ çåļļîñĝ&#8230;</string>
+    <string name="ringout_status_mid_label_text_2line">՞šţŕîñĝ⁄ƀŕåñðéð‿ŕîñĝöûţ‿šţåţûš‿ɱîð‿ļåƀéļ‿ţéẋţ‿②ļîñé</string>
+    <string name="ringout_status_mid_hint_text_3line">Ţĥé þĥöñé ýöû åššîĝñéð îñ Šéţţîñĝš ∖ñŵîļļ ŕîñĝ ñöŵ· Þļéåšé þîçķ ûþ ţö çöɱþļéţé ∖ñţĥé çöññéçţîöñ·</string>
+    
+    
+    <string name="ringout_alert_title_call_failed">Çåļļ Ƒåîļéð</string>
+    <string name="ringout_alert_msg_connection_error">Çåññöţ þļåçé ţĥé çåļļ šîñçé ţĥéŕé îš ñö çöññéçţîöñ ţö šéŕṽéŕ· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="ringout_alert_msg_call_fail">Åñ éŕŕöŕ öççûŕŕéð ŵĥîļé åţţéɱþţîñĝ ţö çöɱþļéţé ýöûŕ ŕéǫûéšţ· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="ringout_alert_msg_call_fail_try_again">Åñ éŕŕöŕ öççûŕŕéð ŵĥîļé åţţéɱþţîñĝ ţö çöɱþļéţé ýöûŕ ŕéǫûéšţ· Ŵöûļð ýöû ļîķé ţö ţŕý åĝåîñ¿</string>
+    <string name="ringout_alert_title_invalid_callerID">Çåļļéŕ ÎÐ Ñöţ Åṽåîļåƀļé</string>
+    <string name="ringout_alert_msg_invalid_callerID_multiple">Ţĥé Çåļļéŕ ÎÐ ýöû šéļéçţéð îš ñöţ åṽåîļåƀļé ñöŵ، þļéåšé çĥööšé åñöţĥéŕ öñé åñð ţŕý åĝåîñ·</string>
+    <string name="ringout_alert_msg_invalid_callerID_one">Ţĥé Çåļļéŕ ÎÐ ýöû šéļéçţéð îš ñöţ åṽåîļåƀļé ñöŵ، þļéåšé ţŕý åĝåîñ·</string>
+    <string name="ringout_alert_number_contact_and_favorite">Ţĥîš ñûɱƀéŕ îš åļŕéåðý îñ ýöûŕ çöñţåçţš åñð ƒåṽöŕîţéš ļîšţ·</string>
+    <string name="ringout_alert_login_using_direct_number">՞šţŕîñĝ⁄ƀŕåñð‿ŕîñĝöûţ‿åļéŕţ‿ļöĝîñ‿ûšîñĝ‿ðîŕéçţ‿ñûɱƀéŕ</string>
+    <string name="ringout_mode_alert_login_using_direct_number">Þļéåšé ļöĝ îñ ûšîñĝ ýöûŕ ðîŕéçţ éẋţéñšîöñ ñûɱƀéŕ ţö ûšé ţĥîš ŔîñĝÖûţ ɱöðé·</string>
+    <string name="ringout_alert_need_voip">Ðîŕéçţöŕý Éñǫûîŕý çåļļš åŕé ñöţ åļļöŵéð îñ ŔîñĝÖûţ Ṁöðé· Þļéåšé éñåƀļé Öûţƀöûñð ṼöÎÞ îñ ţĥé åþþ šéţţîñĝš ţö ɱåķé šûçĥ çåļļš·</string>
+    <string name="ringout_alert_need_voip_100">Ţĥîš çåļļ îš ñöţ åļļöŵéð îñ ŔîñĝÖûţ Ṁöðé· Þļéåšé éñåƀļé Öûţƀöûñð ṼöÎÞ îñ ţĥé åþþ šéţţîñĝš ţö ɱåķé šûçĥ çåļļš·</string>
+    <string name="ringout_alert_unsupported_number">Çåļļš ţö ţĥîš šéŕṽîçé åŕé ñöţ šûþþöŕţéð· Þļéåšé ðîåļ ţĥé ñûɱƀéŕ ðîŕéçţļý ƒŕöɱ ýöûŕ ļåñðļîñé öŕ çéļļ þĥöñé·</string>
+    
+    
+    <string name="ringout_status_call_initiated">Çåļļ îñîţîåţéð</string>
+    <string name="ringout_callState_csError">Éŕŕöŕ öççûŕŕéð ŵĥîļé çåļļîñĝ þåŕţý·</string>
+    <string name="ringout_callState_csSuccess">Çåļļ ĥåš ƀééñ çöɱþļéţéð·</string>
+
+    
+    <string name="ringout_userStatus_eInProgress">Ţĥé þĥöñé ýöû åššîĝñéð îñ Šéţţîñĝš ŵîļļ ŕîñĝ ñöŵ· Þļéåšé þîçķ ûþ ţö çöɱþļéţé ţĥé çöññéçţîöñ·</string>
+    <string name="ringout_userStatus_eBusy">Ýöûŕ þĥöñé ļîñé îš ƀûšý· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="ringout_userStatus_eNoAnswer">Ýöûŕ þĥöñé ðöéš ñöţ åñšŵéŕ· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="ringout_userStatus_eRejected">Ýöû ĥåṽé ŕéĵéçţéð ţĥé çåļļ·</string>
+    <string name="ringout_userStatus_eGenericError">Éŕŕöŕ öççûŕŕéð çåļļîñĝ ýöûŕ çûŕŕéñţ ļöçåţîöñ·</string>
+    <string name="ringout_userStatus_eFinished">Çåļļ ĥåš ƀééñ çöɱþļéţéð·</string>
+    <string name="ringout_userStatus_eInternationalDisabled">Îñţéŕñåţîöñåļ çåļļš åŕé ðîšåƀļéð·</string>
+    <string name="ringout_userStatus_eDestinationBlocked">Ðéšţîñåţîöñ ñûɱƀéŕ îš þŕöĥîƀîţéð·</string>
+    <string name="ringout_userStatus_eNotEnoughFunds">Ţöö ļöŵ  ƀåļåñçé öñ ţĥé åççöûñţ·</string>
+    <string name="ringout_userStatus_eCallerIDDisabled">Çåļļéŕ ÎÐ ñöţ åṽåîļåƀļé، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+
+    
+    <string name="ringout_partyStatus_eInProgress">Ƒîŕšţ þåŕţý çöññéçţéð·</string>
+    <string name="ringout_partyStatus_eBusy">Ƒîŕšţ þåŕţý çöññéçţéð· Ýöûŕ þåŕţý∖´š þĥöñé îš ƀûšý· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="ringout_partyStatus_eNoAnswer">Ƒîŕšţ þåŕţý çöññéçţéð· Ţĥéŕé∖´š ñö åñšŵéŕ ƒŕöɱ ýöûŕ þåŕţý∖´š þĥöñé· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="ringout_partyStatus_eRejected">Ƒîŕšţ þåŕţý çöññéçţéð· Ýöûŕ þåŕţý ĥåš ŕéĵéçţéð ţĥé çåļļ·</string>
+    <string name="ringout_partyStatus_eGenericError">Éŕŕöŕ öççûŕŕéð ŵĥîļé çåļļîñĝ þåŕţý·</string>
+    <string name="ringout_partyStatus_eInternationalDisabled">Îñţéŕñåţîöñåļ çåļļš åŕé ðîšåƀļéð·</string>
+    <string name="ringout_partyStatus_eDestinationBlocked">Ðéšţîñåţîöñ ñûɱƀéŕ îš þŕöĥîƀîţéð·</string>
+    <string name="ringout_partyStatus_eNotEnoughFunds">Ļöŵ ƀåļåñçé öñ ţĥé åççöûñţ·</string>
+    <string name="ringout_partyStatus_eFinished">Çåļļ ĥåš ƀééñ çöɱþļéţéð·</string>
+    <string name="ringout_partyStatus_eSuccess">Ɓöţĥ þåŕţîéš åŕé çöññéçţéð·</string>
+    
+    <string name="ringout_from_caller_id">Ƒŕöɱ∶ </string>
+
+    
+    
+    
+
+
+	<string name="voip_call_over_wifi">Ýöû åŕé ɱåķîñĝ å ṼöÎÞ çåļļ öṽéŕ ŴîƑî·∖ñÇåļļš ɱåý ðŕöþ îƒ ýöûŕ ŴîƑî šîĝñåļ ðéĝŕåðéš·</string>
+    <string name="voip_call_over_3g_4g">Ýöû åŕé ɱåķîñĝ å ṼöÎÞ çåļļ öṽéŕ ýöûŕ þŕöṽîðéŕ’š ðåţå ñéţŵöŕķ· Çåļļ ǫûåļîţý ɱåý ðéçŕéåšé ðéþéñðîñĝ öñ ýöûŕ çöṽéŕåĝé·</string>
+	
+	<string name="voip_call_screen_btn_hide_button">Ĥîðé Ķéýþåð</string>
+    <string name="voip_call_screen_btn_speaker">Šþéåķéŕ</string>
+    <string name="voip_call_screen_onhold_state_label">Öñ Ĥöļð</string>
+    <string name="voip_call_screen_btn_bluetooth_device">Ɓļûéţööţĥ Ðéṽîçé</string>
+    <string name="voip_call_screen_btn_defalut_headset">Ðéƒåûļţ⁄Ĥéåðšéţ</string>
+    <string name="voip_call_screen_dialog_title">Çĥööšé ţĥé åûðîö šöûŕçé ýöû ŵöûļð ļîķé ţö ļîšţéñ ƒŕöɱ·</string>
+
+    
+    <string name="generic_network_error">Åñ éŕŕöŕ öççûŕŕéð ŵĥîļé åţţéɱþţîñĝ ţö çöɱþļéţé ýöûŕ ŕéǫûéšţ {ñéţŵöŕķ éŕŕöŕ}· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="airplane_network_error">Åñ éŕŕöŕ öççûŕŕéð ŵĥîļé åţţéɱþţîñĝ ţö çöɱþļéţé ýöûŕ ŕéǫûéšţ {åîŕþļåñé ɱöðé}· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="network_not_available">Ñéţŵöŕķ îš ñöţ åṽåîļåƀļé· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="network_not_available_airplane_mode">Ñéţŵöŕķ îš ñöţ åṽåîļåƀļé {åîŕþļåñé ɱöðé}· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="error_code_alert_title">Éŕŕöŕ</string>
+     
+    
+    
+    
+    
+    <string name="calllog_tab_all_title">Åļļ</string>
+    <string name="calllog_tab_missed_title">Ṁîššéð</string>
+    <string name="calllog_item_view_error">Çåļļ ļöĝ îš ûþðåţîñĝ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    
+    
+    <string name="calllog_menu_Call">Çåļļ</string>
+    <string name="calllog_menu_View">Ṽîéŵ</string>
+    <string name="calllog_menu_add_to_contacts_new">Çŕéåţé Ñéŵ Çöñţåçţ</string>
+    <string name="calllog_menu_add_to_contacts_existing">Åðð ţö Éẋîšţîñĝ Çöñţåçţ</string>
+    <string name="calllog_first_create_contact_prompt">Çŕéåţé å çöñţåçţ ƀéƒöŕé åððîñĝ ţö ƒåṽöŕîţéš·</string>
+    <string name="calllog_menu_add_to_faworites">Åðð ţö Ƒåṽöŕîţéš</string>
+    <string name="calllog_menu_remove_from_faworites">Ŕéɱöṽé ƒŕöɱ Ƒåṽöŕîţéš</string>
+    <string name="calllog_menu_sendText">Šéñð Ţéẋţ</string>
+    
+
+    
+    <string name="recentCalls_empty">Ñö Çåļļ Ļöĝ</string>
+     <string name="calllog_no_results_found">Ñö ŕéšûļţš ƒöûñð</string>
+
+    
+    <string name="calllog_calltype_159_unknown">Ûñķñöŵñ</string>
+    <string name="calllog_calltype_160_phone_call">Þĥöñé Çåļļ</string>
+    <string name="calllog_calltype_161_phone_login">Þĥöñé Ļöĝîñ</string>
+    <string name="calllog_calltype_162_fax_receive">Îñçöɱîñĝ Ƒåẋ</string>
+    <string name="calllog_calltype_163_accept_call">Åççéþţ Çåļļ</string>
+    <string name="calllog_calltype_164_findme">ƑîñðṀé</string>
+    <string name="calllog_calltype_165_followme">ƑöļļöŵṀé</string>
+    <string name="calllog_calltype_166_putgoing_fax">Öûţĝöîñĝ Ƒåẋ</string>
+    <string name="calllog_calltype_167_call_return">Çåļļ Ŕéţûŕñ</string>
+    <string name="calllog_calltype_168_calling_card">Çåļļîñĝ Çåŕð</string>
+    <string name="calllog_calltype_169_ring_directly">Ŕîñĝ Ðîŕéçţļý</string>
+    <string name="calllog_calltype_170_ringout_web">ŔîñĝÖûţ Ŵéƀ</string>
+    <string name="calllog_calltype_171_sip_call">ṼöÎÞ Çåļļ</string>
+    <string name="calllog_calltype_172_ringout_pc">ŔîñĝÖûţ ÞÇ</string>
+    <string name="calllog_calltype_173_ringme">ŔîñĝṀé</string>
+    <string name="calllog_calltype_174_transfer_call">Ţŕåñšƒéŕ</string>
+    <string name="calllog_calltype_265_ringOut_mobile">ŔîñĝÖûţ Ṁöƀîļé</string>
+    <string name="calllog_calltype_198_e911_update">É⑨①① Ûþðåţé</string>
+    <string name="calllog_calltype_197_emergency">Éɱéŕĝéñçý</string>
+    <string name="calllog_calltype_199_support">Šûþþöŕţ</string>
+    <string name="calllog_calltype_196_411_info">④①① Îñƒö</string>
+    
+    
+    <string name="calllog_status_175_unknown">Ûñķñöŵñ</string>
+    <string name="calllog_status_176_in_progress">Îñ Þŕöĝŕéšš</string>
+    <string name="calllog_status_177_missed">Ṁîššéð</string>
+    <string name="calllog_status_178_accept_call">Çåļļ åççéþţéð</string>
+    <string name="calllog_status_179_voicemail">Ṽöîçéɱåîļ</string>
+    <string name="calllog_status_180_reject">Ŕéĵéçţéð</string>    
+    <string name="calllog_status_182_reply">Ŕéþļý</string>
+    <string name="calllog_status_183_fax_received">Ŕéçéîṽéð</string>
+    <string name="calllog_status_184_fax_receive_error">Ŕéçéîṽé Éŕŕöŕ</string>
+    <string name="calllog_status_185_fax_on_demand">Ƒåẋ Öñ Ðéɱåñð</string>
+    <string name="calllog_status_186_fax_partial_receive">Þåŕţîåļ Ŕéçéîṽé</string>
+    <string name="calllog_status_187_blocked">Ɓļöçķéð</string>
+    <string name="calllog_status_188_connected">Çåļļ çöññéçţéð</string>
+    <string name="calllog_status_189_no_answer">Ñö Åñšŵéŕ</string>
+    <string name="calllog_status_190_international_disabled">Îñţéŕñåţîöñåļ Ðîšåƀļéð</string>
+    <string name="calllog_status_191_busy">Ɓûšý</string>
+    <string name="calllog_status_192_fax_send_error">Šéñð Éŕŕöŕ</string>
+    <string name="calllog_status_193_fax_sent">Šéñţ</string>
+    <string name="calllog_status_194_no_fax_machine">Ñö ƒåẋ ɱåçĥîñé</string>
+    <string name="calllog_status_203_suspended_account">Åççöûñţ Šûšþéñðéð</string>
+    <string name="calllog_status_204_call_failed">Çåļļ Ƒåîļéð</string>
+    <string name="calllog_status_205_call_failure">Çåļļ Ƒåîļûŕé</string>
+    <string name="calllog_status_206_internal_error">Îñţéŕñåļ Éŕŕöŕ</string>
+    <string name="calllog_status_207_ip_phone_offline">ÎÞ Þĥöñé Öƒƒļîñé</string>
+    <string name="calllog_status_208_no_calling_credit">Ñö Çåļļîñĝ Çŕéðîţ</string>
+    <string name="calllog_status_209_restricted_number">Ŕéšţŕîçţéð Ñûɱƀéŕ</string>
+    <string name="calllog_status_210_wrong_number">Ŵŕöñĝ Ñûɱƀéŕ</string>
+    <string name="calllog_status_211_answered_not_accepted">Åñšŵéŕéð ‐ Ñöţ Åççéþţéð</string>
+    <string name="calllog_status_237_force_stopped">Šţöþþéð</string>
+    <string name="calllog_status_252_abandoned">Åƀåñðöñéð</string>
+    <string name="calllog_status_253_declined">Ðéçļîñéð</string>
+    <string name="calllog_status_269_fax_send_error">Ƒåẋ Šéñð Éŕŕöŕ</string>
+    <string name="calllog_status_239_hang_up">Ĥåñĝ Ûþ</string>
+    <string name="calllog_status_267_fax_receipt_error">Ƒåẋ Ŕéçéîþţ Éŕŕöŕ</string>
+    <string name="calllog_status_250_international_restriction">Îñţéŕñåţîöñåļ Ŕéšţŕîçţîöñ</string>
+    <string name="calllog_status_244_partially_sent">Þåŕţîåļļý Šéñţ</string>
+    <string name="calllog_status_242_poor_line_quality">Þööŕ Ļîñé Ǫûåļîţý</string>
+    
+    <string name="calllog_display_name_unknown">Ûñķñöŵñ</string>
+ 
+    
+    
+    
+    
+    
+    <string name="menu_newContact">Çŕéåţé Ñéŵ Çöñţåçţ</string>                      
+    <string name="menu_settings">Šéţţîñĝš</string>                             		
+    <string name="menu_viewContact">Ṽîéŵ Çöñţåçţ</string>                           
+    <string name="menu_addStar">Åðð ţö Ƒåṽöŕîţéš</string>                           
+    <string name="menu_removeStar">Ŕéɱöṽé ƒŕöɱ Ƒåṽöŕîţéš</string>                   
+   	
+   	
+    <string name="menu_editContact">Éðîţ Çöñţåçţ</string>                           
+    <string name="menu_deleteContact">Ðéļéţé Çöñţåçţ</string>                       
+    <string name="menu_call">Çåļļ Çöñţåçţ</string>                                  
+    
+   	    	
+    <string name="menu_sendEmail">Šéñð Éɱåîļ</string>
+    <string name="menu_sendText">Šéñð Ţéẋţ</string>    
+    <string name="txt_add_button">Åðð ⁺</string>
+    <string name="filter_name_personal">Þéŕšöñåļ</string>
+    <string name="filter_name_company">Çöɱþåñý</string>
+    
+ 
+
+    
+	<string name="noContacts">Ñö Çöñţåçţš</string>
+    <string name="noFavorites">Ñö Ƒåṽöŕîţéš</string>
+    <string name="favorite_del_dialog_title">Ŕéɱöṽé ƒŕöɱ ƒåṽöŕîţéš</string>
+    <string name="favorite_del_dialog_message"> Åŕé ýöû šûŕé ýöû ŵåñţ ţö ŕéɱöṽé ţĥîš çöñţåçţ ƒŕöɱ ƒåṽöŕîţéš¿</string>
+    <string name="favorite_del_failed">Ŕéɱöṽé ƒåîļéð·</string>
+    
+    
+    <string name="noMatchingContacts">Ñö ɱåţçĥîñĝ çöñţåçţš ƒöûñð·</string>
+    
+    
+    <string name="contacts_del_confirmation">Ðö ýöû ŵåñţ ţö ðéļéţé šéļéçţéð çöñţåçţ{š}¿</string>
+    <string name="contacts_del_error">Çåññöţ ðéļéţé ţĥîš çöñţåçţ {þéŕɱîššîöñ ðéñîéð}·</string>
+    
+    
+    
+
+    
+    
+    
+    
+    <string name="listSeparatorMobilePhone">Ṁöƀîļé</string> 						
+    <string name="ExtView_itemExtension">Éẋţéñšîöñ </string>  						
+    <string name="ExtView_itemEmail">Éɱåîļ </string>                            	
+    <string name="ExtView_itemAddress">Åððŕéšš </string>                            
+      
+
+    
+    
+    
+    
+    
+	<string name="messages_edit_delete">Ðéļéţé</string>
+	<string name="messages_edit_cancel">Çåñçéļ</string>
+	<string name="messages_edit_clear_all">Çļéåŕ</string>
+	
+	<string name="send_sms_e911_error_message_title">Çåññöţ Šéñð ŠṀŠ</string>
+	<string name="send_sms_e911_error_message_rc_us">Ţĥéŕé îš ñö ţéẋţ‐ţö‐‰①€š šéŕṽîçé åṽåîļåƀļé· Ṁåķé å ṽöîçé çåļļ ţö ‰②€š öŕ ûšé åñöţĥéŕ ɱéåñš ţö çöñţåçţ éɱéŕĝéñçý šéŕṽîçéš·</string>
+	<string name="send_sms_e911_error_message_rc_ca">Ţĥîš åþþļîçåţîöñ ðöéš ñöţ šûþþöŕţ ţéẋţ ţö ‰①€š· Þļéåšé ûšé ýöûŕ þĥöñé∖´š ţéẋţ åþþļîçåţîöñ {ñöţ ŔîñĝÇéñţŕåļ} ţö ţéẋţ ‰②€š ðîŕéçţļý·</string>
+	<string name="send_fax_emergency_number_title">Çåññöţ Šéñð Ƒåẋ</string>
+	<string name="send_fax_emergency_number_content">Ţĥéŕé îš ñö ƒåẋ‐ţö‐‰①€š šéŕṽîçé åṽåîļåƀļé· Ṁåķé å ṽöîçé çåļļ ţö ‰②€š öŕ ûšé åñöţĥéŕ ɱéåñš ţö çöñţåçţ éɱéŕĝéñçý šéŕṽîçéš·</string>
+	
+	<string name="delete_message_dialog_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš ɱéššåĝé¿ Ţĥîš ɱéššåĝé ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+	<string name="delete_messages_dialog_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥéšé ɱéššåĝéš¿ Ţĥéšé ɱéššåĝéš ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+	
+	<string name="clear_all_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö çļéåŕ åļļ ɱéššåĝéš¿ Åļļ ɱéššåĝéš ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+	<string name="count_of_delete">Ðéļéţé {‰ð}</string>
+	<string name="count_of_forward">Ƒöŕŵåŕð {‰ð}</string>
+	<string name="count_of_character">‰ð ⁄ ①⑥⓪</string>
+     
+    <string name="messages_menu_mark">Ṁåŕķ Ŕéåð⁄Ûñŕéåð</string>
+     
+     
+    <string name="messageview_menu_contact">Çŕéåţé Ñéŵ Çöñţåçţ</string>
+    <string name="messageview_menu_favorites">Åðð ţö Ƒåṽöŕîţéš</string>
+    <string name="messageview_menu_remove_from_favorites">Ŕéɱöṽé ƒŕöɱ Ƒåṽöŕîţéš</string>
+    <string name="messageview_menu_add_to_existing">Åðð ţö Éẋîšţîñĝ Çöñţåçţ</string>
+    <string name="messageview_menu_delete">Ðéļéţé</string>
+    <string name="messageview_menu_forward">Ƒöŕŵåŕð</string>
+    <string name="messageview_menu_forward_as_fax">Ƒöŕŵåŕð åš Ƒåẋ</string>
+    <string name="messageview_menu_forward_as_email">Ƒöŕŵåŕð åš Éɱåîļ</string>
+    <string name="messageview_menu_view">Ṽîéŵ Çöñţåçţ</string>
+    <string name="messageview_menu_call">Çåļļ</string>
+    <string name="messageview_menu_add_to_contacts_new">Çŕéåţé Ñéŵ Çöñţåçţ</string>    
+    <string name="messageview_menu_first_create_contact_prompt">Çŕéåţé å çöñţåçţ ƀéƒöŕé åððîñĝ ţö ƒåṽöŕîţéš·</string>
+	<string name="messageview_menu_edit">Éðîţ</string>
+	<string name="messageview_menu_contact_info">Çöñţåçţ Îñƒöŕɱåţîöñ</string>
+	<string name="messageview_menu_retry">Ŕéţŕý</string>
+	
+     
+    <string name="messageview_btnmsg_callback">Ýöû çåññöţ çåļļƀåçķ ţĥîš ɱéššåĝé· Þļéåšé šþéçîƒý ţĥé ŕéçîþîéñţ·</string>
+    <string name="messageview_mark_unopened">Ṁåŕķ Ûñŕéåð</string>
+    <string name="messageview_mark_opened">Ṁåŕķ Ŕéåð</string>
+    <string name="messages_storage_error_title">Ṁéðîå Çåŕð</string>
+    <string name="messages_storage_error">ŠÐ çåŕð îš ûšéð åš å ɱåšš šţöŕåĝé، öŕ îš ñöţ ɱöûñţéð، öŕ îš ŵŕîţé þŕöţéçţéð·</string>
+    <string name="messages_storage_error_unmounted">ŠÐ çåŕð îš ûñɱöûñţéð·</string>
+    <string name="messages_storage_error_removed">ŠÐ çåŕð îš ŕéɱöṽéð·</string>
+    <string name="messages_storage_cannot_playback">Çåññöţ þļåýƀåçķ ɱéššåĝé ŵîţĥöûţ åñ ŠÐ çåŕð</string>
+    <string name="messages_storage_cannot_load">Çåññöţ ļöåð ɱéššåĝé ŵîţĥöûţ åñ ŠÐ çåŕð</string>
+    <string name="messages_storage_cannot_load_fax">Çåññöţ ļöåð ƒåẋ ŵîţĥöûţ åñ ŠÐ çåŕð</string>
+    <string name="messages_notification_ticker">՞šţŕîñĝ⁄ƀŕåñðéð‿ɱéššåĝéš‿ñöţîƒîçåţîöñ‿ţîçķéŕ</string>
+    <string name="messages_notification_line2_mult_message">‰ð ûñŕéåð ɱéššåĝéš</string>
+    <string name="messages_notification_line2_single_voicemail">‰ð ûñŕéåð ṽöîçéɱåîļ</string>
+    <string name="messages_notification_line2_mult_voicemail">‰ð ûñŕéåð ṽöîçéɱåîļš</string>
+    <string name="messages_notification_line2_single_fax">‰ð ûñŕéåð ƒåẋ</string>
+    <string name="messages_notification_line2_mult_fax">‰ð ûñŕéåð ƒåẋéš</string>
+    <string name="messages_notification_line2_mult_text">‰ð ûñŕéåð ţéẋţ ɱéššåĝéš</string>
+    
+    <string name="cannot_forward_title">Çåññöţ ƒöŕŵåŕð ɱéššåĝé</string>
+    <string name="cannot_forward_content">Ṁéššåĝé ñöţ ðöŵñļöåðéð ýéţ· Þļéåšé ţŕý åĝåîñ ļåţéŕ</string>
+    
+    <string name="messages_storage_error_forward_title">Ƒîļé Ñöţ Åṽåîļåƀļé</string>
+    <string name="messages_storage_error_forward_content">Ţĥé ŠÐ çåŕð îš ûñɱöûñţéð، þļéåšé ɱåķé šûŕé îţ îš ɱöûñţéð åñð ţŕý åĝåîñ·</string>
+    
+    
+    <string name="text_message_menu_title">Ṁéššåĝé öþţîöñš</string>
+    <string name="text_message_menu_copy">Çöþý ţéẋţ</string>
+    <string name="text_message_menu_forward">Ƒöŕŵåŕð</string>
+    <string name="text_message_menu_delete">Ðéļéţé</string>
+    <string name="text_message_menu_send_again">Ţŕý ţö šéñð åĝåîñ</string>
+    <string name="text_message_menu_delete_content">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥé šéļéçţéð ɱéššåĝé¿ Ţĥîš ɱéššåĝé ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+    <string name="send_notify">Šéñðîñĝ&#8230;</string>
+    <string name="toast_of_paste">Þåšţéð ţéẋţ ĥåš ƀééñ ţŕûñçåţéð∶ ýöûŕ ɱéššåĝé çåññöţ éẋçééð ①⑥⓪ çĥåŕåçţéŕš·</string>
+    <string name="toast_of_more_char">Ýöû çåññöţ îñþûţ ɱöŕé ţĥåñ ①⑥⓪ çĥåŕåçţéŕš·</string>
+    <string name="toast_of_forward_text_messages">Šöŕŕý، ýöû çåññöţ ƒöŕŵåŕð ɱöŕé ţĥåñ ①⑥⓪ çĥåŕåçţéŕš îñ å ţéẋţ ɱéššåĝé·</string>
+    
+	<string name="too_many_recipients_title">Ţöö Ṁåñý Ŕéçîþîéñţš</string>
+	<string name="too_many_recipients_content">Šöŕŕý، ýöû çåñ öñļý åðð ûþ ţö ‰ð ŕéçîþîéñţš·</string>
+    
+    
+    
+    
+
+    <string name="settings_tell_a_friend_body_value">՞šţŕîñĝ⁄ƀŕåñðéð‿šéţţîñĝš‿ţéļļ‿å‿ƒŕîéñð‿ƀöðý‿ṽåļûé</string>
+    <string name="settings_tell_a_friend_subject_value">՞šţŕîñĝ⁄ƀŕåñðéð‿šéţţîñĝš‿ţéļļ‿å‿ƒŕîéñð‿šûƀĵéçţ‿ṽåļûé</string>
+    <string name="settings_header_about_title">՞šţŕîñĝ⁄ƀŕåñðéð‿šéţţîñĝš‿ĥéåðéŕ‿åƀöûţ‿ţîţļé</string>
+    <string name="settings_item_app_description_title">Åþþ Ðéšçŕîþţîöñ</string>
+    <string name="settings_item_version_title">Ṽéŕšîöñ</string>
+    <string name="settings_header_feedback_title">Ƒééðƀåçķ</string>
+    <string name="settings_item_tell_a_friend_title">Ţéļļ Å Ƒŕîéñð</string>
+    <string name="settings_item_send_feedback_title">Šéñð Ƒééðƀåçķ é‐ɱåîļ</string>
+    <string name="settings_feedback_subject_value"><xliff:g id="app_name">‰①€š</xliff:g> <xliff:g id="app_version">‰②€š</xliff:g> Åñðŕöîð Ƒééðƀåçķ <xliff:g id="user_account">‰③€š</xliff:g></string>
+    <string name="settings_about_title">՞šţŕîñĝ⁄ƀŕåñðéð‿šéţţîñĝš‿åƀöûţ‿ţîţļé</string>
+    <string name="settings_about_feedback_email">՞šţŕîñĝ⁄ƀŕåñðéð‿šéţţîñĝš‿åƀöûţ‿ƒééðƀåçķ‿éɱåîļ</string>
+    <string name="settings_about_market_link">ɱåŕķéţ∶⁄⁄ðéţåîļš¿îð≂</string>
+    <string name="callerid_tag_server_main_number_string">ṀåîñÑûɱƀéŕ</string>
+    <string name="callerid_tag_replace_server_main_number_string">Ṁåîñ</string>
+    <string name="settings_callerid_item_title">Çåļļéŕ ÎÐ</string>
+    <string name="settings_callerid_dialog_title">Šéļéçţ þĥöñé</string>
+    <string name="settings_callerid_dialog_msg_no_caller_ids">Ñö Çåļļéŕ ÎÐ ðåţå· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="settings_noname_user_name">՞šţŕîñĝ⁄ƀŕåñðéð‿šéţţîñĝš‿ñöñåɱé‿ûšéŕ‿ñåɱé</string>
+    <string name="settings_ringout_mode_item_title">ŔîñĝÖûţ Ṁöðé</string>
+    <string name="settings_voip_section_header">ṼöÎÞ Çåļļîñĝ</string>
+    <string name="settings_voip_calling_label_ON_WiFi">ÖÑ ‐ Ŵî‐Ƒî</string>
+    <string name="settings_voip_calling_label_ON_WiFi_3G">ÖÑ ‐ ③Ĝ⁄④Ĝ öŕ ŴîƑî</string>
+    <string name="settings_voip_calling_label_OFF">ÖƑƑ</string>
+	<string name="settings_voip_item_WiFi">Öṽéŕ Ŵî‐Ƒî</string>
+    <string name="settings_voip_item_WiFi_3G">Öṽéŕ ③Ĝ⁄④Ĝ öŕ Ŵî‐Ƒî</string>
+	<string name="settings_voip_incoming_calls_on_off_title">Îñçöɱîñĝ ṼöÎÞ Çåļļš</string>
+    <string name="settings_voip_incoming_calls_on_off_label">Ţö šåṽé ƀåţţéŕý þöŵéŕ ţûŕñ öƒƒ îñçöɱîñĝ çåļļš</string>
+    <string name="settings_voip_calls_on_off_title">ṼöÎÞ Çåļļš</string>
+    <string name="settings_voip_calls_on_off_title_when_3G_4G_disabled">ṼöÎÞ Çåļļš Öṽéŕ ŴîƑî</string>
+    <string name="settings_voip_echo_canceler_on_off_title">Éçĥö Çåñçéļļåţîöñ</string>
+    <string name="settings_voip_echo_canceler_on_off_label">Ţûŕñ ÖÑ éçĥö çåñçéļļåţîöñ îƒ ţĥé öţĥéŕ þåŕţý ĥéåŕš åñ éçĥö ðûŕîñĝ ýöûŕ ṼöÎÞ çåļļš</string>
+    <string name="settings_voip_mic_callibration_setup_title">Ṁîçŕöþĥöñé Çåļîƀŕåţîöñ Šéţûþ</string>
+    <string name="my_android">Ṁý Åñðŕöîð</string>
+    <string name="another_phone">Åñöţĥéŕ þĥöñé</string>
+    <string name="another_phone_add_number">Åðð Çûšţöɱ Ñûɱƀéŕ</string>
+    <string name="another_phone_edit_number">Éðîţ Çûšţöɱ Ñûɱƀéŕ</string>
+    <string name="another_phone_custom_number">Çûšţöɱ</string>
+    <string name="phone_number">Þĥöñé ñûɱƀéŕ</string>
+    <string name="enter_custom_phone_number">&#160;&#160;&#160;&#160;Éñţéŕ çûšţöɱ þĥöñé ñûɱƀéŕ&#160;&#160;&#160;&#160;</string>
+    <string name="my_android_phone_number">Ṁý Åñðŕöîð</string>
+    <string name="information">Îñƒöŕɱåţîöñ</string>
+    <string name="add_new_phone">Åðð ñéŵ þĥöñé</string>
+    <string name="confirm_connection">Çöñƒîŕɱ Çöññéçţîöñ</string>
+    <string name="phone_number_not_found">Ṁöƀîļé ðéṽîçé ñûɱƀéŕ</string>
+    <string name="change_my_android_number_title">Çĥåñĝé Ṁý Åñðŕöîð Ñûɱƀéŕ</string>
+    <string name="enter_phone_number">Þļéåšé éñţéŕ ýöûŕ ɱöƀîļé ðéṽîçé ñûɱƀéŕ∶</string>
+    <string name="phone_number_empty">Þĥöñé ñûɱƀéŕ çåññöţ ƀé éɱþţý¡</string>
+    <string name="phone_number_invalid">Îñṽåļîð þĥöñé ñûɱƀéŕ· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="calls_order">Çåļļ  ýöû åţ ţĥé þĥöñé ýöû šéļéçţ ƒîŕšţ، åñð ŵĥéñ ýöû åñšŵéŕ، çåļļš ýöûŕ þåŕţý</string>
+    <string name="ringcentral_calls_place">՞šţŕîñĝ⁄ƀŕåñðéð‿ŕîñĝçéñţŕåļ‿çåļļš‿þļåçé</string>
+    <string name="list_row_btn_toggle_textOn">ÖÑ</string>
+    <string name="list_row_btn_toggle_textOff">ÖƑƑ</string>
+    <string name="settings5_header">Šéţţîñĝš</string>
+    <string name="my_mobile_app_settings">Ṁý Ṁöƀîļé Åþþ Šéţţîñĝš</string>
+    <string name="default_app">Ðéƒåûļţ Ļåûñçĥîñĝ</string>
+    <string name="clear_button_text">Çļéåŕ Ðéƒåûļţš</string>
+    <string name="content_have_set_as_default">Ţĥîš åþþ îš šéţ ţö ƀé ļåûñçĥéð ƀý ðéƒåûļţ ƒöŕ çéŕţåîñ åçţîöñš šûçĥ åš∶∖ñ∖ñ● Þļåçîñĝ þĥöñé çåļļš ŵĥéñ ýöû ûšé ţĥé Åñðŕöîð ðîåļéŕ∖ñ∖ñ● Îɱþöŕţîñĝ ðöçûɱéñţš šûçĥ åš ÞÐƑš</string>
+    <string name="content_have_no_set_as_default">Ţĥîš åþþ îš ñöţ çûŕŕéñţļý šéţ ţö ļåûñçĥ ƀý ðéƒåûļţ ƒöŕ åñý åçţîöñš·</string>
+	<string name="settings5_divider_admin">Åðɱîñîšţŕåţöŕ</string>
+	<string name="settings5_divider_user">Ûšéŕ</string>
+    <string name="settings5_item_account_info">Åççöûñţ Îñƒö</string>
+    <string name="settings5_item_phone_system">Þĥöñé Šýšţéɱ</string>
+    <string name="settings5_item_billing">Ɓîļļîñĝ</string>
+    <string name="settings5_item_my_extension">Ṁý Éẋţéñšîöñ Šéţţîñĝš</string> 
+    <string name="settings5_item_general_fax_tier">Ĝéñéŕåļ</string>
+    <string name="change_my_android_number">Çĥåñĝé Ṁý Åñðŕöîð Ñûɱƀéŕ</string>
+    <string name="setting_no_browser_installed">Ñö ƀŕöŵšéŕ ƒöûñð· Þļéåšé îñšţåļļ ƀŕöŵšéŕ·</string>
+    <string name="setting_no_map_app_installed">Ñö ɱåþ åþþļîçåţîöñ ƒöûñð· Þļéåšé îñšţåļļ ɱåþ åþþļîçåţîöñ·</string>
+    <string name="setting_no_mail_title">Ñö Éɱåîļ Åþþļîçåţîöñ</string>
+    <string name="setting_no_mail_installed">Ţĥéŕé îš ñö éɱåîļ åþþļîçåţîöñ îñšţåļļéð îñ ţĥîš ðéṽîçé، öŕ ţĥé éɱåîļ åþþļîçåţîöñ ĥåð ƀééñ ðîšåƀļéð· Þļéåšé îñšţåļļ åñ éɱåîļ åþþļîçåţîöñ åñð ɱåķé šûŕé îţ îš éñåƀļéð·</string>
+
+    <string name="cloud_settings_dialog_title">Éẋîţ Çļöûð Šéţţîñĝš</string>
+    <string name="cloud_settings_dialog_message">Ýöû åŕé éẋîţîñĝ ýöûŕ ‰š çļöûð šéţţîñĝš· Þļéåšé ɱåķé šûŕé ýöû ĥåṽé šåṽéð åñý çĥåñĝéš ýöû ĥåṽé ɱåðé ƀéƒöŕé ýöû çöñţîñûé·</string>
+	<string name="cloud_settings_package_rcname">ŔîñĝÇéñţŕåļ</string>
+	<string name="cloud_settings_package_at">åţţöƒƒîçéåţĥåñð</string>
+	<string name="cloud_settings_package_atname">Öƒƒîçé՞Ĥåñð</string>
+	<string name="cloud_settings_package_cancel">Çåñçéļ</string>
+	<string name="cloud_settings_package_continue">Çöñţîñûé</string>
+	<string name="cloud_settings_is_alert">îšåļéŕţ</string>
+	<string name="cloud_settings_url">ŕçûŕļ</string>
+	<string name="url_start_chars1">ĥţţþš∶⁄⁄</string>
+	<string name="url_start_chars2">ĥţţþ∶⁄⁄</string>
+	<string name="url_start_chars3">ɱåîļţö∶</string>
+	<string name="url_contain_chars">ŕçɱöƀîļé∶åþþ⁄</string>
+    <string name="embed_browser_navigation1">Ýöûŕ åççöûñţ šéţţîñĝš</string>
+    <string name="embed_browser_navigation2">åŕé öñ ţĥé ŵåý·</string>
+	
+    
+    
+    
+    <string name="offline_mode_alerttext_delmsg">Ýöûŕ ŕéǫûéšţ çöûļð ñöţ ƀé çöɱþļéţéð šîñçé ţĥéŕé îš ñö çöññéçţîöñ ţö šéŕṽéŕ· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="offline_mode_alerttext_dnd">Çåññöţ çĥåñĝé ÐÑÐ šţåţûš šîñçé ţĥéŕé îš ñö çöññéçţîöñ ţö šéŕṽéŕ· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="relogin_msg_nodata">Þļéåšé éñţéŕ åļļ öƒ ţĥé ŕéǫûîŕéð îñƒöŕɱåţîöñ ƀéƒöŕé çöñţîñûîñĝ·</string>
+
+    <string name="cannot_download_title">Çåññöţ ðöŵñļöåð ɱéššåĝé</string>
+    <string name="cannot_download_deleted_message">Çåññöţ ðöŵñļöåð ðéļéţéð ɱéššåĝé· Ýöû çåñ åççéšš îţ ṽîå šéŕṽîçé ŵéƀ Ðéļéţéð Ṁéššåĝéš šçŕééñ</string>
+    <string name="cannot_delete_title">Çåññöţ ðéļéţé ɱéššåĝé&#8230;</string>
+    <string name="cannot_update_title">Çåññöţ šéţ ŕéåð šţåţûš&#8230;</string>
+    
+    
+    <string name="cannot_play_voice_message">Çåññöţ þļåý ṽöîçé ɱéššåĝé</string>
+    <string name="player_error">Þļåýéŕ éŕŕöŕ</string>
+    <string name="msg_del_confirmation">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš ɱéššåĝé¿ Ţĥîš ɱéššåĝé ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+    <string name="text_msg_del_confirmation">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥé ɱéššåĝéš îñ ţĥîš ţĥŕéåð¿ Ţĥéšé ɱéššåĝéš ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+    <string name="delete">Ðéļéţé</string>
+    <string name="call">Çåļļ</string>
+    <string name="message_title">Ṁéššåĝé</string>
+    
+    
+    
+    
+    
+    <string name="search_activity_label">Šéåŕçĥ Ŕéšûļţš</string>
+    <string name="menu_item_new_search">Ñéŵ Šéåŕçĥ</string>
+    
+     
+     
+     
+	<string name="dnd_dialog_title">Šéţ ÐÑÐ</string>
+	<string name="dnd_take_all_calls">Ţåķé Åļļ Çåļļš</string>
+	<string name="dnd_not_accept_department_calls">Ðö Ñöţ Åççéþţ Çåļļ Ǫûéûé Çåļļš</string>
+	<string name="dnd_not_accept_any_calls">Ðö Ñöţ Åççéþţ Åñý Çåļļš</string>
+	<string name="dnd_accept_only_department_calls">Åççéþţ Öñļý Çåļļ Ǫûéûé Çåļļš</string>
+	
+	
+	
+    <string name="voip_calling">ṼöÎÞ Çåļļîñĝ</string>
+    
+    
+    
+    
+
+    <string name="application_description">Åþþļîçåţîöñ Ðéšçŕîþţîöñ</string>
+    <string name="descriptionTextOldUser">՞šţŕîñĝ⁄ƀŕåñðéð‿ðéšçŕîþţîöñŢéẋţÖļðÛšéŕ</string>
+    <string name="descriptionTextAmarosaUser">՞šţŕîñĝ⁄ƀŕåñðéð‿ðéšçŕîþţîöñŢéẋţÅɱåŕöšåÛšéŕ</string>
+    
+    
+    
+    
+
+    <string name="dnd_on">Ðö Ñöţ Ðîšţûŕƀ ÖÑ</string>
+    <string name="dnd_off">Ðö Ñöţ Ðîšţûŕƀ ÖƑƑ</string>
+    <string name="requires_you_to_enter_1">Ŕéǫûîŕéš ýöû ţö éñţéŕ ″①″ ƀéƒöŕé ţĥé çåļļ îš çöññéçţéð ţö ýöûŕ þåŕţý·</string>
+    <string name="switch_to_dialer">Šŵîţçĥ ţö Ðîåļéŕ</string>
+
+    <string name="invalid_credentials">Îñṽåļîð þĥöñé ñûɱƀéŕ öŕ þåššŵöŕð· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="invalid_credentials_forced_restart">Ýöû ļöĝîñ ñûɱƀéŕ öŕ þåššŵöŕð îš ñö ļöñĝéŕ ṽåļîð· Ýöû ŵîļļ ƀé ļöĝöûţ öƒ ţĥîš åççöûñţ· Þļéåšé ļöĝîñ ŵîţĥ ýöûŕ ñéŵ åççöûñţ îñƒö åñð ţŕý åĝåîñ·</string>
+
+    <string name="jedi_error_712_inactive_user_prompt">Ýöûŕ åççöûñţ îš îñåçţîṽé· Ƒîñð ţĥé åçţîṽåţîöñ éɱåîļ åñð çļîçķ ţĥé åçţîṽåţîöñ ļîñķ öŕ çåļļ šûþþöŕţ·</string>
+    <string name="user_account_is_disabled">՞šţŕîñĝ⁄ƀŕåñðéð‿ûšéŕ‿åççöûñţ‿îš‿ðîšåƀļéð</string>
+    <string name="connecting_with_server">Çöññéçţîñĝ ŵîţĥ šéŕṽéŕ</string>
+    <string name="delete_contacts">Ðéļéţé çöñţåçţš</string>
+    
+    
+    <string name="no_international_calls">Ŵé∖´ŕé šöŕŕý، ýöûŕ åççöûñţ îš ñöţ éñåƀļéð ƒöŕ îñţéŕñåţîöñåļ çåļļîñĝ· Þļéåšé ļöĝ îñ ţö ýöûŕ åççöûñţ åñð ɱåķé šûŕé ţĥåţ îñţéŕñåţîöñåļ çåļļîñĝ îš éñåƀļéð ƒöŕ ţĥé çöûñţŕý åñð⁄öŕ ðéšţîñåţîöñ ýöû ŵöûļð ļîķé ţö ŕéåçĥ·</string>
+    <string name="call_cannotbe_completed">Ŵé∖´ŕé šöŕŕý، ýöûŕ çåļļ çåññöţ ƀé çöɱþļéţéð åš ðîåļéð· Þļéåšé çĥéçķ ţĥé ñûɱƀéŕ åñð ţŕý åĝåîñ·</string>
+    <string name="extension_not_found">Éñţéŕéð éẋţéñšîöñ îš ñöţ þŕéšéñţ îñ ýöûŕ åççöûñţ∖´š éẋţéñšîöñš· Þļéåšé çĥéçķ ţĥé ñûɱƀéŕ åñð ţŕý åĝåîñ·</string>
+    <string name="no_permissions">Ţĥé éẋţéñšîöñ ýöû åŕé ûšîñĝ çåññöţ ɱåķé öûţĝöîñĝ çåļļš· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ ţö çĥåñĝé þéŕɱîššîöñš ƒöŕ ţĥîš éẋţéñšîöñ·</string>
+    <string name="sms_no_permissions">Ţĥé éẋţéñšîöñ ýöû åŕé ûšîñĝ çåññöţ šéñð ţéẋţ ɱéššåĝéš· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ ţö çĥåñĝé þéŕɱîššîöñš ƒöŕ ţĥîš éẋţéñšîöñ· </string>
+    <string name="too_many_calls">Ţö éšţåƀļîšĥ åñöţĥéŕ åçţîṽé çåļļ þļéåšé éñð öñé öƒ ýöûŕ åçţîṽé çåļļš·</string>
+    <string name="call_error_title_call_error">Çåļļ éŕŕöŕ</string>
+    <string name="call_error_title_no_permissions">Çĥéçķ Ýöûŕ Þéŕɱîššîöñš</string>
+    <string name="sms_error_title_sms_error">Çĥéçķ Ýöûŕ Þéŕɱîššîöñš</string>
+    <string name="call_error_title_invalid_call">Îñṽåļîð çåļļ</string>
+    <string name="call_error_title_invalid_phone_number">Îñṽåļîð þĥöñé ñûɱƀéŕ</string>
+    <string name="call_error_title_wrong_extension">Ŵŕöñĝ éẋţéñšîöñ</string>
+    <string name="call_error_title_too_many_calls">Ŵåŕñîñĝ</string>
+    <string name="no_international_for_free_or_trials">Ŵé∖´ŕé šöŕŕý، îñţéŕñåţîöñåļ çåļļš åŕé ñöţ åṽåîļåƀļé ƒöŕ ƒŕéé öŕ ţŕîåļ åççöûñţš· Ţö éñåƀļé îñţéŕñåţîöñåļ çåļļîñĝ، þļéåšé ûþĝŕåðé ýöûŕ åççöûñţ ţö å þåîð þļåñ·</string>
+    <string name="enter_number_in_settings">Þļéåšé éñţéŕ ýöûŕ þĥöñé ñûɱƀéŕ îñ ŔîñĝÖûţ Šéţţîñĝš</string>
+    
+    
+    <string name="account_hint">Þĥöñé ñûɱƀéŕ {ðîĝîţš öñļý}</string>
+    <string name="extension_hint" >Éẋţéñšîöñ {öþţîöñåļ}</string>
+    <string name="password_hint" >Þåššŵöŕð</string>
+	<string name="PDF_viewer_could_not_be_detected">՞šţŕîñĝ⁄ƀŕåñðéð‿ÞÐƑ‿ṽîéŵéŕ‿çöûļð‿ñöţ‿ƀé‿ðéţéçţéð</string>
+	<string name="PDF_viewer_could_not_be_detected_title">Ñö ÞÐƑ Ṽîéŵéŕ</string>
+	<string name="phone_tag_extension">Éẋţéñšîöñ</string>
+	<string name="phone_tag2_assistant">Åššîšţåñţ</string>
+	<string name="phone_tag2_callback">Çåļļƀåçķ</string>
+	<string name="phone_tag2_company_main">Çöɱþåñý Ṁåîñ</string>
+	<string name="phone_tag2_car">Çåŕ</string>
+	<string name="phone_tag_fax_work">Ƒåẋ Ŵöŕķ</string>
+	<string name="phone_tag_fax_home">Ƒåẋ Ĥöɱé</string>
+	<string name="phone_tag_home">Ĥöɱé</string>
+	<string name="phone_tag2_isdn">ÎŠÐÑ</string>
+	<string name="phone_tag2_main">Ṁåîñ</string>
+	<string name="phone_tag2_mms">ṀṀŠ</string>
+	<string name="phone_tag_mobile">Ṁöƀîļé</string>
+	<string name="phone_tag_other">Öţĥéŕ</string>
+	<string name="phone_tag2_other_fax">Öţĥéŕ Ƒåẋ</string>
+	<string name="phone_tag_pager">Þåĝéŕ</string>
+	<string name="phone_tag2_radio">Ŕåðîö</string>
+	<string name="phone_tag2_telex">Ţéļéẋ</string>
+	<string name="phone_tag2_tty_tdd">ŢŢÝ ŢÐÐ</string>
+	<string name="phone_tag_work">Ŵöŕķ</string>
+	<string name="phone_tag2_work_mobile">Ŵöŕķ Ṁöƀîļé</string>
+	<string name="phone_tag2_work_pager">Ŵöŕķ Þåĝéŕ</string>
+	<string name="phone_tag_custom">Çûšţöɱ</string>
+	<string name="settings_about_rate_app_title">Ŕåţé Åþþ</string>
+	<string name="login_string">Ļöĝîñ</string>
+	<string name="settings_restore_all_msg_title">Ŕé‐šýñç Ṁéššåĝéš Îñƀöẋ</string>
+	<string name="settings_restore_all_msg_body">Ţĥîš ŵîļļ ŕé‐šýñçĥŕöñîžé åļļ ɱéššåĝéš îñ ţĥîš åþþ· Ñö ðåţå ŵîļļ ƀé ļöšţ·</string>
+	<string name="settings_restore_btn">Ŕé‐šýñç</string>
+	<string name="settings_force_restore_btn">Ƒöŕçé Ŕé‐šýñç</string>
+	<string name="settings_restore_no_network_msg">Ṁéššåĝéš çåññöţ ƀé ŕé‐šýñçĥŕöñîžéð ŵîţĥöûţ ñéţŵöŕķ çöññéçţîöñ، þļéåšé çĥéçķ ýöûŕ ñéţŵöŕķ çöññéçţîṽîţý åñð ţŕý åĝåîñ·</string>
+	<string name="settings_restore_contain_fax_and_text">Ýöû ĥåṽé ţéẋţ ɱéššåĝéš åñð ƒåẋéš šéñðîñĝ îñ þŕöĝŕéšš، ţĥé šéñðîñĝ ŵîļļ ƀé åƀöŕţéð îƒ ýöû çĥööšé ţö ƒöŕçé ŕé‐šýñçĥŕöñîžé ñöŵ· Åŕé ýöû šûŕé ýöû ŵåñţ ţö çöñţîñûé¿</string>
+	<string name="settings_restore_contain_fax">Ýöû ĥåṽé ƒåẋéš šéñðîñĝ îñ þŕöĝŕéšš، ţĥé šéñðîñĝ ŵîļļ ƀé åƀöŕţéð îƒ ýöû çĥööšé ţö ƒöŕçé ŕé‐šýñçĥŕöñîžé ñöŵ· Åŕé ýöû šûŕé ýöû ŵåñţ ţö çöñţîñûé¿</string>
+	<string name="settings_restore_contain_text">Ýöû ĥåṽé ţéẋţ ɱéššåĝéš šéñðîñĝ îñ þŕöĝŕéšš، ţĥé šéñðîñĝ ŵîļļ ƀé åƀöŕţéð îƒ ýöû çĥööšé ţö ƒöŕçé ŕé‐šýñçĥŕöñîžé ñöŵ· Åŕé ýöû šûŕé ýöû ŵåñţ ţö çöñţîñûé¿</string>
+	<string name="logout_string">Ļöĝöûţ</string>
+	<string name="contacts_no_valid_phone_numbers">Ñö ṽåļîð þĥöñé ñûɱƀéŕ{š} ţö ɱåķé å çåļļ</string>
+	<string name="contacts_send_email_selection_title">Šéñð Éɱåîļ</string>
+	<string name="clear">Çļéåŕ</string>
+	<string name="email_tag_home">Ĥöɱé</string>
+	<string name="email_tag_mobile">Ṁöƀîļé</string>
+	<string name="email_tag_work">Ŵöŕķ</string>
+	<string name="email_tag_other">Öţĥéŕ</string>
+	<string name="no_account">Ðöñ∖´ţ ĥåṽé åñ åççöûñţ¿</string>
+    
+    
+    
+	<string name="tos_title">՞šţŕîñĝ⁄ƀŕåñðéð‿ţöš‿ţîţļé</string>
+	<string name="tos_text1">՞šţŕîñĝ⁄ƀŕåñðéð‿ţöš‿ţéẋţ①</string>
+	<string name="tos_text2">՞šţŕîñĝ⁄ƀŕåñðéð‿ţöš‿ţéẋţ②</string>
+
+    <string name="tos_accept_button_title">Åççéþţ</string>
+    <string name="tos_decline_button_title">Ðéçļîñé</string>
+
+
+    
+	<string name="tos911_title">՞šţŕîñĝ⁄ƀŕåñðéð‿ţöš⑨①①‿ţîţļé</string>
+	<string name="tos911_text">՞šţŕîñĝ⁄ƀŕåñðéð‿ţöš⑨①①‿ţéẋţ</string>
+
+    <string name="tos911_accept_button_title">Åççéþţ</string>
+    <string name="tos911_decline_button_title">Ðéçļîñé</string>
+
+    <string name="tos911_dlg_voip_calling_title">ṼöÎÞ Çåļļîñĝ</string>
+	<string name="tos911_dlg_voip_calling_message">՞šţŕîñĝ⁄ƀŕåñðéð‿ţöš⑨①①‿ðļĝ‿ṽöîþ‿çåļļîñĝ‿ɱéššåĝé</string>
+     
+	
+    
+    
+    <string name="landt_header">Ļöĝš</string>
+    <string name="landt_current_log">Çûŕŕéñţ ļöĝ</string>
+    <string name="landt_email">ŕçɱåñðŕöîðļöĝš&#64;ŕîñĝçéñţŕåļ·çöɱ</string>
+    <string name="landt_email_subj">Åñðŕöîð Ðéƀûĝ Ļöĝš∶ <xliff:g id="rc_user_id">‰①€š</xliff:g></string>
+    <string name="landt_send_log">Šéñð ļöĝ ṽîå é‐ɱåîļ</string>
+    <string name="landt_view_log">Ṽîéŵ</string>
+    <string name="landt_collecting_log_message">Þļéåšé ŵåîţ&#8230;</string>
+    <string name="landt_delete_log">Ðéļéţé</string>
+    <string name="landt_deleting_log">Ðéļéţîñĝ&#8230;</string>
+    
+    
+    
+    
+    <string name="voip_call_connecting">Çöññéçţîñĝ&#8230;</string>
+    <string name="voip_call_connecting_wo_dots">Çöññéçţîñĝ</string>
+    <string name="voip_call_ended">Çåļļ éñðéð</string>
+    <string name="voip_call_line_busy">Ļîñé ƀûšý</string>
+    
+    <string name="voip_call_network_failure">Ñéţŵöŕķ éŕŕöŕ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="voip_call_general_failure">Ñéţŵöŕķ Éŕŕöŕ</string>
+    <string name="voip_call_incoming">՞šţŕîñĝ⁄ƀŕåñðéð‿ṽöîþ‿çåļļ‿îñçöɱîñĝ</string>
+    
+        
+    
+    
+    
+    <string name="status_notification_one_active_call">① åçţîṽé çåļļ</string>
+    <string name="status_notification_multiple_active_calls">‰ð åçţîṽé çåļļš</string>
+    <string name="status_notification_one_call_on_hold">① çåļļ öñ ĥöļð</string>
+    <string name="status_notification_multiple_calls_on_hold">‰ð çåļļš öñ ĥöļð</string>
+    <string name="status_notification_calls_all">‰①€š، ‰②€š</string>
+
+    
+    
+    
+    <string name="asw_header_default">Åûðîö Šéţûþ</string>
+    <string name="asw_calibration_description">՞šţŕîñĝ⁄ƀŕåñðéð‿åšŵ‿çåļîƀŕåţîöñ‿ðéšçŕîþţîöñ</string>
+    <string name="asw_calibration_in_progress">Ṁîçŕöþĥöñé çåļîƀŕåţîöñ îñ þŕöĝŕéšš· Þļéåšé ŵåîţ å ɱöɱéñţ·</string>
+    <string name="asw_calibration_completed_ok">՞šţŕîñĝ⁄ƀŕåñðéð‿åšŵ‿çåļîƀŕåţîöñ‿çöɱþļéţéð‿öķ</string>
+    <string name="asw_calibration_completed_bad">Ţĥé çåļîƀŕåţîöñ þŕöçéšš çåññöţ ƀé çöɱþļéţéð åţ ţĥîš ţîɱé· Ţĥé ǫûåļîţý öƒ ýöûŕ ṼöÎÞ çåļļš ɱåý ƀé ðîɱîñîšĥéð·∖ñÑöţé∶ Šöɱé Åñðŕöîð ðéṽîçéš ĥåṽé å ƀûîļţ‐îñ çåļîƀŕåţîöñ ţööļ· Ƒöŕ ţĥéšé ðéṽîçéš، ýöû çåñ šķîþ ţö ţĥé ñéẋţ šţéþ· {Ýöû çåñ ŕéļåûñçĥ ţĥîš çåļîƀŕåţîöñ ţööļ ƒŕöɱ Šéţţîñĝš îñ ţĥé ƒûţûŕé·}</string>
+    <string name="asw_calibrating">Çåļîƀŕåţîñĝ…</string>
+    
+    
+    <string name="asw_btn_calibrate_again">Çåļîƀŕåţé Åĝåîñ</string>
+    <string name="asw_btn_calibrate_cancel">Çåñçéļ</string>
+    <string name="asw_btn_calibrate_skip">Šķîþ</string>
+    <string name="asw_btn_calibrate_done">Ðöñé</string>
+    <string name="asw_btn_calibrate_later">Çåļîƀŕåţé Ļåţéŕ</string>
+    <string name="asw_btn_calibrate_now">Çåļîƀŕåţé Ñöŵ</string>
+    <string name="asw_dialog_active_call_notification">Þļéåšé éñð åļļ çåļļš ƀéƒöŕé šţåŕţîñĝ ţĥé ɱîçŕöþĥöñé çåļîƀŕåţîöñ ŵîžåŕð·</string>
+    <string name="asw_dialog_connected_headset_notification">Þļéåšé ðîšçöññéçţ ýöûŕ ŵîŕéð ĥéåðšéţ ƀéƒöŕé šţåŕţîñĝ ţĥé ɱîç çåļîƀŕåţîöñ ŵîžåŕð·</string>
+    
+
+    
+    
+    
+    <string name="voip_whats_new_description">՞šţŕîñĝ⁄ƀŕåñðéð‿ṽöîþ‿ŵĥåţš‿ñéŵ‿ðéšçŕîþţîöñ</string>
+    <string name="voip_whats_new_caption">Ŵĥåţ∖´š Ñéŵ</string>
+
+    
+    
+    
+    <string name="internal_permission_label">՞šţŕîñĝ⁄ƀŕåñðéð‿îñţéŕñåļ‿þéŕɱîššîöñ‿ļåƀéļ</string>
+    <string name="internal_permission_description">՞šţŕîñĝ⁄ƀŕåñðéð‿îñţéŕñåļ‿þéŕɱîššîöñ‿ðéšçŕîþţîöñ</string>
+    
+    
+    <string name="fax_info_title">Ƒåẋ</string>
+    <string name="voice_info_title">Ṽöîçé Ṁåîļ</string>
+    <string name="from">Ƒŕöɱ∶</string>
+    <string name="to">Ţö∶</string>
+    <string name="begin_date">⓪⓪∶⓪⓪</string>
+    <string name="audio_source">Åûðîö Šöûŕçé</string>
+
+    
+    <string name="parked_party">Þåŕķéð Þåŕţý∶</string>
+    
+    <string name="main_menu_messages">Ṁéššåĝéš</string>
+    <string name="main_menu_contacts">Çöñţåçţš</string>
+    <string name="main_menu_favorites">Ƒåṽöŕîţéš</string>
+    <string name="main_menu_call_log">Çåļļ Ļöĝ</string>
+    <string name="main_menu_settings">Šéţţîñĝš</string>
+    <string name="main_menu_dnd">ÐÑÐ</string>
+    
+    <string name="toast_no_phone_number_add_to_favorite">Çåññöţ åðð ţö Ƒåṽöŕîţéš· Ţĥéŕé åŕé ñö þĥöñé ñûɱƀéŕš åṽåîļåƀļé·</string>
+    <string name="toast_no_phone_number">Ţĥéŕé åŕé ñö þĥöñé ñûɱƀéŕš åṽåîļåƀļé·</string>
+    
+    
+    
+    
+    <string name="refresh_control_header_pull_down_to_update">Þûļļ ðöŵñ ţö ûþðåţé&#8230;</string>
+    <string name="refresh_control_header_pull_up_to_update">Þûļļ ûþ ţö ûþðåţé&#8230;</string>
+    <string name="refresh_control_header_release_to_update">Ŕéļéåšé ţö ûþðåţé&#8230;</string>
+    <string name="refresh_control_header_updating">Ûþðåţîñĝ&#8230;</string>
+    <string name="refresh_control_header_pull_down_to_load">Þûļļ ðöŵñ ţö ļöåð éåŕļîéŕ ɱéššåĝéš&#8230;</string>
+    <string name="refresh_control_header_pull_up_to_load_messages">Þûļļ ûþ ţö ļöåð éåŕļîéŕ ɱéššåĝéš&#8230;</string>
+    <string name="refresh_control_header_release_to_load_messages">Ŕéļéåšé ţö ļöåð éåŕļîéŕ ɱéššåĝéš&#8230;</string>
+    <string name="refresh_control_header_pull_up_to_load_calllog">Þûļļ ûþ ţö ļöåð éåŕļîéŕ ŕéçöŕðš&#8230;</string>
+    <string name="refresh_control_header_release_to_load_calllog">Ŕéļéåšé ţö ļöåð éåŕļîéŕ ŕéçöŕðš&#8230;</string>
+    <string name="refresh_control_header_loading">Ļöåðîñĝ&#8230;</string>
+    <string name="refresh_control_header_last_updated">Ļåšţ ûþðåţéð∶ </string>
+    <string name="refresh_control_error">Ŕéƒŕéšĥ éŕŕöŕ· Ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="refresh_control_load_error">Ñéţŵöŕķ Éŕŕöŕ</string>
+    <string name="refresh_control_type_messages">ɱéššåĝéš</string>
+    <string name="refresh_control_type_call_log">çåļļ‿ļöĝ</string> 
+    <string name="refresh_control_type_admin_call_log">åðɱîñ çåļļ ļöĝ</string>
+    <string name="refresh_control_type_text_messages">ţéẋţ‿ɱéššåĝéš</string>    
+    
+    
+    
+    
+    <string name="messages_header_edit">Éðîţ</string>
+    <string name="messages_no_messages">Ñö Ṁéššåĝéš</string>
+    <string name="messages_no_voicemail">Ñö ṼöîçéṀåîļ</string>
+    <string name="messages_no_fax">Ñö Ƒåẋ</string>
+    <string name="messages_no_text">Ñö Ţéẋţ</string>
+    <string name="messages_no_results_found">Ñö ŕéšûļţš ƒöûñð</string>
+    <string name="messages_bar_item_all">Åļļ</string>
+    <string name="messages_bar_item_voice">Ṽöîçé</string>
+    <string name="messages_bar_item_fax">Ƒåẋ</string>
+    <string name="messages_bar_item_text">Ţéẋţ</string>
+    
+    <string name="messages_header_label">Ṁéššåĝéš</string>
+    <string name="messages_header_clear_all">Çļéåŕ</string>
+    <string name="messages_header_cancel">Çåñçéļ</string>
+    <string name="messages_delete_text">Ðéļéţé</string>
+    <string name="search_bar_control_edit_hint">Šéåŕçĥ</string>
+    <string name="create_new_message">Ñéŵ Ṁéššåĝé</string>
+    <string name="tap_to_enter_message">Ţåþ ţö éñţéŕ ɱéššåĝé</string>
+    <string name="choose_number">Çĥööšé ñûɱƀéŕ</string>
+    <string name="send_button">Šéñð</string>
+    <string name="forward_button">Ƒöŕŵåŕð</string>
+    <string name="choose_the_number">Çĥööšé ţĥé ñûɱƀéŕ ýöû ŵöûļð ļîķé ţö šéñð ƒŕöɱ</string>
+    <string name="select_phone_number">Šéļéçţ þĥöñé ñûɱƀéŕ</string>
+    <string name="callid_not_available_tip">Ýöûŕ þĥöñé ñûɱƀéŕ ûšéð îñ ţĥîš ţĥŕéåð îš ñö ļöñĝéŕ åṽåîļåƀļé·</string>
+	<string name="choose_phone_number" >Çĥööšé þĥöñé ñûɱƀéŕ</string>
+	<string name="message_send_failure" >Ṁéššåĝé Šéñð Ƒåîļûŕé</string>
+	<string name="message_sending" >Šéñðîñĝ&#8230;</string>
+    
+    
+    
+    
+    <string name="conversation_between">Çöñṽéŕšåţîöñ ƀéţŵééñ∶</string>
+    <string name="last_message">Ļåšţ ɱéššåĝé∶</string>
+    <string name="unknown_phone_type">Þĥöñé</string>
+    
+    
+    <string name="fax_page"> ‰ð þåĝé</string>
+    <string name="fax_pages"> ‰ð þåĝéš</string>
+    
+    <string name="filter_messages_a_lot_of_messages">&#8230;</string>
+    <string name="send_message_error_title">Çåññöţ Šéñð Ṁéššåĝé</string>
+    <string name="send_message_error_content">Ýöûŕ ɱéššåĝé ĥåš ñö ṽåļîð ŕéçîþîéñţš·</string>
+    <string name="send_message_error_some_invalid_recipients">Šöŕŕý، šöɱé öƒ ţĥé ŕéçîþîéñţš åŕé îñṽåļîð، þļéåšé çĥéçķ åñð ţŕý åĝåîñ·</string>
+    <string name="send_message_error_network">Ñö îñţéŕñéţ çöññéçţîöñ· Çĥéçķ ýöûŕ çöññéçţîöñ åñð ţŕý åĝåîñ·</string>
+    <string name="send_message_error_no_phonenumber">Ýöû ðö ñöţ ĥåṽé å ∖″ðîŕéçţ ñûɱƀéŕ∖″ ţĥåţ šûþþöŕţš ŠṀŠ ţéẋţ ɱéššåĝéš· Þļéåšé çöñţåçţ ýöûŕ Åðɱîñîšţŕåţöŕ ţö åðð å ñûɱƀéŕ ţĥåţ šûþþöŕţš ŠṀŠ·</string>
+    <string name="send_message_error_empty_content">Šöŕŕý، ýöû çåññöţ šéñð åñ éɱþţý ɱéššåĝé·</string>
+    
+       
+    <string name="message_not_delivered_dialog_title">Ṁéššåĝé ñöţ ðéļîṽéŕéð</string> 
+    <string name="message_error_rejected_by_recipient">Ţĥé ŕéçîþîéñţ ðöéš ñöţ åççéþţ ţéẋţ ɱéššåĝéš·</string>
+    <string name="message_error_international_prohibited">Ṁéššåĝîñĝ ţö îñţéŕñåţîöñåļ ñûɱƀéŕš îš ñöţ åļļöŵéð·</string>
+	<string name="message_error_insufficient_funds">Ýöûŕ åççöûñţ ðöéš ñöţ ĥåṽé šûƒƒîçîéñţ ƒûñðš ţö ţéẋţ ɱéššåĝé îñţéŕñåţîöñåļ ñûɱƀéŕš· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ·</string>
+	<string name="message_error_feature_not_available">Ýöûŕ åççöûñţ ðöéš ñöţ šûþþöŕţ ţéẋţ ɱéššåĝîñĝ· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ·</string>
+	<string name="message_invalid_parameter_recipient">Ţĥé ŕéçîþîéñţ ñûɱƀéŕ îš ñöţ ṽåļîð·</string>
+	<string name="message_not_delivered">Ṁéššåĝé ñöţ ðéļîṽéŕéð·</string>
+	<string name="message_cannot_be_delivered">Ṁéššåĝé çåññöţ ƀé ðéļîṽéŕéð·</string>
+    <string name="message_resend_message">Ţåþ ∖″Ţŕý Åĝåîñ∖″ ţö ŕéšéñð ɱéššåĝé·</string>
+    <string name="try_again">Ţŕý Åĝåîñ</string>
+    <string name="cannot_send_further_message">Çåññöţ šéñð ƒûŕţĥéŕ ɱéššåĝéš ûñţîļ ƒîŕšţ ɱéššåĝé îñ ţĥîš çöñṽéŕšåţîöñ îš ðéļîṽéŕéð·</string>
+    <string name="message_out_of_thread_reply">Ýöûŕ éẋţéñšîöñ ĥåð ƀééñ éļîɱîñåţéð ƒŕöɱ ţĥé ðéþåŕţɱéñţ öƒ ţĥîš ţĥŕéåð· Ţö šéñð å ţéẋţ ţö ţĥé ðéþåŕţɱéñţ، þļéåšé çŕéåţé å ñéŵ öñé·</string>
+    
+    
+    <string name="block_number_button_title">Ɓļöçķ Ñûɱƀéŕ</string>
+    <string name="unblock_number_button_title">Ûñƀļöçķ Ñûɱƀéŕ</string>
+    <string name="blocking_number_dialog_title">Ɓļöçķ Ñûɱƀéŕ</string>
+    <string name="blocking_number_dialog_text">Þŕéšš ∖″Çöñţîñûé∖″ ţö ƀļöçķ ţĥîš ñûɱƀéŕ·</string>
+    <string name="blocking_number_dialog_positive_button_text">Çöñţîñûé</string>
+    <string name="blocking_number_dialog_negative_button_text">Çåñçéļ</string>
+    <string name="blocking_number_failed_dialog_text">Çåññöţ ƀļöçķ ţĥé ñûɱƀéŕ åţ ţĥîš ţîɱé· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="unblocking_number_dialog_title">Ûñƀļöçķ Ñûɱƀéŕ</string>
+    <string name="unblocking_number_dialog_text">Þŕéšš ∖″Çöñţîñûé∖″ ţö ûñƀļöçķ ţĥîš ñûɱƀéŕ·</string>
+    <string name="unblocking_number_dialog_positive_button_text">Çöñţîñûé</string>
+    <string name="unblocking_number_dialog_negative_button_text">Çåñçéļ</string>
+    <string name="unblocking_number_failed_dialog_text">Çåññöţ ûñƀļöçķ ţĥé ñûɱƀéŕ åţ ţĥîš ţîɱé· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+
+    <string name="blocked_number_label_text">⁅Ɓļöçķéð⁆</string>
+    <string name="blocking_number_label_text">⁅Ɓļöçķîñĝ⁆</string>
+    <string name="unblocking_number_label_text">⁅Ûñƀļöçķîñĝ⁆</string>
+    
+    <string name="clear_call_log_title">Çļéåŕ Çåļļ Ļöĝ</string>
+    <string name="clear_call_log_content">Åŕé ýöû šûŕé ýöû ŵåñţ ţö çļéåŕ åļļ çåļļ ļöĝ ŕéçöŕðš¿ Åļļ ŕéçöŕðš ŵîļļ ƀé þéŕɱåñéñţļý ðéļéţéð ƒŕöɱ ýöûŕ åççöûñţ·</string>
+    <string name="dialog_yes">Ýéš</string>
+    <string name="dialog_no">Ñö</string>
+    <string name="clear_call_log_wait">Þļéåšé ŵåîţ&#8230;</string>
+    <string name="clear_call_log_error">Éŕŕöŕ</string>
+    <string name="clear_call_log_airplane">Ýöûŕ ŕéǫûéšţ çöûļð ñöţ ƀé çöɱþļéţéð šîñçé ţĥéŕé îš ñö çöññéçţîöñ ţö šéŕṽéŕ· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="clear_call_log_network_error">Åñ éŕŕöŕ öççûŕŕéð ŵĥîļé åţţéɱþţîñĝ ţö çöɱþļéţé ýöûŕ ŕéǫûéšţ {ñéţŵöŕķ éŕŕöŕ}· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="clear_call_log_failed">Çļéåŕ çåļļ ļöĝš ƒåîļéð· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    
+    <string name="conference_dial_in_number">Ðîåļ‐îñ Ñûɱƀéŕ∶</string>
+    <string name="conference_host_access">Ĥöšţ Åççéšš∶</string>
+    <string name="conference_participant_access">Þåŕţîçîþåñţ Åççéšš∶</string>
+    <string name="conference_invite_with_text_messaging">Îñṽîţé ŵîţĥ Ţéẋţ</string>
+    <string name="conference_invite_with_email">Îñṽîţé ŵîţĥ Éɱåîļ</string>
+    <string name="conference_join_as_host">Ĵöîñ åš Ĥöšţ</string>
+    <string name="conference_email_subject">Þļéåšé ĵöîñ ñöŵ، ɱééţîñĝ îñ þŕöĝŕéšš</string>
+    <string name="conference_email_content">՞šţŕîñĝ⁄ƀŕåñðéð‿çöñƒéŕéñçé‿éɱåîļ‿çöñţéñţ</string>
+    <string name="conference_text_messaging">Ĥéļļö،∖ñÞļéåšé ĵöîñ ɱý ɱééţîñĝ ţĥåţ îš çûŕŕéñţļý îñ þŕöĝŕéšš·∖ñÐîåļ‐îñ Ñûɱƀéŕ∶ <xliff:g id="dial_in_number">‰①€š</xliff:g>∖ñÞåŕţîçîþåñţ Åççéšš∶ <xliff:g id="participant_access">‰②€š</xliff:g></string>
+    <string name="conference_text_copy">Çöþý</string>
+    <string name="zoom_video">Ļåûñçĥ</string>
+    
+    
+    <string name="fax_out_title">Ƒåẋ å Ðöçûɱéñţ</string>
+    <string name="fax_out_send">Šéñð</string>
+    <string name="fax_out_cover_page">Çöṽéŕ Þåĝé∶</string>
+    <string name="fax_out_documents_to_fax">Ðöçûɱéñţš ţö Ƒåẋ</string>
+    <string name="fax_out_choose_number">Çĥööšé Ñûɱƀéŕ</string>
+    <string name="fax_out_no_documents">Ñö Ðöçûɱéñţš</string>
+    <string name="fax_out_done">Ðöñé</string>
+    <string name="fax_out_delete">Ðéļéţé</string>
+    <string name="fax_out_alert_dialog_title">Îñṽåļîð Ŕéçîþîéñţ</string>
+    <string name="fax_out_alert_dialog_message">Éẋţéñšîöñ ñûɱƀéŕ îš ñöţ šûþþöŕţéð åš å ƒåẋ ŕéçîþîéñţ·</string>
+    
+    <string name="fax_out_select_source">Šéļéçţ Šöûŕçé</string>
+    <string name="fax_out_photos">Þĥöţöš</string>
+    <string name="fax_out_camera">Çåɱéŕå</string>
+    <string name="fax_out_dropbox">Ðŕöþƀöẋ</string>
+    <string name="fax_out_box">Ɓöẋ</string>
+    <string name="fax_out_google_drive">Ĝööĝļé Ðŕîṽé</string>
+    <string name="fax_out_documents">Ðöçûɱéñţš</string>
+    <string name="fax_out_drafts">Ðŕåƒţš</string>
+    
+    <string name="send_fax">Šéñð Ƒåẋ</string>
+    
+    <string name="faxout_no_permissions_title">Çĥéçķ Ýöûŕ Þéŕɱîššîöñš</string>
+    <string name="faxout_no_permissions">Ţĥé éẋţéñšîöñ ýöû åŕé ûšîñĝ ðöéš ñöţ šûþþöŕţ ƒåẋ öûţ· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ ţö çĥåñĝé þéŕɱîššîöñš ƒöŕ ţĥîš éẋţéñšîöñ· </string>
+    <string name="faxout_invalid_recipient_message">Šöŕŕý، ţĥé ŕéçîþîéñţ ñûɱƀéŕ îš îñṽåļîð، þļéåšé çĥéçķ åñð ţŕý åĝåîñ·</string>
+    <string name="faxout_invalid_recipients">Îñṽåļîð Ŕéçîþîéñţš</string>
+    <string name="faxout_invalid_recipients_message">Šöŕŕý، šöɱé öƒ ţĥé ŕéçîþîéñţš åŕé îñṽåļîð، þļéåšé çĥéçķ åñð ţŕý åĝåîñ·</string>
+   
+    <string name="faxout_not_allowed_dailog_title">Çĥéçķ Ýöûŕ Þéŕɱîššîöñš</string>
+    <string name="faxout_not_allowed_dailog_message">Ţĥé éẋţéñšîöñ ýöû åŕé ûšîñĝ ðöéš ñöţ šûþþöŕţ ƒåẋ öûţ· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ ţö çĥåñĝé þéŕɱîššîöñš ƒöŕ ţĥîš éẋţéñšîöñ·</string>
+    
+    <string name="faxout_number_expired_dialog_title">Ñûɱƀéŕ Éẋþîŕéð</string>
+    <string name="faxout_number_expired_dialog_message"> Ţĥé ƒŕöɱ ñûɱƀéŕ ∖″‰①€š∖″ ûšéð îñ ţĥîš ƒåẋ ĥåš éẋþîŕéð·</string>
+    
+    
+    <string name="rc_quit_when_faxout_sending_context">Ýöû ĥåṽé ƒåẋ îñ šéñðîñĝ þŕöĝŕéšš، åŕé ýöû šûŕé ýöû ŵåñţ ţö ǫûîţ¿</string>
+	<string name="rc_quit_when_faxout_sending_title">Ǫûîţ Åþþ</string>
+    
+    <string name="importing_error_title">Ƒîļé Îɱþöŕţ Ƒåîļéð</string>
+    <string name="importing_file_more_than_5m">Îñðîṽîðûåļ ƒåẋ åţţåçĥɱéñţ çåññöţ éẋçééð ⑤ ṀƁ· Ţĥé ƒîļé îɱþöŕţîñĝ ŵîļļ ƀé çåñçéļļéð·</string>
+    <string name="importing_file_failed">Îɱþöŕţîñĝ ƒîļé ƒåîļéð· Þļéåšé ţŕý åĝåîñ·</string>
+    <string name="importing_file_not_support_failed">Ţĥé éẋţéñšîöñ ýöû åŕé ûšîñĝ ðöéš ñöţ šûþþöŕţ ƒîļé îɱþöŕţîñĝ·</string>
+    <string name="importing_file_not_login_failed">Ƒîļé îɱþöŕţîñĝ îš öñļý šûþþöŕţéð åƒţéŕ ļöĝîñ· Þļéåšé ļöĝîñ åñð ţŕý åĝåîñ·</string>
+    <string name="importing_file_not_more_same_name_failed">Ýöû çåñ ñöţ îɱþöŕţ ɱöŕé ţĥåñ ①⓪⓪⓪ ƒîļéš ŵîţĥ ţĥé šåɱé ñåɱé·</string>
+    
+    <string name="faxout_no_recipient">Ñö Ŕéçîþîéñţ</string>
+    <string name="faxout_no_recipient_message"> Šöŕŕý، þļéåšé åðð å ŕéçîþîéñţ ñûɱƀéŕ ţö šéñð å ƒåẋ·</string>
+    
+    <string name="faxout_document_context_menu_title">Ðöçûɱéñţ</string>
+    <string name="faxout_document_context_menu_view">Ṽîéŵ</string>
+    <string name="faxout_document_context_menu_faxout">ƑåẋÖûţ</string>
+    <string name="faxout_document_context_menu_delete">Ðéļéţé</string>
+    
+    <string name="faxout_delete_document_dialog_title">Ðéļéţé Ðöçûɱéñţ</string>
+    <string name="faxout_delete_document_dialog_message"> Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš ƒîļé¿</string>
+    <string name="faxout_delete_document_failed">Ðéļéţé ƒåîļéð·</string>
+    
+    <string name="rc_documents_import_button_content">Îɱþöŕţ</string>
+    <string name="rc_documents_cancel_button_content">Çåñçéļ</string>
+    <string name="rc_documents_dialog_content">՞šţŕîñĝ⁄ƀŕåñðéð‿ŕç‿ðöçûɱéñţš‿ðîåļöĝ‿çöñţéñţ</string>
+    <string name="rc_documents_dialog_title">Îɱþöŕţ Ƒîļé</string>
+    <string name="rc_documents_import_files">Îɱþöŕţ Ƒîļéš</string>
+    <string name="rc_documents_no_app_title">Çåññöţ Öþéñ Ƒîļé</string>
+    <string name="rc_documents_no_app_error">Ýöûŕ Åñðŕöîð ðéṽîçé ðöéš ñöţ ĥåṽé åñ åþþ îñšţåļļéð ţö öþéñ ţĥîš ƒîļé· Ɓûţ ýöû çåñ šţîļļ åţţåçĥ îţ åš å ƒåẋ åţţåçĥɱéñţ·</string>
+    <string name="select_all">Šéļéçţ Åļļ</string>
+    
+    <string name="clear_all_rc_documents">Åŕé ýöû šûŕé ýöû ŵåñţ ţö çļéåŕ åļļ ƒîļéš¿</string>
+    <string name="delete_file_dialog_title">Ðéļéţé Ƒîļé</string>
+    <string name="delete_files_dialog_title">Ðéļéţé Ƒîļéš</string>
+    <string name="delete_file_dialog_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš ƒîļé¿</string>
+    <string name="delete_files_dialog_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥéšé ƒîļéš¿</string>
+    
+    <string name="clear_all_drafts">Åŕé ýöû šûŕé ýöû ŵåñţ ţö çļéåŕ åļļ ðŕåƒţš¿</string>
+    <string name="faxout_edit_draft_clear_drafts">Çļéåŕ Ðŕåƒţš</string>
+    <string name="delete_draft_dialog_title">Ðéļéţé Ðŕåƒţ</string>
+    <string name="delete_drafts_dialog_title">Ðéļéţé Ðŕåƒţš</string>
+    <string name="delete_draft_dialog_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš ðŕåƒţ¿</string>
+    <string name="delete_drafts_dialog_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥéšé ðŕåƒţš¿</string>
+    
+    <string name="cover_page_title">Çöṽéŕ Þåĝé</string>
+    <string name="cover_page_cancel">Çåñçéļ</string>
+    <string name="cover_page_save">Šåṽé</string>
+    <string name="cover_page_preview">Þŕéṽîéŵ Çöṽéŕ Þåĝé</string>
+    <string name="cover_page_note_hint">Ţýþé å ñöţé ţö åðð ţö çöṽéŕ þåĝé{öþţîöñåļ}</string>
+    <string name="cover_page_select_hint">Šéļéçţ Çöṽéŕ Þåĝé</string>
+    <string name="cover_page_length_limit_title">Ţéẋţ Ţöö Ļöñĝ</string>
+    <string name="cover_page_length_limit_content">Ýöû çåñ öñļý éñţéŕ ɱåẋîɱûɱ ①⓪②④ çĥåŕš åš ƒåẋ ñöţéš·</string>
+    <string name="cover_page_invalid_char_title">Ûñšûþþöŕţéð Çĥåŕ</string>
+    <string name="cover_page_invalid_char_content">Ýöû çåñ öñļý éñţéŕ ÅŠÇÎÎ çĥåŕš åš ƒåẋ ñöţéš·</string>
+    
+    <string name="cover_page_none">Ñöñé</string>
+    <string name="cover_page_ancient">Åñçîéñţ</string>
+    <string name="cover_page_birthday">Ɓîŕţĥðåý</string>
+    <string name="cover_page_blank">Ɓļåñķ</string>
+    <string name="cover_page_clasmod">ÇļåšṀöð</string>
+    <string name="cover_page_classic">Çļåššîç</string>
+    <string name="cover_page_confidential">Çöñƒîðéñţîåļ</string>
+    <string name="cover_page_contempo">Çöñţéɱþö</string>
+    <string name="cover_page_elegant">Éļéĝåñţ</string>
+    <string name="cover_page_express">Éẋþŕéšš</string>
+    <string name="cover_page_formal">Ƒöŕɱåļ</string>
+    <string name="cover_page_jazzy">Ĵåžžý</string>
+    <string name="cover_page_modern">Ṁöðéŕñ</string>
+    <string name="cover_page_urgent">Ûŕĝéñţ</string>
+    
+    <string name="faxout_document_rename">Ŕéñåɱé</string>
+    <string name="faxout_document_rename_failed_exist">Šöŕŕý، ţĥé ñåɱé åļŕéåðý éẋîšţš، þļéåšé çĥööšé åñöţĥéŕ öñé·</string>
+    <string name="faxout_document_rename_failed_empty">Šöŕŕý، ŕéñåɱé ƒåîļéð، þļéåšé ţŕý åĝåîñ·</string>
+	<string name="faxout_document_rename_invalid_name">Þļéåšé ɱåķé šûŕé ţĥé ƒîļé ñåɱé ðöéšñ∖´ţ çöñţåîñ çĥåŕš åš ƀéļöŵ∶ ∖∖ ⁄ ∶ ⁎ ¿ ∖″ &lt; &gt; ¦ ‰ ·</string>    
+    
+	<string name="faxout_send_fax_no_document_title">Ñö Ðöçûɱéñţ</string>
+	<string name="faxout_send_fax_no_document_message">Ţĥîš ƒåẋ ðöéšñ∖´ţ çöñţåîñ åñý ðöçûɱéñţš، þļéåšé åðð åţ ļéåšţ öñé·</string>
+	<string name="faxout_send_fax_check_file_size_title">Çĥéçķ Ƒîļé Šîžé</string>
+	<string name="faxout_send_fax_check_file_size_message">Ţĥé ţöţåļ ɱéššåĝé šîžé ƒöŕ åļļ ƒîļé åţţåçĥɱéñţš çåññöţ éẋçééð ‰ð ṀƁ· Þļéåšé ŕéɱöṽé šöɱé ƒîļéš ƀéƒöŕé ŕéšéñðîñĝ·</string>
+	<string name="faxout_send_fax_individual_attachment_title">Çĥéçķ Ƒîļé Šîžé</string>
+	<string name="faxout_send_fax_individual_attachment_message">Îñðîṽîðûåļ åţţåçĥɱéñţ çåññöţ éẋçééð ⑤ ṀƁ· Þļéåšé çĥéçķ ţĥåţ éåçĥ ƒîļé ýöû åŕé ţŕýîñĝ ţö šéñð îš ļéšš ţĥåñ ⑤ ṀƁ·</string>
+	
+	<string name="faxout_save_fax_as_draft_toast">՞šţŕîñĝ⁄ƀŕåñðéð‿ƒåẋöûţ‿šåṽé‿ƒåẋ‿åš‿ðŕåƒţ‿ţöåšţ</string>
+	<string name="no_recipient">Ñö Ŕéçîþîéñţ</string>
+	<string name="faxout_sending_in_progress">Ƒåẋ šéñðîñĝ îñ þŕöĝŕéšš، ýöû çåñ ĝéţ ɱöŕé ðéţåîļ îñ Öûţƀöẋ·</string>
+	<string name="faxout_resending_in_progress">Ƒåẋ šéñðîñĝ îñ þŕöĝŕéšš·</string>
+	<string name="outbox">Öûţƀöẋ</string>
+	<string name="delete_fax">Ðéļéţé Ƒåẋ</string>
+	<string name="delete_fax_failed">Ðéļéţé Ƒåîļéð</string>
+	<string name="delete_fax_peding_fax_message">Ţĥîš ŵîļļ çåñçéļ ţĥé ƒåẋ šéñðîñĝ åñð ðéļéţé îţ، åŕé ýöû šûŕé ţö çöñţîñûé¿</string>
+	<string name="delete_fax_failed_fax_message">Åŕé ýöû šûŕé ýöû ŵåñţ ţö ðéļéţé ţĥîš ƒåẋ¿</string>
+	<string name="delete_fax_failed_message">Šöŕŕý، ţĥé ðéļéţîöñ çåñ ñöţ ƀé çöɱþļéţéð åţ ţĥîš ţîɱé، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+	<string name="delete_fax_failed_sending_message">Šöŕŕý، ţĥîš ƒåẋ ĥåš ƀééñ ţŕåñšɱîţţéð ţö šéŕṽéŕ åñð çåñ ñöţ ƀé ðéļéţéð åţ ţĥîš ţîɱé·</string>
+	
+	<string name="faxout_no_network_dialog_title">Ñéţŵöŕķ Ñöţ Åṽåîļåƀļé</string>
+	<string name="faxout_no_network_dialog_message">Ƒåẋ çåññöţ ƀé šûççéššƒûļļý šéñţ ŵîţĥöûţ ñéţŵöŕķ çöññéçţîöñ، ðö ýöû ŵåñţ ţö šåṽé îţ åš å ðŕåƒţ¿</string>
+	<string name="faxout_resend_no_network_dialog_message">Ƒåẋ çåññöţ ƀé šûççéššƒûļļý šéñţ ŵîţĥöûţ ñéţŵöŕķ çöññéçţîöñ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+	<string name="save_draft">Šåṽé Ðŕåƒţ</string>
+	
+	<string name="check_sd_card">Çĥéçķ ŠÐ Çåŕð</string>
+	<string name="file_not_found">Ƒîļé Ñöţ Ƒöûñð</string>
+	<string name="documents_missed">Ðöçûɱéñţš Ṁîššéð</string>
+	<string name="sd_card_not_available">ŠÐ çåŕð îš ñöţ åṽåîļåƀļé ñöŵ، þļéåšé ɱåķé šûŕé îţ îš ɱöûñţéð، åñð ñöţ ƀéîñĝ ûšéð åš å ÛŠƁ šţöŕåĝé·</string>
+	<string name="sd_card_not_available_import_file">ŠÐ çåŕð îš ñöţ åṽåîļåƀļé ñöŵ، þļéåšé ɱåķé šûŕé îţ îš ɱöûñţéð، åñð ñöţ ƀéîñĝ ûšéð åš å ÛŠƁ šţöŕåĝé، åñð ñöţ ŵŕîţé þŕöţéçţéð·</string>
+	<string name="file_not_found_in_device">Ţĥé ƒîļé ðöéš ñöţ éẋîšţ îñ ýöûŕ ðéṽîçé·</string>
+	<string name="fax_documents_removed">Šöɱé ƒåẋ ðöçûɱéñţš ĥåð ƀééñ ŕéɱöṽéð ƒŕöɱ ýöûŕ ðéṽîçé، þļéåšé çĥéçķ åñð ţŕý åĝåîñ·</string>
+	
+	<string name="multiple_file_importing_toast">Ţĥéŕé îš å ƒîļé îɱþöŕţîñĝ îñ þŕöĝŕéšš، þļéåšé ţŕý åĝåîñ ŵĥéñ îţ çöɱþļéţéš·</string>
+	
+	<string name="unsupport_file_dialog_title">Ûñšûþþöŕţéð Ƒîļé</string>
+	<string name="unsupport_file_dialog_message">∖″‰①€š∖″ ƒîļé îš ñöţ šûþþöŕţéð ţö ƀé šéñţ îñ å ƒåẋ·</string>
+	<string name="open_with">Öþéñ ŵîţĥ</string>
+    <string name="outbox_recipients_title">Ŕéçîþîéñţš</string>
+	
+	
+    
+    <string name="menu_list_favorites">Ƒåṽöŕîţéš</string>
+    <string name="menu_list_messages">Ṁéššåĝéš</string>
+    <string name="menu_list_contact">Çöñţåçţš</string>
+    <string name="menu_list_conference">Çöñƒéŕéñçîñĝ</string>
+    <string name="menu_list_recents">Çåļļ Ļöĝ</string>
+    <string name="menu_list_settings">Šéţţîñĝš</string>
+    <string name="menu_list_voip_calling">ṼöÎÞ Çåļļîñĝ</string>
+    <string name="menu_list_video_meeting">Ṁééţîñĝš</string>
+    <string name="menu_list_dnd">ÐÑÐ</string>
+    <string name="menu_more_than_99">⑨⑨⁺</string>
+    
+    <string name="menu_outbox_retry_sending">Ŕéţŕý Šéñðîñĝ</string>
+    <string name="menu_outbox_delete">Ðéļéţé</string>
+    
+    
+    <string name="outbox_event_detail_pending">Þéñðîñĝ</string>
+    <string name="outbox_event_detail_success">Šéñţ</string>
+    <string name="outbox_event_detail_failed">Ƒåîļéð</string>
+    <string name="outbox_event_detail_network_error">{Ñéţŵöŕķ éŕŕöŕ}</string>
+    <string name="outbox_event_detail_server_error">{Šéŕṽéŕ éŕŕöŕ}</string>
+    <string name="outbox_event_detail_app_exit">{Åþþ éẋîţ}</string>    
+    <string name="outbox_retry_sending_title">Ŕéţŕý Ƒåẋ Šéñðîñĝ</string>
+    <string name="outbox_retry_sending_content">Ýöû åŕé ŕéţŕýîñĝ ţö šéñð ţĥé ƒåẋ ţö åļļ ŕéçîþîéñţš، åŕé ýöû šûŕé ýöû ŵåñţ ţö çöñţîñûé¿</string>
+    
+    
+    <string name="outbox_no_content">Ýöûŕ ƒåẋéš åŕé šéñţ öŕ ñö ƒåẋ</string>
+    <string name="no_documents">Ðöçûɱéñţš îɱþöŕţéð ƒŕöɱ éɱåîļ öŕ öţĥéŕ åþþš ŵîļļ ƀé šţöŕéð ĥéŕé· Ýöû ŵîļļ ƀé åƀļé ţö ûšé ţĥéɱ ƒöŕ ƒåẋîñĝ·</string>
+    <string name="no_drafts">Ñö Ðŕåƒţš</string>
+    
+    
+    <string name="open_mode_always">Åļŵåýš</string>
+    <string name="open_mode_just_once">Ĵûšţ öñçé</string>
+    
+    
+    <string name="expandable_text_dots"> &#8230; </string>
+    
+    
+    <string name="group_hide_contacts">Ĥîðé Åļļ Çöñţåçţš</string>
+    <string name="group_show_contacts">Šĥöŵ Åļļ Çöñţåçţš</string>
+    <string name="contact_top_left">Ƒîļţéŕš</string>
+    <string name="group_top_right">Ðöñé</string>
+    <string name="group_all_contacts">Åļļ</string>
+    <string name="group_phone_contacts">Þĥöñé</string>
+    <string name="group_htc_brand_up">Šýšţéɱ Ĝŕöûþ∶</string>
+    <string name="group_htc_brand_down">šýšţéɱ Ĝŕöûþ∶</string>
+    <string name="group_all_contact_type">ÅļļÇöñţåçţš</string>
+    <string name="group_account_type">Åççöûñţ</string>
+    
+    
+    <string name="contact_another_field_menu_notes">Ñöţéš</string>
+
+    
+    <string name="contact_im_type_menu_aim">ÅÎṀ</string>
+    <string name="contact_im_type_menu_windows_live">Ŵîñðöŵš Ļîṽé</string>
+    <string name="contact_im_type_menu_yahoo">Ýåĥöö</string>
+    <string name="contact_im_type_menu_skype">Šķýþé</string>
+    <string name="contact_im_type_menu_qq">ǪǪ</string>
+    <string name="contact_im_type_menu_google_talk">Ĝööĝļé Ţåļķ</string>
+    <string name="contact_im_type_menu_icq">ÎÇǪ</string>
+    <string name="contact_im_type_menu_jabber">Ĵåƀƀéŕ</string>
+    <string name="contact_im_type_menu_netmeeting">Ñéţɱééţîñĝ</string>
+
+    
+    <string name="contact_website_type_menu_homepage">Ĥöɱéþåĝé</string>
+    <string name="contact_website_type_menu_blog">Ɓļöĝ</string>
+    <string name="contact_website_type_menu_profile">Þŕöƒîļé</string>
+    <string name="contact_website_type_menu_home">Ĥöɱé</string>
+    <string name="contact_website_type_menu_work">Ŵöŕķ</string>
+    <string name="contact_website_type_menu_ftp">ƑŢÞ</string>
+    <string name="contact_website_type_menu_other">Öţĥéŕ</string>
+
+    
+    <string name="contact_events_type_menu_anniversary">Åññîṽéŕšåŕý</string>
+    <string name="contact_events_type_menu_birthday">Ɓîŕţĥðåý</string>
+    <string name="contact_events_type_menu_other">Öţĥéŕ</string>
+
+    
+    <string name="contact_custom_label_ok_btn">ÖĶ</string>
+    <string name="contact_no_name">Ûñķñöŵñ</string>
+    
+    <string name="contact_title">Çöñţåçţ Îñƒö</string>
+    <string name="message_event_detail_from_text_filter_title">Çöñṽéŕšåţîöñ ðéţåîļš</string>
+    <string name="groups">Ƒîļţéŕš</string>
+    <string name="cancel">Çåñçéļ</string>
+    <string name="done">Ðöñé</string>
+    <string name="hide_all_contacts">Ĥîðé Åļļ Çöñţåçţš</string>
+    <string name="show_all_contacts">Šĥöŵ Åļļ Çöñţåçţš</string>
+    <string name="user_extensions">Ûšéŕ Éẋţéñšîöñš åñð Öţĥéŕš</string>
+    <string name="department_extensions">Ĝŕöûþš</string>
+    
+    
+    <string name="contact_top_right_menu_new_contact">Çŕéåţé Ñéŵ Çöñţåçţ</string>
+    <string name="contact_top_right_menu_groups">Šéţ Ƒîļţéŕš</string>
+    
+    
+    <string name="yesterday">Ýéšţéŕðåý</string>
+    <string name="Sunday">Šûñðåý</string>
+    <string name="Monday">Ṁöñðåý</string>
+    <string name="Tuesday">Ţûéšðåý</string>
+    <string name="Wednesday">Ŵéðñéšðåý</string>
+    <string name="Thursday">Ţĥûŕšðåý</string>
+    <string name="Friday">Ƒŕîðåý</string>
+    <string name="Saturday">Šåţûŕðåý</string>
+    <string name="just_now">ĵûšţ ñöŵ</string>
+    
+    <string name="rcm_numeric_date_format">Ṁ⁄ð⁄ýýýý</string>
+    <string name="rcm_numeric_date_template">″‰①€š⁄‰②€š⁄‰③€š″</string>
+    <string name="rcm_numeric_date_space_template">″‰①€š ‰②€š ‰③€š″</string>
+    <string name="rcm_numeric_date_space_dot_template">″‰①€š ‰②€š، ‰③€š″</string>
+   
+    <string name="intercom_dialog_title">Çåññöţ Šţåŕţ Îñţéŕçöɱ</string>
+    <string name="intercom_dialog_text">Þļéåšé ûšé ýöûŕ ðéšķ þĥöñé ţö þļåçé åñ Îñţéŕçöɱ çåļļ·</string>
+    
+    <string name="importing_failed_in_voip_call">Ýöû åŕé çûŕŕéñţļý îñ ṼöÎÞ çåļļ، þļéåšé ţŕý åĝåîñ åƒţéŕ ţĥé çåļļ éñðš·</string>
+    
+    
+    <string name="favorite_top_right_menu_add">Åðð Çöñţåçţ</string>
+    <string name="favorite_top_right_menu_edit">Éðîţ</string>
+    
+        
+    
+    <string-array name="config_group_filter">
+       <item>çöɱ·öûţļööķ·Ž⑦·éåš</item>
+       <item>çöɱ·öšþ·åþþ·šîĝñîñ</item>
+       <item>çöɱ·šķýþé·çöñţåçţš·šýñç</item>
+       <item>çöɱ·åñðŕöîð·éẋçĥåñĝé</item>
+       <item>çöɱ·ýåĥöö·ɱöƀîļé·çļîéñţ·šĥåŕé·åççöûñţ</item>
+       <item>çöɱ·šéç·åñðŕöîð·åþþ·šñš③·ƒåçéƀööķ</item>
+       <item>çöɱ·ĝööĝļé</item>
+    </string-array> 
+    
+    
+    <string-array name="config_group_title">
+       <item>Öûţļööķ·çöɱ</item>
+       <item>Šåɱšûñĝ åççöûñţ</item>
+       <item>Šķýþé™</item>
+       <item>Ṁîçŕöšöƒţ Éẋçĥåñĝé ÅçţîṽéŠýñç</item>
+       <item>Ýåĥöö</item>
+       <item>Ƒåçéƀööķ</item>
+       <item>Ĝööĝļé</item>
+    </string-array>    
+        
+    <string name="voip_agent_network_error">Ñéţŵöŕķ îš ñöţ åṽåîļåƀļé· Åñ Åñðŕöîð þĥöñé çåļļ ŵîļļ ƀé þļåçéð îñšţéåð·</string>
+    <string name="voip_agent_need_login">Çåļļ çåñ öñļý ƀé þļåçéð åƒţéŕ ļöĝîñ· Þļéåšé ļöĝîñ åñð ţŕý åĝåîñ·</string>
+    <string name="voip_agent_is_allow_call">Ţĥé éẋţéñšîöñ ýöû åŕé ûšîñĝ ðöéš ñöţ šûþþöŕţ çåļļîñĝ ƒéåţûŕé· Åñ Åñðŕöîð þĥöñé çåļļ ŵîļļ ƀé þļåçéð îñšţéåð·</string>
+    
+    
+    
+    
+    <string name="zoom_prompt">Šţåŕţ öŕ ĵöîñ ýöûŕ ɱééţîñĝš ñöŵ·</string>
+    
+    <string name="cannot_logout_title">Çåññöţ Ļöĝöûţ</string>
+    <string name="cannot_logout_message">Ýöû çåññöţ ļöĝöûţ ðûŕîñĝ ţĥé çåļļ· Þļéåšé ţŕý åĝåîñ åƒţéŕ ţĥé çåļļ éñðš·</string>
+    
+    <string name="importing">Îɱþöŕţîñĝ&#8230;</string>
+    <string name="unknown_tier_name">Ûñķñöŵñ</string>
+    
+    <string name="first_record_dialog_title">Çåļļ Ŕéçöŕðîñĝ</string>
+    <string name="first_record_dialog_message">Ýöûŕ çåļļ îš ñöŵ ƀéîñĝ ŕéçöŕðéð· Ţö ðöŵñļöåð ţĥé ŕéçöŕðîñĝš، þļéåšé ļöĝ îñ ţö {‰①€š} åñð ĝö ţö ″Ṁéššåĝéš ‐≥ Ŕéçöŕðîñĝš″·</string>
+    
+    <string name="transfer_confirm_dialog_title">Çåļļ Ţŕåñšƒéŕ</string>
+    <string name="transfer_confirm_dialog_message"> Åŕé ýöû šûŕé ýöû ŵåñţ ţö ţŕåñšƒéŕ ţĥé çåļļ ţö ‰①€š‰②€š¿ </string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_cancel" />
+    <string name="boxandroidlibv2_alert_dialog_cancel" description="">Çåñçéļ</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_ok" />
+    <string name="boxandroidlibv2_alert_dialog_ok" description="">Šûƀɱîţ</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_password" />
+    <string name="boxandroidlibv2_alert_dialog_password" description="">Þåššŵöŕð</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_text_entry" />
+    <string name="boxandroidlibv2_alert_dialog_text_entry" description="">Ţĥîš ŵéƀšîţé öŕ åþþļîçåţîöñ îš ŕéǫûéšţîñĝ åûţĥéñţîçåţîöñ·</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_username" />
+    <string name="boxandroidlibv2_alert_dialog_username" description="">Ûšéŕñåɱé</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_title_activity_oauth" />
+    <string name="boxandroidlibv2_title_activity_oauth">ÖÅûţĥÅçţîṽîţý</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Select" />
+    <string name="boxandroidlibv2_Select">Šéļéçţ</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Cancel" />
+    <string name="boxandroidlibv2_Cancel">Çåñçéļ</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Please_wait" />
+    <string name="boxandroidlibv2_Please_wait">Þļéåšé ŵåîţ&#8230;</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Problem_fetching_folder" />
+    <string name="boxandroidlibv2_Problem_fetching_folder">Þŕöƀļéɱ ƒéţçĥîñĝ ƒöļðéŕ·</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Create_folder" />
+    <string name="boxandroidlibv2_Create_folder">Çŕéåţé ƒöļðéŕ</string>
+    
+    <string name="telus_copyright">
+        © ②⓪①④ ŢÉĻÛŠ Çöɱɱûñîçåţîöñš Çöɱþåñý∖ñ
+        ŢÉĻÛŠ åñð ţĥé ŢÉĻÛŠ ļöĝö åŕé ţŕåðéɱåŕķš öƒ ŢÉĻÛŠ Îñţéļļéçţûåļ Þŕöþéŕţý·∖ñ
+        Åļļ öţĥéŕ ɱåŕķš، ļöĝöš، ðéšîĝñš åñð öţĥéŕŵîšé åŕé ţĥé ţŕåðéɱåŕķš åñð îñţéļļéçţûåļ þŕöþéŕţý öƒ ŔîñĝÇéñţŕåļ، Îñç·
+    </string>
+    
+    
+    <string name="transfer">Ţŕåñšƒéŕ</string>
+    <string name="flip">Ƒļîþ</string>
+    <string name="park">Þåŕķ</string>
+    <string name="record">Ŕéçöŕð</string>
+    
+    <string name="call_flip_header">Ƒļîþ Çåļļ ţö</string>
+    <string name="empty_message_in_flip_list">Šöŕŕý، ýöû ĥåṽé ñöţ šéţ åñý ƒļîþ ñûɱƀéŕ· Ĝö ţö ∖″Šéţţîñĝš ‐≥ Ṁý Éẋţéñšîöñ Šéţţîñĝš ‐≥ Çåļļ Ĥåñðļîñĝ &amp; Ƒöŕŵåŕðîñĝ∖″ ţö šéţ å ñûɱƀéŕ·</string>
+    <string name="voip_call_flip">Ṁåķé šûŕé ţö þîçķ ûþ ýöûŕ öţĥéŕ þĥöñé ƀéƒöŕé çöɱþļéţîñĝ ţĥé ƒļîþ</string>
+    <string name="voip_call_flip_toast">Ýöûŕ çåļļ ĥåš ƀééñ ƒļîþþéð ţö ″‰①€š″·</string>
+    <string name="call_flip_request_code">ŕéšûļţ‿çöðé</string>
+    <string name="call_flip_number">ƒļîþ‿ñûɱƀéŕ</string>
+    <string name="call_flip_name">ƒļîþ‿ñåɱé</string>
+    <string name="call_flip_get_data_failed">Ƒļîþ Ñûɱƀéŕ Ñöţ Åṽåîļåƀļé ∖ñ∖ñÅñ éŕŕöŕ öççûŕŕéð ŵĥîļé ƒéţçĥîñĝ ţĥé ƒļîþ ñûɱƀéŕš· Þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="call_flip_intercept_title">Çåññöţ Ƒļîþ Çåļļ</string>
+    <string name="call_flip_intercept_message">Çåļļ ƒļîþ îš ñöţ åṽåîļåƀļé îƒ ţĥéŕé îš åñ Åñðŕöîð þĥöñé çåļļ îñ þŕöĝŕéšš· Þļéåšé éñð ţĥé Åñðŕöîð þĥöñé çåļļ åñð ţŕý åĝåîñ·</string>
+    <string name="call_flip_in_recording_voice_title">Çåññöţ Šţåŕţ Çåļļ Ƒļîþ</string>
+    <string name="call_flip_start_recording_voice_message">Ýöûŕ çåļļ ŕéçöŕðîñĝ îš îñ îñîţîåļîžîñĝ þŕöĝŕéšš، þļéåšé ţŕý ţö ƒļîþ ţĥé çåļļ ļåţéŕ·</string>
+    <string name="call_flip_end_recording_voice_message">Ýöûŕ çåļļ ŕéçöŕðîñĝ îš îñ šåṽîñĝ þŕöĝŕéšš، þļéåšé ţŕý ţö ƒļîþ ţĥé çåļļ ļåţéŕ·</string>
+    <string name="call_park_in_recording_voice_title">Çåññöţ Šţåŕţ Çåļļ Þåŕķ</string>
+    <string name="call_park_start_recording_voice_message">Ýöûŕ çåļļ ŕéçöŕðîñĝ îš îñ îñîţîåļîžîñĝ þŕöĝŕéšš، þļéåšé ţŕý ţö þåŕķ ţĥé çåļļ ļåţéŕ·</string>
+    <string name="call_park_end_recording_voice_message">Ýöûŕ çåļļ ŕéçöŕðîñĝ îš îñ šåṽîñĝ þŕöĝŕéšš، þļéåšé ţŕý ţö þåŕķ ţĥé çåļļ ļåţéŕ·</string>
+    
+    <string name="dialog_transfer_error_cannot_transfer_title">Çåññöţ Ţŕåñšƒéŕ Çåļļ</string>
+    <string name="dialog_transfer_error_cannot_transfer_message">Çåļļ ţŕåñšƒéŕ îš ñöţ åṽåîļåƀļé îƒ ţĥéŕé åŕé ɱöŕé ţĥåñ ③ åçţîṽé çåļļš·</string>
+    <string name="dialog_transfer_error_invalid_number_title">Îñṽåļîð Þĥöñé Ñûɱƀéŕ</string>
+    <string name="dialog_transfer_error_special_number_message">Šöŕŕý، ţĥé çåļļ çåññöţ ƀé ţŕåñšƒéŕŕéð ţö ţĥîš ñûɱƀéŕ·</string>
+    <string name="dialog_transfer_error_invalid_number_message">Šöŕŕý، ţĥé þĥöñé ñûɱƀéŕ îš ñöţ å ṽåļîð ñûɱƀéŕ، þļéåšé çĥéçķ îţ åñð ţŕý åĝåîñ·</string>
+    <string name="dialog_transfer_error_emergency_number_message">Šöŕŕý، ţĥé çåļļ çåññöţ ƀé ţŕåñšƒéŕŕéð ţö åñ éɱéŕĝéñçý ñûɱƀéŕ·</string>
+    <string name="dialog_transfer_error_invalid_extension_title">Îñṽåļîð Éẋţéñšîöñ</string>
+    <string name="dialog_transfer_error_invalid_extension_message">Šöŕŕý، ţĥé éẋţéñšîöñ ñûɱƀéŕ ðöéš ñöţ éẋîšţ· Þļéåšé çĥéçķ îţ åñð ţŕý åĝåîñ·</string>
+    <string name="dialog_transfer_error_account_no_international_call_message">Šöŕŕý، ýöûŕ åççöûñţ îš ñöţ éñåƀļéð ƒöŕ îñţéŕñåţîöñåļ çåļļîñĝ· Þļéåšé çöñţåçţ ýöûŕ Åðɱîñîšţŕåţöŕ ţö éñåƀļé îñţéŕñåţîöñåļ çåļļîñĝ ƒöŕ ţĥé çöûñţŕý åñð⁄öŕ ðéšţîñåţîöñ ýöû ŵöûļð ļîķé ţö ŕéåçĥ·</string>
+    <string name="dialog_transfer_error_free_account_no_international_call_message">Ŵé∖´ŕé šöŕŕý، îñţéŕñåţîöñåļ çåļļš åŕé ñöţ åṽåîļåƀļé ƒöŕ ƒŕéé öŕ ţŕîåļ åççöûñţš· Ţö éñåƀļé îñţéŕñåţîöñåļ çåļļîñĝ، þļéåšé ûþĝŕåðé ýöûŕ åççöûñţ ţö å þåîð þļåñ·</string>
+    
+    <string name="call_control_error_messages_title">Çåļļ ‰①€š Ñöţ Šûþþöŕţéð</string>
+    <string name="call_control_error_messages">Šöŕŕý، ýöûŕ åççöûñţ ðöéš ñöţ ĥåṽé ţĥé ƒéåţûŕé ţö ‰①€š å çåļļ· Þļéåšé çöñţåçţ ýöûŕ åççöûñţ åðɱîñîšţŕåţöŕ·</string>
+    
+    <string name="call_control_call_recording_error_title">Çåļļ Ŕéçöŕðîñĝ Ƒåîļéð</string>
+    <string name="call_control_stop_recording_error_title">Šţöþ Ŕéçöŕðîñĝ Ƒåîļéð</string>
+    <string name="call_control_call_unhold_error_title">Çåļļ Ûñĥöļð Ƒåîļéð</string>
+    <string name="call_control_call_hold_error_title">Çåļļ Ĥöļð Ƒåîļéð</string>
+    <string name="call_control_call_flip_error_title">Çåļļ Ƒļîþ Ƒåîļéð</string>
+    <string name="call_control_call_transfer_error_title">Çåļļ Ţŕåñšƒéŕ Ƒåîļéð</string>
+    
+    <string name="call_control_call_recording_error_messages">Ţĥé çåļļ çåññöţ ƀé šûççéššƒûļļý ŕéçöŕðéð ñöŵ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="call_control_stop_recording_error_messages">Ţĥé çåļļ ŕéçöŕðîñĝ çåññöţ ƀé šûççéššƒûļļý šţöþþéð ñöŵ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="call_control_call_unhold_error_messages">Ţĥé çåļļ çåññöţ ƀé šûççéššƒûļļý ûñĥéļð ñöŵ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="call_control_call_hold_error_messages">Ţĥé çåļļ çåññöţ ƀé šûççéššƒûļļý ĥéļð ñöŵ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="call_control_call_flip_error_messages">Ţĥé çåļļ çåññöţ ƀé šûççéššƒûļļý ƒļîþþéð ñöŵ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    <string name="call_control_call_transfer_error_messages">Ţĥé çåļļ çåññöţ ƀé šûççéššƒûļļý ţŕåñšƒéŕŕéð ñöŵ، þļéåšé ţŕý åĝåîñ ļåţéŕ·</string>
+    
+    <string name="offline_title">Ûñåƀļé ţö Åççéšš Šéŕṽéŕ</string>
+    <string name="offline_text">Þļéåšé çĥéçķ ýöûŕ ñéţŵöŕķ çöññéçţîöñ·</string>
+    <string name="get_contact_information_error">Çåññ∖´ţ ĝéţ çöŕŕéçţ çöñţåçţ îñƒöŕɱåţîöñ·</string>
+</resources>
+ one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree thirtyfour thirtyfive thirtysix thirtyseven thirtyeight thirtynine forty one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo twentythree twentyfour twentyfive twentysix twentyseven twentyeight twentynine thirty thirtyone thirtytwo thirtythree]
