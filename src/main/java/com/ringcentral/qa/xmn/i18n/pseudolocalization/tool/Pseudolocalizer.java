@@ -150,8 +150,8 @@ public class Pseudolocalizer {
       if (variant != null) {
         pipeline = PseudolocalizationPipeline.getVariantPipeline(variant);
       } else {
-        //pipeline = PseudolocalizationPipeline.buildPipeline(methods); // TODO: replace by julia
-          pipeline = PseudolocalizationPipeline.buildPipeline(null, false, methods);
+        pipeline = PseudolocalizationPipeline.buildPipeline(methods); // TODO: replace by julia
+//          pipeline = PseudolocalizationPipeline.buildPipeline(null, false, methods);
       }
       if (pipeline == null) {
         throw new RuntimeException("Unable to construct pipeline for methods " + methods);

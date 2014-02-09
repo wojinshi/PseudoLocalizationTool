@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010-2013, RingCentral, Inc. All Rights Reserved. -->
+
+  <!--
+  =====================================================================
+    IMPORTANT!!!
+    
+    This file MUST NOT contain any brand-dependent string definitions,
+    including but not limited to any strings containing the application or
+    company name like 'RingCentral', 'RingCentral Mobile', etc.
+    
+    All brand-dependent string definitions must be defined in the 'strings_branded.xml' files
+    separately for each brand.
+    The 'strings.xml' file must contain only references to the actual branded definitions.
+  =====================================================================
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- ==================================================================== -->
+    <!-- ========================= Application label ======================== -->
+    <!-- =====================================================================-->
+
+
+    <!-- This is the EXTERNAL application name -->
+    <!-- as seen in the App Store, on the Android desktop etc. -->
+    <string name="app_label">@string/brand_AppLabel</string>
+	
+    <!-- This is the INTERNAL application name used inside the application UI -->
+   	<string name="app_name">@string/brand_AppName</string>
+
+    <!-- =====================================================================-->
+    <!-- ========================= Common dialogs ============================-->
+    <!-- =====================================================================-->
+	<string name="dialog_btn_ok">OK</string>
+	<string name="dialog_btn_cancel">Cancel</string>
+	<string name="dialog_btn_retry">Retry</string>
+	<string name="dialog_btn_delete">Delete</string>
+	<string name="dialog_btn_remove">Remove</string>
+    <string name="dialog_btn_save">Save</string>
+    <string name="dialog_btn_done">Done</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="dialog_title_quit">Quit</string>
+
+    <!-- =====================================================================-->
+    <!-- ========================= Login Screen ==============================-->
+    <!-- =====================================================================-->
+    <string name="loginscreen_setup_dialog_title">Express Setup is Incomplete</string>
+    <string name="loginscreen_setup_dialog_msg">@string/branded_loginscreen_setup_dialog_msg</string> 
+    <string name="loginscreen_setup_dialog_yes">Complete Setup Now</string> 
+    <string name="loginscreen_setup_dialog_no">Skip Setup</string> 
+    <string name="loginscreen_setup_dialog_later">Decide Later</string> 
+    <string name="loginscreen_trial_dlg_title">Upgrade your service</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expired">@string/branded_loginscreen_trial_dlg_msg_admin_expired</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expireinxdays">@string/branded_loginscreen_trial_dlg_msg_admin_expireinxdays</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expirein1day">@string/branded_loginscreen_trial_dlg_msg_admin_expirein1day</string>
+    <string name="loginscreen_trial_dlg_msg_admin_expiretoday">@string/branded_loginscreen_trial_dlg_msg_admin_expiretoday</string>
+    <string name="loginscreen_trial_dlg_msg_user_expired">@string/branded_loginscreen_trial_dlg_msg_user_expired</string>
+    <string name="loginscreen_trial_dlg_ok">@string/dialog_btn_ok</string>
+    <string name="loginscreen_trial_dlg_cancel">@string/dialog_btn_cancel</string>
+    <string name="loginscreen_trial_dlg_upgrade">Upgrade Now</string>
+	<string name="login_text">Log in</string>
+	<string name="signup_text">Sign up</string>
+	
+	<string name="loginscreen_passwordrecovery_link">Forgot your password?</string>
+    <!-- =====================================================================-->
+    <!-- ================= MAIN RINGCENTRAL TAB ==============================-->
+    <!-- =====================================================================-->
+    <!-- Tab names -->
+    <string name="tab_name_conference">Conferencing</string>
+    <string name="tab_name_favorites">Favorites</string>
+    <string name="tab_name_recents">Call Log</string>
+    <string name="tab_name_contacts">Contacts</string>
+    <string name="add_favorites">AddFavorites</string>
+    <string name="tab_name_zoom_video">Meetings</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= RING OUT ========================================== -->
+    <!-- =====================================================================-->
+
+
+    <!-- RingOut Top Button Text -->
+    <string name="topleftback">&lt; Back</string>
+    <string name="toprightadd">Add +</string>
+    <!-- RingOut EditText context menu -->
+    <string name="ringout_context_menu_title">Edit</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="paste">Paste</string>
+    
+    <!-- RingOut Status screen -->
+    <string name="ringout_status_top_label_text">Now calling&#8230;</string>
+    <string name="ringout_status_mid_label_text_2line">@string/branded_ringout_status_mid_label_text_2line</string>
+    <string name="ringout_status_mid_hint_text_3line">The phone you assigned in Settings \nwill ring now. Please pick up to complete \nthe connection.</string>
+    
+    <!-- RingOut alerts -->
+    <string name="ringout_alert_title_call_failed">Call Failed</string>
+    <string name="ringout_alert_msg_connection_error">Cannot place the call since there is no connection to server. Please try again later.</string>
+    <string name="ringout_alert_msg_call_fail">An error occurred while attempting to complete your request. Please try again later.</string>
+    <string name="ringout_alert_msg_call_fail_try_again">An error occurred while attempting to complete your request. Would you like to try again?</string>
+    <string name="ringout_alert_title_invalid_callerID">Caller ID Not Available</string>
+    <string name="ringout_alert_msg_invalid_callerID_multiple">The Caller ID you selected is not available now, please choose another one and try again.</string>
+    <string name="ringout_alert_msg_invalid_callerID_one">The Caller ID you selected is not available now, please try again.</string>
+    <string name="ringout_alert_number_contact_and_favorite">This number is already in your contacts and favorites list.</string>
+    <string name="ringout_alert_login_using_direct_number">@string/brand_ringout_alert_login_using_direct_number</string>
+    <string name="ringout_mode_alert_login_using_direct_number">Please log in using your direct extension number to use this RingOut mode.</string>
+    <string name="ringout_alert_need_voip">Directory Enquiry calls are not allowed in RingOut Mode. Please enable Outbound VoIP in the app settings to make such calls.</string>
+    <string name="ringout_alert_need_voip_100">This call is not allowed in RingOut Mode. Please enable Outbound VoIP in the app settings to make such calls.</string>
+    <string name="ringout_alert_unsupported_number">Calls to this service are not supported. Please dial the number directly from your landline or cell phone.</string>
+    
+    <!-- RingOut Status text -->
+    <string name="ringout_status_call_initiated">Call initiated</string>
+    <string name="ringout_callState_csError">Error occurred while calling party.</string>
+    <string name="ringout_callState_csSuccess">Call has been completed.</string>
+
+    <!-- callState=="csInProgress" || callState=="csCannotReach" -->
+    <string name="ringout_userStatus_eInProgress">The phone you assigned in Settings will ring now. Please pick up to complete the connection.</string>
+    <string name="ringout_userStatus_eBusy">Your phone line is busy. Please try again.</string>
+    <string name="ringout_userStatus_eNoAnswer">Your phone does not answer. Please try again.</string>
+    <string name="ringout_userStatus_eRejected">You have rejected the call.</string>
+    <string name="ringout_userStatus_eGenericError">Error occurred calling your current location.</string>
+    <string name="ringout_userStatus_eFinished">Call has been completed.</string>
+    <string name="ringout_userStatus_eInternationalDisabled">International calls are disabled.</string>
+    <string name="ringout_userStatus_eDestinationBlocked">Destination number is prohibited.</string>
+    <string name="ringout_userStatus_eNotEnoughFunds">Too low  balance on the account.</string>
+    <string name="ringout_userStatus_eCallerIDDisabled">Caller ID not available, please try again later.</string>
+
+    <!-- (callState=="csInProgress" || callState=="csCannotReach") && userStatus=="eSuccess" -->
+    <string name="ringout_partyStatus_eInProgress">First party connected.</string>
+    <string name="ringout_partyStatus_eBusy">First party connected. Your party\'s phone is busy. Please try again.</string>
+    <string name="ringout_partyStatus_eNoAnswer">First party connected. There\'s no answer from your party\'s phone. Please try again.</string>
+    <string name="ringout_partyStatus_eRejected">First party connected. Your party has rejected the call.</string>
+    <string name="ringout_partyStatus_eGenericError">Error occurred while calling party.</string>
+    <string name="ringout_partyStatus_eInternationalDisabled">International calls are disabled.</string>
+    <string name="ringout_partyStatus_eDestinationBlocked">Destination number is prohibited.</string>
+    <string name="ringout_partyStatus_eNotEnoughFunds">Low balance on the account.</string>
+    <string name="ringout_partyStatus_eFinished">Call has been completed.</string>
+    <string name="ringout_partyStatus_eSuccess">Both parties are connected.</string>
+    
+    <string name="ringout_from_caller_id">From: </string>
+
+    <!-- =====================================================================-->
+    <!-- ================= VoIP ========================================== -->
+    <!-- =====================================================================-->
+
+
+	<string name="voip_call_over_wifi">You are making a VoIP call over WiFi.\nCalls may drop if your WiFi signal degrades.</string>
+    <string name="voip_call_over_3g_4g">You are making a VoIP call over your provider’s data network. Call quality may decrease depending on your coverage.</string>
+	<!-- Call screen buttons -->
+	<string name="voip_call_screen_btn_hide_button">Hide Keypad</string>
+    <string name="voip_call_screen_btn_speaker">Speaker</string>
+    <string name="voip_call_screen_onhold_state_label">On Hold</string>
+    <string name="voip_call_screen_btn_bluetooth_device">Bluetooth Device</string>
+    <string name="voip_call_screen_btn_defalut_headset">Default/Headset</string>
+    <string name="voip_call_screen_dialog_title">Choose the audio source you would like to listen from.</string>
+
+    <!-- Error Codes text -->
+    <string name="generic_network_error">An error occurred while attempting to complete your request (network error). Please try again later.</string>
+    <string name="airplane_network_error">An error occurred while attempting to complete your request (airplane mode). Please try again later.</string>
+    <string name="network_not_available">Network is not available. Please try again later.</string>
+    <string name="network_not_available_airplane_mode">Network is not available (airplane mode). Please try again later.</string>
+    <string name="error_code_alert_title">Error</string>
+     
+    <!-- =====================================================================-->
+    <!-- ================= Call Log ========================================== -->
+    <!-- =====================================================================-->
+    
+    <string name="calllog_tab_all_title">All</string>
+    <string name="calllog_tab_missed_title">Missed</string>
+    <string name="calllog_item_view_error">Call log is updating, please try again later.</string>
+    
+    <!-- Call Log MENU -->
+    <string name="calllog_menu_Call">Call</string>
+    <string name="calllog_menu_View">View</string>
+    <string name="calllog_menu_add_to_contacts_new">Create New Contact</string>
+    <string name="calllog_menu_add_to_contacts_existing">Add to Existing Contact</string>
+    <string name="calllog_first_create_contact_prompt">Create a contact before adding to favorites.</string>
+    <string name="calllog_menu_add_to_faworites">Add to Favorites</string>
+    <string name="calllog_menu_remove_from_faworites">Remove from Favorites</string>
+    <string name="calllog_menu_sendText">Send Text</string>
+    
+
+    <!-- Text displayed when the call log is empty -->
+    <string name="recentCalls_empty">No Call Log</string>
+     <string name="calllog_no_results_found">No results found</string>
+
+    <!-- Call Log Detail - CallType -->
+    <string name="calllog_calltype_159_unknown">Unknown</string>
+    <string name="calllog_calltype_160_phone_call">Phone Call</string>
+    <string name="calllog_calltype_161_phone_login">Phone Login</string>
+    <string name="calllog_calltype_162_fax_receive">Incoming Fax</string>
+    <string name="calllog_calltype_163_accept_call">Accept Call</string>
+    <string name="calllog_calltype_164_findme">FindMe</string>
+    <string name="calllog_calltype_165_followme">FollowMe</string>
+    <string name="calllog_calltype_166_putgoing_fax">Outgoing Fax</string>
+    <string name="calllog_calltype_167_call_return">Call Return</string>
+    <string name="calllog_calltype_168_calling_card">Calling Card</string>
+    <string name="calllog_calltype_169_ring_directly">Ring Directly</string>
+    <string name="calllog_calltype_170_ringout_web">RingOut Web</string>
+    <string name="calllog_calltype_171_sip_call">VoIP Call</string>
+    <string name="calllog_calltype_172_ringout_pc">RingOut PC</string>
+    <string name="calllog_calltype_173_ringme">RingMe</string>
+    <string name="calllog_calltype_174_transfer_call">Transfer</string>
+    <string name="calllog_calltype_265_ringOut_mobile">RingOut Mobile</string>
+    <string name="calllog_calltype_198_e911_update">E911 Update</string>
+    <string name="calllog_calltype_197_emergency">Emergency</string>
+    <string name="calllog_calltype_199_support">Support</string>
+    <string name="calllog_calltype_196_411_info">411 Info</string>
+    
+    <!-- Call Log Detail - Status -->
+    <string name="calllog_status_175_unknown">Unknown</string>
+    <string name="calllog_status_176_in_progress">In Progress</string>
+    <string name="calllog_status_177_missed">Missed</string>
+    <string name="calllog_status_178_accept_call">Call accepted</string>
+    <string name="calllog_status_179_voicemail">Voicemail</string>
+    <string name="calllog_status_180_reject">Rejected</string>    
+    <string name="calllog_status_182_reply">Reply</string>
+    <string name="calllog_status_183_fax_received">Received</string>
+    <string name="calllog_status_184_fax_receive_error">Receive Error</string>
+    <string name="calllog_status_185_fax_on_demand">Fax On Demand</string>
+    <string name="calllog_status_186_fax_partial_receive">Partial Receive</string>
+    <string name="calllog_status_187_blocked">Blocked</string>
+    <string name="calllog_status_188_connected">Call connected</string>
+    <string name="calllog_status_189_no_answer">No Answer</string>
+    <string name="calllog_status_190_international_disabled">International Disabled</string>
+    <string name="calllog_status_191_busy">Busy</string>
+    <string name="calllog_status_192_fax_send_error">Send Error</string>
+    <string name="calllog_status_193_fax_sent">Sent</string>
+    <string name="calllog_status_194_no_fax_machine">No fax machine</string>
+    <string name="calllog_status_203_suspended_account">Account Suspended</string>
+    <string name="calllog_status_204_call_failed">Call Failed</string>
+    <string name="calllog_status_205_call_failure">Call Failure</string>
+    <string name="calllog_status_206_internal_error">Internal Error</string>
+    <string name="calllog_status_207_ip_phone_offline">IP Phone Offline</string>
+    <string name="calllog_status_208_no_calling_credit">No Calling Credit</string>
+    <string name="calllog_status_209_restricted_number">Restricted Number</string>
+    <string name="calllog_status_210_wrong_number">Wrong Number</string>
+    <string name="calllog_status_211_answered_not_accepted">Answered - Not Accepted</string>
+    <string name="calllog_status_237_force_stopped">Stopped</string>
+    <string name="calllog_status_252_abandoned">Abandoned</string>
+    <string name="calllog_status_253_declined">Declined</string>
+    <string name="calllog_status_269_fax_send_error">Fax Send Error</string>
+    <string name="calllog_status_239_hang_up">Hang Up</string>
+    <string name="calllog_status_267_fax_receipt_error">Fax Receipt Error</string>
+    <string name="calllog_status_250_international_restriction">International Restriction</string>
+    <string name="calllog_status_244_partially_sent">Partially Sent</string>
+    <string name="calllog_status_242_poor_line_quality">Poor Line Quality</string>
+    
+    <string name="calllog_display_name_unknown">Unknown</string>
+ 
+    <!-- =====================================================================-->
+    <!-- ================= CONTACTS + FAVORITES ============================== -->
+    <!-- =====================================================================-->
+    <!-- MENU -->
+    <!-- Menu item to search contacts -->
+    <string name="menu_newContact">Create New Contact</string>                      <!-- Menu item to create a new contact -->
+    <string name="menu_settings">Settings</string>                             		<!-- Menu item to create a new contact -->
+    <string name="menu_viewContact">View Contact</string>                           <!-- Menu item used to view the details for a specific contact -->
+    <string name="menu_addStar">Add to Favorites</string>                           <!-- Menu item used to add a star to a contact, which makes that contact show up at the top of favorites -->
+    <string name="menu_removeStar">Remove from Favorites</string>                   <!-- Menu item used to remove a star from a contact, making the contact no longer show up at the top of favorites -->
+   	
+   	<!-- Optional menu item to encode the current contact as a QR Code using Barcode Scanner. -->
+    <string name="menu_editContact">Edit Contact</string>                           <!-- Menu item used to edit a specific contact -->
+    <string name="menu_deleteContact">Delete Contact</string>                       <!-- Menu item used to delete a specific contact -->
+    <string name="menu_call">Call Contact</string>                                  <!-- Menu item used to call a specific contact when viewing the details of that contact. -->
+    
+   	<!-- Menu item used to send an SMS or MMS message to a specific phone number or a contacts default phone number -->    	
+    <string name="menu_sendEmail">Send Email</string>
+    <string name="menu_sendText">Send Text</string>    
+    <string name="txt_add_button">Add +</string>
+    <string name="filter_name_personal">Personal</string>
+    <string name="filter_name_company">Company</string>
+    <!-- <string name="menu_makeDefaultNumber">Make default number</string> -->
+ 
+
+    <!-- The text displayed when the contacts list is empty while displaying all contacts -->
+	<string name="noContacts">No Contacts</string>
+    <string name="noFavorites">No Favorites</string>
+    <string name="favorite_del_dialog_title">Remove from favorites</string>
+    <string name="favorite_del_dialog_message"> Are you sure you want to remove this contact from favorites?</string>
+    <string name="favorite_del_failed">Remove failed.</string>
+    
+    <!-- The text displayed when the contacts list is empty while displaying results after searching contacts -->
+    <string name="noMatchingContacts">No matching contacts found.</string>
+    
+    <!-- ALERTS -->
+    <string name="contacts_del_confirmation">Do you want to delete selected contact(s)?</string>
+    <string name="contacts_del_error">Cannot delete this contact (permission denied).</string>
+    
+    <!--
+    Text describing that a contact has no information available other than name and photo 
+    <string name="no_contact_details">No additional information for this contact</string>
+    -->
+    
+
+    <!-- =====================================================================-->
+    <!-- ================= Extension detail ============================== -->
+    <!-- =====================================================================-->
+    <!-- MENU -->
+    <string name="listSeparatorMobilePhone">Mobile</string> 						<!-- listSeparator -->
+    <string name="ExtView_itemExtension">Extension </string>  						<!-- listSeparator -->
+    <string name="ExtView_itemEmail">Email </string>                            	<!-- listSeparator -->
+    <string name="ExtView_itemAddress">Address </string>                            <!-- listSeparator -->
+      
+
+    <!-- =====================================================================-->
+    <!-- ================= MESSAGES ========================================= -->
+    <!-- =====================================================================-->
+    
+    <!-- Messages Edit State -->
+	<string name="messages_edit_delete">Delete</string>
+	<string name="messages_edit_cancel">Cancel</string>
+	<string name="messages_edit_clear_all">Clear</string>
+	
+	<string name="send_sms_e911_error_message_title">Cannot Send SMS</string>
+	<string name="send_sms_e911_error_message_rc_us">There is no text-to-%1$s service available. Make a voice call to %2$s or use another means to contact emergency services.</string>
+	<string name="send_sms_e911_error_message_rc_ca">This application does not support text to %1$s. Please use your phone\'s text application (not RingCentral) to text %2$s directly.</string>
+	<string name="send_fax_emergency_number_title">Cannot Send Fax</string>
+	<string name="send_fax_emergency_number_content">There is no fax-to-%1$s service available. Make a voice call to %2$s or use another means to contact emergency services.</string>
+	
+	<string name="delete_message_dialog_message">Are you sure you want to delete this message? This message will be permanently deleted from your account.</string>
+	<string name="delete_messages_dialog_message">Are you sure you want to delete these messages? These messages will be permanently deleted from your account.</string>
+	
+	<string name="clear_all_message">Are you sure you want to clear all messages? All messages will be permanently deleted from your account.</string>
+	<string name="count_of_delete">Delete (%d)</string>
+	<string name="count_of_forward">Forward (%d)</string>
+	<string name="count_of_character">%d / 160</string>
+     <!-- Messages MENU -->
+    <string name="messages_menu_mark">Mark Read/Unread</string>
+     
+     <!-- MessageView MENU -->
+    <string name="messageview_menu_contact">Create New Contact</string>
+    <string name="messageview_menu_favorites">Add to Favorites</string>
+    <string name="messageview_menu_remove_from_favorites">Remove from Favorites</string>
+    <string name="messageview_menu_add_to_existing">Add to Existing Contact</string>
+    <string name="messageview_menu_delete">Delete</string>
+    <string name="messageview_menu_forward">Forward</string>
+    <string name="messageview_menu_forward_as_fax">Forward as Fax</string>
+    <string name="messageview_menu_forward_as_email">Forward as Email</string>
+    <string name="messageview_menu_view">View Contact</string>
+    <string name="messageview_menu_call">Call</string>
+    <string name="messageview_menu_add_to_contacts_new">Create New Contact</string>    
+    <string name="messageview_menu_first_create_contact_prompt">Create a contact before adding to favorites.</string>
+	<string name="messageview_menu_edit">Edit</string>
+	<string name="messageview_menu_contact_info">Contact Information</string>
+	<string name="messageview_menu_retry">Retry</string>
+	
+     <!-- Messages Activity -->
+    <string name="messageview_btnmsg_callback">You cannot callback this message. Please specify the recipient.</string>
+    <string name="messageview_mark_unopened">Mark Unread</string>
+    <string name="messageview_mark_opened">Mark Read</string>
+    <string name="messages_storage_error_title">Media Card</string>
+    <string name="messages_storage_error">SD card is used as a mass storage, or is not mounted, or is write protected.</string>
+    <string name="messages_storage_error_unmounted">SD card is unmounted.</string>
+    <string name="messages_storage_error_removed">SD card is removed.</string>
+    <string name="messages_storage_cannot_playback">Cannot playback message without an SD card</string>
+    <string name="messages_storage_cannot_load">Cannot load message without an SD card</string>
+    <string name="messages_storage_cannot_load_fax">Cannot load fax without an SD card</string>
+    <string name="messages_notification_ticker">@string/branded_messages_notification_ticker</string>
+    <string name="messages_notification_line2_mult_message">%d unread messages</string>
+    <string name="messages_notification_line2_single_voicemail">%d unread voicemail</string>
+    <string name="messages_notification_line2_mult_voicemail">%d unread voicemails</string>
+    <string name="messages_notification_line2_single_fax">%d unread fax</string>
+    <string name="messages_notification_line2_mult_fax">%d unread faxes</string>
+    <string name="messages_notification_line2_mult_text">%d unread text messages</string>
+    
+    <string name="cannot_forward_title">Cannot forward message</string>
+    <string name="cannot_forward_content">Message not downloaded yet. Please try again later</string>
+    
+    <string name="messages_storage_error_forward_title">File Not Available</string>
+    <string name="messages_storage_error_forward_content">The SD card is unmounted, please make sure it is mounted and try again.</string>
+    
+    <!-- Text Messages -->
+    <string name="text_message_menu_title">Message options</string>
+    <string name="text_message_menu_copy">Copy text</string>
+    <string name="text_message_menu_forward">Forward</string>
+    <string name="text_message_menu_delete">Delete</string>
+    <string name="text_message_menu_send_again">Try to send again</string>
+    <string name="text_message_menu_delete_content">Are you sure you want to delete the selected message? This message will be permanently deleted from your account.</string>
+    <string name="send_notify">Sending&#8230;</string>
+    <string name="toast_of_paste">Pasted text has been truncated: your message cannot exceed 160 characters.</string>
+    <string name="toast_of_more_char">You cannot input more than 160 characters.</string>
+    <string name="toast_of_forward_text_messages">Sorry, you cannot forward more than 160 characters in a text message.</string>
+    
+	<string name="too_many_recipients_title">Too Many Recipients</string>
+	<string name="too_many_recipients_content">Sorry, you can only add up to %d recipients.</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= SETTINGS ============================== -->
+    <!-- =====================================================================-->
+
+    <string name="settings_tell_a_friend_body_value">@string/branded_settings_tell_a_friend_body_value</string>
+    <string name="settings_tell_a_friend_subject_value">@string/branded_settings_tell_a_friend_subject_value</string>
+    <string name="settings_header_about_title">@string/branded_settings_header_about_title</string>
+    <string name="settings_item_app_description_title">App Description</string>
+    <string name="settings_item_version_title">Version</string>
+    <string name="settings_header_feedback_title">Feedback</string>
+    <string name="settings_item_tell_a_friend_title">Tell A Friend</string>
+    <string name="settings_item_send_feedback_title">Send Feedback e-mail</string>
+    <string name="settings_feedback_subject_value"><xliff:g id="app_name">%1$s</xliff:g> <xliff:g id="app_version">%2$s</xliff:g> Android Feedback <xliff:g id="user_account">%3$s</xliff:g></string>
+    <string name="settings_about_title">@string/branded_settings_about_title</string>
+    <string name="settings_about_feedback_email">@string/branded_settings_about_feedback_email</string>
+    <string name="settings_about_market_link">market://details?id=</string>
+    <string name="callerid_tag_server_main_number_string">MainNumber</string>
+    <string name="callerid_tag_replace_server_main_number_string">Main</string>
+    <string name="settings_callerid_item_title">Caller ID</string>
+    <string name="settings_callerid_dialog_title">Select phone</string>
+    <string name="settings_callerid_dialog_msg_no_caller_ids">No Caller ID data. Please try again later.</string>
+    <string name="settings_noname_user_name">@string/branded_settings_noname_user_name</string>
+    <string name="settings_ringout_mode_item_title">RingOut Mode</string>
+    <string name="settings_voip_section_header">VoIP Calling</string>
+    <string name="settings_voip_calling_label_ON_WiFi">ON - Wi-Fi</string>
+    <string name="settings_voip_calling_label_ON_WiFi_3G">ON - 3G/4G or WiFi</string>
+    <string name="settings_voip_calling_label_OFF">OFF</string>
+	<string name="settings_voip_item_WiFi">Over Wi-Fi</string>
+    <string name="settings_voip_item_WiFi_3G">Over 3G/4G or Wi-Fi</string>
+	<string name="settings_voip_incoming_calls_on_off_title">Incoming VoIP Calls</string>
+    <string name="settings_voip_incoming_calls_on_off_label">To save battery power turn off incoming calls</string>
+    <string name="settings_voip_calls_on_off_title">VoIP Calls</string>
+    <string name="settings_voip_calls_on_off_title_when_3G_4G_disabled">VoIP Calls Over WiFi</string>
+    <string name="settings_voip_echo_canceler_on_off_title">Echo Cancellation</string>
+    <string name="settings_voip_echo_canceler_on_off_label">Turn ON echo cancellation if the other party hears an echo during your VoIP calls</string>
+    <string name="settings_voip_mic_callibration_setup_title">Microphone Calibration Setup</string>
+    <string name="my_android">My Android</string>
+    <string name="another_phone">Another phone</string>
+    <string name="another_phone_add_number">Add Custom Number</string>
+    <string name="another_phone_edit_number">Edit Custom Number</string>
+    <string name="another_phone_custom_number">Custom</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_custom_phone_number">&#160;&#160;&#160;&#160;Enter custom phone number&#160;&#160;&#160;&#160;</string>
+    <string name="my_android_phone_number">My Android</string>
+    <string name="information">Information</string>
+    <string name="add_new_phone">Add new phone</string>
+    <string name="confirm_connection">Confirm Connection</string>
+    <string name="phone_number_not_found">Mobile device number</string>
+    <string name="change_my_android_number_title">Change My Android Number</string>
+    <string name="enter_phone_number">Please enter your mobile device number:</string>
+    <string name="phone_number_empty">Phone number cannot be empty!</string>
+    <string name="phone_number_invalid">Invalid phone number. Please try again.</string>
+    <string name="calls_order">Call  you at the phone you select first, and when you answer, calls your party</string>
+    <string name="ringcentral_calls_place">@string/branded_ringcentral_calls_place</string>
+    <string name="list_row_btn_toggle_textOn">ON</string>
+    <string name="list_row_btn_toggle_textOff">OFF</string>
+    <string name="settings5_header">Settings</string>
+    <string name="my_mobile_app_settings">My Mobile App Settings</string>
+    <string name="default_app">Default Launching</string>
+    <string name="clear_button_text">Clear Defaults</string>
+    <string name="content_have_set_as_default">This app is set to be launched by default for certain actions such as:\n\n● Placing phone calls when you use the Android dialer\n\n● Importing documents such as PDFs</string>
+    <string name="content_have_no_set_as_default">This app is not currently set to launch by default for any actions.</string>
+	<string name="settings5_divider_admin">Administrator</string>
+	<string name="settings5_divider_user">User</string>
+    <string name="settings5_item_account_info">Account Info</string>
+    <string name="settings5_item_phone_system">Phone System</string>
+    <string name="settings5_item_billing">Billing</string>
+    <string name="settings5_item_my_extension">My Extension Settings</string> 
+    <string name="settings5_item_general_fax_tier">General</string>
+    <string name="change_my_android_number">Change My Android Number</string>
+    <string name="setting_no_browser_installed">No browser found. Please install browser.</string>
+    <string name="setting_no_map_app_installed">No map application found. Please install map application.</string>
+    <string name="setting_no_mail_title">No Email Application</string>
+    <string name="setting_no_mail_installed">There is no email application installed in this device, or the email application had been disabled. Please install an email application and make sure it is enabled.</string>
+
+    <string name="cloud_settings_dialog_title">Exit Cloud Settings</string>
+    <string name="cloud_settings_dialog_message">You are exiting your %s cloud settings. Please make sure you have saved any changes you have made before you continue.</string>
+	<string name="cloud_settings_package_rcname">RingCentral</string>
+	<string name="cloud_settings_package_at">attofficeathand</string>
+	<string name="cloud_settings_package_atname">Office@Hand</string>
+	<string name="cloud_settings_package_cancel">Cancel</string>
+	<string name="cloud_settings_package_continue">Continue</string>
+	<string name="cloud_settings_is_alert">isalert</string>
+	<string name="cloud_settings_url">rcurl</string>
+	<string name="url_start_chars1">https://</string>
+	<string name="url_start_chars2">http://</string>
+	<string name="url_start_chars3">mailto:</string>
+	<string name="url_contain_chars">rcmobile:app/</string>
+    <string name="embed_browser_navigation1">Your account settings</string>
+    <string name="embed_browser_navigation2">are on the way.</string>
+	
+    <!-- ===================================================================== -->
+    <!-- ================= MESSAGES ========================================== -->
+    <!-- ===================================================================== -->
+    <string name="offline_mode_alerttext_delmsg">Your request could not be completed since there is no connection to server. Please try again later.</string>
+    <string name="offline_mode_alerttext_dnd">Cannot change DND status since there is no connection to server. Please try again later.</string>
+    <string name="relogin_msg_nodata">Please enter all of the required information before continuing.</string>
+
+    <string name="cannot_download_title">Cannot download message</string>
+    <string name="cannot_download_deleted_message">Cannot download deleted message. You can access it via service web Deleted Messages screen</string>
+    <string name="cannot_delete_title">Cannot delete message&#8230;</string>
+    <string name="cannot_update_title">Cannot set read status&#8230;</string>
+    
+    
+    <string name="cannot_play_voice_message">Cannot play voice message</string>
+    <string name="player_error">Player error</string>
+    <string name="msg_del_confirmation">Are you sure you want to delete this message? This message will be permanently deleted from your account.</string>
+    <string name="text_msg_del_confirmation">Are you sure you want to delete the messages in this thread? These messages will be permanently deleted from your account.</string>
+    <string name="delete">Delete</string>
+    <string name="call">Call</string>
+    <string name="message_title">Message</string>
+    
+    
+    <!-- ===================================================================== -->
+    <!-- ================= Search ============================================ -->
+    <!-- ===================================================================== -->
+    <string name="search_activity_label">Search Results</string>
+    <string name="menu_item_new_search">New Search</string>
+    
+     <!-- ===================================================================== -->
+     <!-- ================= DND    ============================================ -->
+     <!-- ===================================================================== -->
+	<string name="dnd_dialog_title">Set DND</string>
+	<string name="dnd_take_all_calls">Take All Calls</string>
+	<string name="dnd_not_accept_department_calls">Do Not Accept Call Queue Calls</string>
+	<string name="dnd_not_accept_any_calls">Do Not Accept Any Calls</string>
+	<string name="dnd_accept_only_department_calls">Accept Only Call Queue Calls</string>
+	<!--========================================================================-->
+	<!--========================  voip calling =================================-->
+	<!--========================================================================-->
+    <string name="voip_calling">VoIP Calling</string>
+    
+    <!-- ============================== -->
+    <!--  Application Description       -->
+    <!-- ============================== -->
+
+    <string name="application_description">Application Description</string>
+    <string name="descriptionTextOldUser">@string/branded_descriptionTextOldUser</string>
+    <string name="descriptionTextAmarosaUser">@string/branded_descriptionTextAmarosaUser</string>
+    
+    <!-- ====================================== -->
+    <!--  TEMP strings for Contacts + Populate  -->
+    <!-- ====================================== -->
+
+    <string name="dnd_on">Do Not Disturb ON</string>
+    <string name="dnd_off">Do Not Disturb OFF</string>
+    <string name="requires_you_to_enter_1">Requires you to enter "1" before the call is connected to your party.</string>
+    <string name="switch_to_dialer">Switch to Dialer</string>
+
+    <string name="invalid_credentials">Invalid phone number or password. Please try again.</string>
+    <string name="invalid_credentials_forced_restart">You login number or password is no longer valid. You will be logout of this account. Please login with your new account info and try again.</string>
+
+    <string name="jedi_error_712_inactive_user_prompt">Your account is inactive. Find the activation email and click the activation link or call support.</string>
+    <string name="user_account_is_disabled">@string/branded_user_account_is_disabled</string>
+    <string name="connecting_with_server">Connecting with server</string>
+    <string name="delete_contacts">Delete contacts</string>
+    
+    <!-- Messages for phone number validator -->
+    <string name="no_international_calls">We\'re sorry, your account is not enabled for international calling. Please log in to your account and make sure that international calling is enabled for the country and/or destination you would like to reach.</string>
+    <string name="call_cannotbe_completed">We\'re sorry, your call cannot be completed as dialed. Please check the number and try again.</string>
+    <string name="extension_not_found">Entered extension is not present in your account\'s extensions. Please check the number and try again.</string>
+    <string name="no_permissions">The extension you are using cannot make outgoing calls. Please contact your account administrator to change permissions for this extension.</string>
+    <string name="sms_no_permissions">The extension you are using cannot send text messages. Please contact your account administrator to change permissions for this extension. </string>
+    <string name="too_many_calls">To establish another active call please end one of your active calls.</string>
+    <string name="call_error_title_call_error">Call error</string>
+    <string name="call_error_title_no_permissions">Check Your Permissions</string>
+    <string name="sms_error_title_sms_error">Check Your Permissions</string>
+    <string name="call_error_title_invalid_call">Invalid call</string>
+    <string name="call_error_title_invalid_phone_number">Invalid phone number</string>
+    <string name="call_error_title_wrong_extension">Wrong extension</string>
+    <string name="call_error_title_too_many_calls">Warning</string>
+    <string name="no_international_for_free_or_trials">We\'re sorry, international calls are not available for free or trial accounts. To enable international calling, please upgrade your account to a paid plan.</string>
+    <string name="enter_number_in_settings">Please enter your phone number in RingOut Settings</string>
+    
+    <!--  Hints for login phase -->
+    <string name="account_hint">Phone number (digits only)</string>
+    <string name="extension_hint" >Extension (optional)</string>
+    <string name="password_hint" >Password</string>
+	<string name="PDF_viewer_could_not_be_detected">@string/branded_PDF_viewer_could_not_be_detected</string>
+	<string name="PDF_viewer_could_not_be_detected_title">No PDF Viewer</string>
+	<string name="phone_tag_extension">Extension</string>
+	<string name="phone_tag2_assistant">Assistant</string>
+	<string name="phone_tag2_callback">Callback</string>
+	<string name="phone_tag2_company_main">Company Main</string>
+	<string name="phone_tag2_car">Car</string>
+	<string name="phone_tag_fax_work">Fax Work</string>
+	<string name="phone_tag_fax_home">Fax Home</string>
+	<string name="phone_tag_home">Home</string>
+	<string name="phone_tag2_isdn">ISDN</string>
+	<string name="phone_tag2_main">Main</string>
+	<string name="phone_tag2_mms">MMS</string>
+	<string name="phone_tag_mobile">Mobile</string>
+	<string name="phone_tag_other">Other</string>
+	<string name="phone_tag2_other_fax">Other Fax</string>
+	<string name="phone_tag_pager">Pager</string>
+	<string name="phone_tag2_radio">Radio</string>
+	<string name="phone_tag2_telex">Telex</string>
+	<string name="phone_tag2_tty_tdd">TTY TDD</string>
+	<string name="phone_tag_work">Work</string>
+	<string name="phone_tag2_work_mobile">Work Mobile</string>
+	<string name="phone_tag2_work_pager">Work Pager</string>
+	<string name="phone_tag_custom">Custom</string>
+	<string name="settings_about_rate_app_title">Rate App</string>
+	<string name="login_string">Login</string>
+	<string name="settings_restore_all_msg_title">Re-sync Messages Inbox</string>
+	<string name="settings_restore_all_msg_body">This will re-synchronize all messages in this app. No data will be lost.</string>
+	<string name="settings_restore_btn">Re-sync</string>
+	<string name="settings_force_restore_btn">Force Re-sync</string>
+	<string name="settings_restore_no_network_msg">Messages cannot be re-synchronized without network connection, please check your network connectivity and try again.</string>
+	<string name="settings_restore_contain_fax_and_text">You have text messages and faxes sending in progress, the sending will be aborted if you choose to force re-synchronize now. Are you sure you want to continue?</string>
+	<string name="settings_restore_contain_fax">You have faxes sending in progress, the sending will be aborted if you choose to force re-synchronize now. Are you sure you want to continue?</string>
+	<string name="settings_restore_contain_text">You have text messages sending in progress, the sending will be aborted if you choose to force re-synchronize now. Are you sure you want to continue?</string>
+	<string name="logout_string">Logout</string>
+	<string name="contacts_no_valid_phone_numbers">No valid phone number(s) to make a call</string>
+	<string name="contacts_send_email_selection_title">Send Email</string>
+	<string name="clear">Clear</string>
+	<string name="email_tag_home">Home</string>
+	<string name="email_tag_mobile">Mobile</string>
+	<string name="email_tag_work">Work</string>
+	<string name="email_tag_other">Other</string>
+	<string name="no_account">Don\'t have an account?</string>
+    <!-- =====================================================================-->
+    <!-- ======================= Terms of Services ===========================-->
+    <!-- =====================================================================-->
+	<string name="tos_title">@string/branded_tos_title</string>
+	<string name="tos_text1">@string/branded_tos_text1</string>
+	<string name="tos_text2">@string/branded_tos_text2</string>
+
+    <string name="tos_accept_button_title">Accept</string>
+    <string name="tos_decline_button_title">Decline</string>
+
+
+    <!-- =============911 ToS============-->
+	<string name="tos911_title">@string/branded_tos911_title</string>
+	<string name="tos911_text">@string/branded_tos911_text</string>
+
+    <string name="tos911_accept_button_title">Accept</string>
+    <string name="tos911_decline_button_title">Decline</string>
+
+    <string name="tos911_dlg_voip_calling_title">VoIP Calling</string>
+	<string name="tos911_dlg_voip_calling_message">@string/branded_tos911_dlg_voip_calling_message</string>
+     
+	<!-- =====================================================================-->
+    <!-- ================= LOGGING AND TROUBLESHOOTING =======================-->
+    <!-- =====================================================================-->
+    <string name="landt_header">Logs</string>
+    <string name="landt_current_log">Current log</string>
+    <string name="landt_email">rcmandroidlogs&#64;ringcentral.com</string>
+    <string name="landt_email_subj">Android Debug Logs: <xliff:g id="rc_user_id">%1$s</xliff:g></string>
+    <string name="landt_send_log">Send log via e-mail</string>
+    <string name="landt_view_log">View</string>
+    <string name="landt_collecting_log_message">Please wait&#8230;</string>
+    <string name="landt_delete_log">Delete</string>
+    <string name="landt_deleting_log">Deleting&#8230;</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= OUTGOING CALL ACTIVITY ==================-->
+    <!-- =====================================================================-->
+    <string name="voip_call_connecting">Connecting&#8230;</string>
+    <string name="voip_call_connecting_wo_dots">Connecting</string>
+    <string name="voip_call_ended">Call ended</string>
+    <string name="voip_call_line_busy">Line busy</string>
+   <!-- <string name="voip_call_network_failure">Network Error (%1$d %2$d)</string> --> 
+    <string name="voip_call_network_failure">Network error, please try again later.</string>
+    <string name="voip_call_general_failure">Network Error</string>
+    <string name="voip_call_incoming">@string/branded_voip_call_incoming</string>
+    
+        
+    <!-- =====================================================================-->
+    <!-- ================= RCM STATUS NOTIFICATION ==================-->
+    <!-- =====================================================================-->
+    <string name="status_notification_one_active_call">1 active call</string>
+    <string name="status_notification_multiple_active_calls">%d active calls</string>
+    <string name="status_notification_one_call_on_hold">1 call on hold</string>
+    <string name="status_notification_multiple_calls_on_hold">%d calls on hold</string>
+    <string name="status_notification_calls_all">%1$s, %2$s</string>
+
+    <!-- =====================================================================-->
+    <!-- =================      AUDIO SETUP WIZARD     =======================-->
+    <!-- =====================================================================-->
+    <string name="asw_header_default">Audio Setup</string>
+    <string name="asw_calibration_description">@string/branded_asw_calibration_description</string>
+    <string name="asw_calibration_in_progress">Microphone calibration in progress. Please wait a moment.</string>
+    <string name="asw_calibration_completed_ok">@string/branded_asw_calibration_completed_ok</string>
+    <string name="asw_calibration_completed_bad">The calibration process cannot be completed at this time. The quality of your VoIP calls may be diminished.\nNote: Some Android devices have a built-in calibration tool. For these devices, you can skip to the next step. (You can relaunch this calibration tool from Settings in the future.)</string>
+    <string name="asw_calibrating">Calibrating…</string>
+    
+    <!-- Buttons -->
+    <string name="asw_btn_calibrate_again">Calibrate Again</string>
+    <string name="asw_btn_calibrate_cancel">Cancel</string>
+    <string name="asw_btn_calibrate_skip">Skip</string>
+    <string name="asw_btn_calibrate_done">Done</string>
+    <string name="asw_btn_calibrate_later">Calibrate Later</string>
+    <string name="asw_btn_calibrate_now">Calibrate Now</string>
+    <string name="asw_dialog_active_call_notification">Please end all calls before starting the microphone calibration wizard.</string>
+    <string name="asw_dialog_connected_headset_notification">Please disconnect your wired headset before starting the mic calibration wizard.</string>
+    
+
+    <!-- =====================================================================-->
+    <!-- =================      What's New DIALOG   ==========================-->
+    <!-- =====================================================================-->
+    <string name="voip_whats_new_description">@string/branded_voip_whats_new_description</string>
+    <string name="voip_whats_new_caption">What\'s New</string>
+
+    <!-- =====================================================================-->
+    <!-- =================      INTERNAL PERMISSIONS   =======================-->
+    <!-- =====================================================================-->
+    <string name="internal_permission_label">@string/branded_internal_permission_label</string>
+    <string name="internal_permission_description">@string/branded_internal_permission_description</string>
+    
+    <!-- =================      contact info   ======================= -->
+    <string name="fax_info_title">Fax</string>
+    <string name="voice_info_title">Voice Mail</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="begin_date">00:00</string>
+    <string name="audio_source">Audio Source</string>
+
+    <!-- workaround for AB-9476 -->
+    <string name="parked_party">Parked Party:</string>
+    
+    <string name="main_menu_messages">Messages</string>
+    <string name="main_menu_contacts">Contacts</string>
+    <string name="main_menu_favorites">Favorites</string>
+    <string name="main_menu_call_log">Call Log</string>
+    <string name="main_menu_settings">Settings</string>
+    <string name="main_menu_dnd">DND</string>
+    <!-- =================      Toast info   ======================= -->
+    <string name="toast_no_phone_number_add_to_favorite">Cannot add to Favorites. There are no phone numbers available.</string>
+    <string name="toast_no_phone_number">There are no phone numbers available.</string>
+    
+    <!-- =====================================================================-->
+    <!-- =================    MANUAL REFRESH CONTROL   =======================-->
+    <!-- =====================================================================-->
+    <string name="refresh_control_header_pull_down_to_update">Pull down to update&#8230;</string>
+    <string name="refresh_control_header_pull_up_to_update">Pull up to update&#8230;</string>
+    <string name="refresh_control_header_release_to_update">Release to update&#8230;</string>
+    <string name="refresh_control_header_updating">Updating&#8230;</string>
+    <string name="refresh_control_header_pull_down_to_load">Pull down to load earlier messages&#8230;</string>
+    <string name="refresh_control_header_pull_up_to_load_messages">Pull up to load earlier messages&#8230;</string>
+    <string name="refresh_control_header_release_to_load_messages">Release to load earlier messages&#8230;</string>
+    <string name="refresh_control_header_pull_up_to_load_calllog">Pull up to load earlier records&#8230;</string>
+    <string name="refresh_control_header_release_to_load_calllog">Release to load earlier records&#8230;</string>
+    <string name="refresh_control_header_loading">Loading&#8230;</string>
+    <string name="refresh_control_header_last_updated">Last updated: </string>
+    <string name="refresh_control_error">Refresh error. Try again later.</string>
+    <string name="refresh_control_load_error">Network Error</string>
+    <string name="refresh_control_type_messages">messages</string>
+    <string name="refresh_control_type_call_log">call_log</string> 
+    <string name="refresh_control_type_admin_call_log">admin call log</string>
+    <string name="refresh_control_type_text_messages">text_messages</string>    
+    
+    <!-- =====================================================================-->
+    <!-- =================     UNIFIED INBOX SCREEN    =======================-->
+    <!-- =====================================================================-->
+    <string name="messages_header_edit">Edit</string>
+    <string name="messages_no_messages">No Messages</string>
+    <string name="messages_no_voicemail">No VoiceMail</string>
+    <string name="messages_no_fax">No Fax</string>
+    <string name="messages_no_text">No Text</string>
+    <string name="messages_no_results_found">No results found</string>
+    <string name="messages_bar_item_all">All</string>
+    <string name="messages_bar_item_voice">Voice</string>
+    <string name="messages_bar_item_fax">Fax</string>
+    <string name="messages_bar_item_text">Text</string>
+    
+    <string name="messages_header_label">Messages</string>
+    <string name="messages_header_clear_all">Clear</string>
+    <string name="messages_header_cancel">Cancel</string>
+    <string name="messages_delete_text">Delete</string>
+    <string name="search_bar_control_edit_hint">Search</string>
+    <string name="create_new_message">New Message</string>
+    <string name="tap_to_enter_message">Tap to enter message</string>
+    <string name="choose_number">Choose number</string>
+    <string name="send_button">Send</string>
+    <string name="forward_button">Forward</string>
+    <string name="choose_the_number">Choose the number you would like to send from</string>
+    <string name="select_phone_number">Select phone number</string>
+    <string name="callid_not_available_tip">Your phone number used in this thread is no longer available.</string>
+	<string name="choose_phone_number" >Choose phone number</string>
+	<string name="message_send_failure" >Message Send Failure</string>
+	<string name="message_sending" >Sending&#8230;</string>
+    <!-- =====================================================================-->
+    <!-- =================     Event Detail    =======================-->
+    <!-- =====================================================================-->
+    
+    <string name="conversation_between">Conversation between:</string>
+    <string name="last_message">Last message:</string>
+    <string name="unknown_phone_type">Phone</string>
+    
+    
+    <string name="fax_page"> %d page</string>
+    <string name="fax_pages"> %d pages</string>
+    
+    <string name="filter_messages_a_lot_of_messages">&#8230;</string>
+    <string name="send_message_error_title">Cannot Send Message</string>
+    <string name="send_message_error_content">Your message has no valid recipients.</string>
+    <string name="send_message_error_some_invalid_recipients">Sorry, some of the recipients are invalid, please check and try again.</string>
+    <string name="send_message_error_network">No internet connection. Check your connection and try again.</string>
+    <string name="send_message_error_no_phonenumber">You do not have a \"direct number\" that supports SMS text messages. Please contact your Administrator to add a number that supports SMS.</string>
+    <string name="send_message_error_empty_content">Sorry, you cannot send an empty message.</string>
+    
+    <!-- Error cases on sending text messages -->   
+    <string name="message_not_delivered_dialog_title">Message not delivered</string> 
+    <string name="message_error_rejected_by_recipient">The recipient does not accept text messages.</string>
+    <string name="message_error_international_prohibited">Messaging to international numbers is not allowed.</string>
+	<string name="message_error_insufficient_funds">Your account does not have sufficient funds to text message international numbers. Please contact your account administrator.</string>
+	<string name="message_error_feature_not_available">Your account does not support text messaging. Please contact your account administrator.</string>
+	<string name="message_invalid_parameter_recipient">The recipient number is not valid.</string>
+	<string name="message_not_delivered">Message not delivered.</string>
+	<string name="message_cannot_be_delivered">Message cannot be delivered.</string>
+    <string name="message_resend_message">Tap \"Try Again\" to resend message.</string>
+    <string name="try_again">Try Again</string>
+    <string name="cannot_send_further_message">Cannot send further messages until first message in this conversation is delivered.</string>
+    <string name="message_out_of_thread_reply">Your extension had been eliminated from the department of this thread. To send a text to the department, please create a new one.</string>
+    
+    <!-- Blocked Numbers feature resources -->
+    <string name="block_number_button_title">Block Number</string>
+    <string name="unblock_number_button_title">Unblock Number</string>
+    <string name="blocking_number_dialog_title">Block Number</string>
+    <string name="blocking_number_dialog_text">Press \"Continue\" to block this number.</string>
+    <string name="blocking_number_dialog_positive_button_text">Continue</string>
+    <string name="blocking_number_dialog_negative_button_text">Cancel</string>
+    <string name="blocking_number_failed_dialog_text">Cannot block the number at this time. Please try again later.</string>
+    <string name="unblocking_number_dialog_title">Unblock Number</string>
+    <string name="unblocking_number_dialog_text">Press \"Continue\" to unblock this number.</string>
+    <string name="unblocking_number_dialog_positive_button_text">Continue</string>
+    <string name="unblocking_number_dialog_negative_button_text">Cancel</string>
+    <string name="unblocking_number_failed_dialog_text">Cannot unblock the number at this time. Please try again later.</string>
+
+    <string name="blocked_number_label_text">[Blocked]</string>
+    <string name="blocking_number_label_text">[Blocking]</string>
+    <string name="unblocking_number_label_text">[Unblocking]</string>
+    
+    <string name="clear_call_log_title">Clear Call Log</string>
+    <string name="clear_call_log_content">Are you sure you want to clear all call log records? All records will be permanently deleted from your account.</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="clear_call_log_wait">Please wait&#8230;</string>
+    <string name="clear_call_log_error">Error</string>
+    <string name="clear_call_log_airplane">Your request could not be completed since there is no connection to server. Please try again later.</string>
+    <string name="clear_call_log_network_error">An error occurred while attempting to complete your request (network error). Please try again later.</string>
+    <string name="clear_call_log_failed">Clear call logs failed. Please try again later.</string>
+    <!-- conference -->
+    <string name="conference_dial_in_number">Dial-in Number:</string>
+    <string name="conference_host_access">Host Access:</string>
+    <string name="conference_participant_access">Participant Access:</string>
+    <string name="conference_invite_with_text_messaging">Invite with Text</string>
+    <string name="conference_invite_with_email">Invite with Email</string>
+    <string name="conference_join_as_host">Join as Host</string>
+    <string name="conference_email_subject">Please join now, meeting in progress</string>
+    <string name="conference_email_content">@string/branded_conference_email_content</string>
+    <string name="conference_text_messaging">Hello,\nPlease join my meeting that is currently in progress.\nDial-in Number: <xliff:g id="dial_in_number">%1$s</xliff:g>\nParticipant Access: <xliff:g id="participant_access">%2$s</xliff:g></string>
+    <string name="conference_text_copy">Copy</string>
+    <string name="zoom_video">Launch</string>
+    
+    <!-- Fax Out -->
+    <string name="fax_out_title">Fax a Document</string>
+    <string name="fax_out_send">Send</string>
+    <string name="fax_out_cover_page">Cover Page:</string>
+    <string name="fax_out_documents_to_fax">Documents to Fax</string>
+    <string name="fax_out_choose_number">Choose Number</string>
+    <string name="fax_out_no_documents">No Documents</string>
+    <string name="fax_out_done">Done</string>
+    <string name="fax_out_delete">Delete</string>
+    <string name="fax_out_alert_dialog_title">Invalid Recipient</string>
+    <string name="fax_out_alert_dialog_message">Extension number is not supported as a fax recipient.</string>
+    
+    <string name="fax_out_select_source">Select Source</string>
+    <string name="fax_out_photos">Photos</string>
+    <string name="fax_out_camera">Camera</string>
+    <string name="fax_out_dropbox">Dropbox</string>
+    <string name="fax_out_box">Box</string>
+    <string name="fax_out_google_drive">Google Drive</string>
+    <string name="fax_out_documents">Documents</string>
+    <string name="fax_out_drafts">Drafts</string>
+    
+    <string name="send_fax">Send Fax</string>
+    
+    <string name="faxout_no_permissions_title">Check Your Permissions</string>
+    <string name="faxout_no_permissions">The extension you are using does not support fax out. Please contact your account administrator to change permissions for this extension. </string>
+    <string name="faxout_invalid_recipient_message">Sorry, the recipient number is invalid, please check and try again.</string>
+    <string name="faxout_invalid_recipients">Invalid Recipients</string>
+    <string name="faxout_invalid_recipients_message">Sorry, some of the recipients are invalid, please check and try again.</string>
+   
+    <string name="faxout_not_allowed_dailog_title">Check Your Permissions</string>
+    <string name="faxout_not_allowed_dailog_message">The extension you are using does not support fax out. Please contact your account administrator to change permissions for this extension.</string>
+    
+    <string name="faxout_number_expired_dialog_title">Number Expired</string>
+    <string name="faxout_number_expired_dialog_message"> The from number \"%1$s\" used in this fax has expired.</string>
+    
+    
+    <string name="rc_quit_when_faxout_sending_context">You have fax in sending progress, are you sure you want to quit?</string>
+	<string name="rc_quit_when_faxout_sending_title">Quit App</string>
+    
+    <string name="importing_error_title">File Import Failed</string>
+    <string name="importing_file_more_than_5m">Individual fax attachment cannot exceed 5 MB. The file importing will be cancelled.</string>
+    <string name="importing_file_failed">Importing file failed. Please try again.</string>
+    <string name="importing_file_not_support_failed">The extension you are using does not support file importing.</string>
+    <string name="importing_file_not_login_failed">File importing is only supported after login. Please login and try again.</string>
+    <string name="importing_file_not_more_same_name_failed">You can not import more than 1000 files with the same name.</string>
+    
+    <string name="faxout_no_recipient">No Recipient</string>
+    <string name="faxout_no_recipient_message"> Sorry, please add a recipient number to send a fax.</string>
+    
+    <string name="faxout_document_context_menu_title">Document</string>
+    <string name="faxout_document_context_menu_view">View</string>
+    <string name="faxout_document_context_menu_faxout">FaxOut</string>
+    <string name="faxout_document_context_menu_delete">Delete</string>
+    
+    <string name="faxout_delete_document_dialog_title">Delete Document</string>
+    <string name="faxout_delete_document_dialog_message"> Are you sure you want to delete this file?</string>
+    <string name="faxout_delete_document_failed">Delete failed.</string>
+    
+    <string name="rc_documents_import_button_content">Import</string>
+    <string name="rc_documents_cancel_button_content">Cancel</string>
+    <string name="rc_documents_dialog_content">@string/branded_rc_documents_dialog_content</string>
+    <string name="rc_documents_dialog_title">Import File</string>
+    <string name="rc_documents_import_files">Import Files</string>
+    <string name="rc_documents_no_app_title">Cannot Open File</string>
+    <string name="rc_documents_no_app_error">Your Android device does not have an app installed to open this file. But you can still attach it as a fax attachment.</string>
+    <string name="select_all">Select All</string>
+    
+    <string name="clear_all_rc_documents">Are you sure you want to clear all files?</string>
+    <string name="delete_file_dialog_title">Delete File</string>
+    <string name="delete_files_dialog_title">Delete Files</string>
+    <string name="delete_file_dialog_message">Are you sure you want to delete this file?</string>
+    <string name="delete_files_dialog_message">Are you sure you want to delete these files?</string>
+    
+    <string name="clear_all_drafts">Are you sure you want to clear all drafts?</string>
+    <string name="faxout_edit_draft_clear_drafts">Clear Drafts</string>
+    <string name="delete_draft_dialog_title">Delete Draft</string>
+    <string name="delete_drafts_dialog_title">Delete Drafts</string>
+    <string name="delete_draft_dialog_message">Are you sure you want to delete this draft?</string>
+    <string name="delete_drafts_dialog_message">Are you sure you want to delete these drafts?</string>
+    
+    <string name="cover_page_title">Cover Page</string>
+    <string name="cover_page_cancel">Cancel</string>
+    <string name="cover_page_save">Save</string>
+    <string name="cover_page_preview">Preview Cover Page</string>
+    <string name="cover_page_note_hint">Type a note to add to cover page(optional)</string>
+    <string name="cover_page_select_hint">Select Cover Page</string>
+    <string name="cover_page_length_limit_title">Text Too Long</string>
+    <string name="cover_page_length_limit_content">You can only enter maximum 1024 chars as fax notes.</string>
+    <string name="cover_page_invalid_char_title">Unsupported Char</string>
+    <string name="cover_page_invalid_char_content">You can only enter ASCII chars as fax notes.</string>
+    
+    <string name="cover_page_none">None</string>
+    <string name="cover_page_ancient">Ancient</string>
+    <string name="cover_page_birthday">Birthday</string>
+    <string name="cover_page_blank">Blank</string>
+    <string name="cover_page_clasmod">ClasMod</string>
+    <string name="cover_page_classic">Classic</string>
+    <string name="cover_page_confidential">Confidential</string>
+    <string name="cover_page_contempo">Contempo</string>
+    <string name="cover_page_elegant">Elegant</string>
+    <string name="cover_page_express">Express</string>
+    <string name="cover_page_formal">Formal</string>
+    <string name="cover_page_jazzy">Jazzy</string>
+    <string name="cover_page_modern">Modern</string>
+    <string name="cover_page_urgent">Urgent</string>
+    
+    <string name="faxout_document_rename">Rename</string>
+    <string name="faxout_document_rename_failed_exist">Sorry, the name already exists, please choose another one.</string>
+    <string name="faxout_document_rename_failed_empty">Sorry, rename failed, please try again.</string>
+	<string name="faxout_document_rename_invalid_name">Please make sure the file name doesn\'t contain chars as below: \\ / : * ? \" &lt; &gt; | % .</string>    
+    
+	<string name="faxout_send_fax_no_document_title">No Document</string>
+	<string name="faxout_send_fax_no_document_message">This fax doesn\'t contain any documents, please add at least one.</string>
+	<string name="faxout_send_fax_check_file_size_title">Check File Size</string>
+	<string name="faxout_send_fax_check_file_size_message">The total message size for all file attachments cannot exceed %d MB. Please remove some files before resending.</string>
+	<string name="faxout_send_fax_individual_attachment_title">Check File Size</string>
+	<string name="faxout_send_fax_individual_attachment_message">Individual attachment cannot exceed 5 MB. Please check that each file you are trying to send is less than 5 MB.</string>
+	
+	<string name="faxout_save_fax_as_draft_toast">@string/branded_faxout_save_fax_as_draft_toast</string>
+	<string name="no_recipient">No Recipient</string>
+	<string name="faxout_sending_in_progress">Fax sending in progress, you can get more detail in Outbox.</string>
+	<string name="faxout_resending_in_progress">Fax sending in progress.</string>
+	<string name="outbox">Outbox</string>
+	<string name="delete_fax">Delete Fax</string>
+	<string name="delete_fax_failed">Delete Failed</string>
+	<string name="delete_fax_peding_fax_message">This will cancel the fax sending and delete it, are you sure to continue?</string>
+	<string name="delete_fax_failed_fax_message">Are you sure you want to delete this fax?</string>
+	<string name="delete_fax_failed_message">Sorry, the deletion can not be completed at this time, please try again later.</string>
+	<string name="delete_fax_failed_sending_message">Sorry, this fax has been transmitted to server and can not be deleted at this time.</string>
+	
+	<string name="faxout_no_network_dialog_title">Network Not Available</string>
+	<string name="faxout_no_network_dialog_message">Fax cannot be successfully sent without network connection, do you want to save it as a draft?</string>
+	<string name="faxout_resend_no_network_dialog_message">Fax cannot be successfully sent without network connection, please try again later.</string>
+	<string name="save_draft">Save Draft</string>
+	
+	<string name="check_sd_card">Check SD Card</string>
+	<string name="file_not_found">File Not Found</string>
+	<string name="documents_missed">Documents Missed</string>
+	<string name="sd_card_not_available">SD card is not available now, please make sure it is mounted, and not being used as a USB storage.</string>
+	<string name="sd_card_not_available_import_file">SD card is not available now, please make sure it is mounted, and not being used as a USB storage, and not write protected.</string>
+	<string name="file_not_found_in_device">The file does not exist in your device.</string>
+	<string name="fax_documents_removed">Some fax documents had been removed from your device, please check and try again.</string>
+	
+	<string name="multiple_file_importing_toast">There is a file importing in progress, please try again when it completes.</string>
+	
+	<string name="unsupport_file_dialog_title">Unsupported File</string>
+	<string name="unsupport_file_dialog_message">\"%1$s\" file is not supported to be sent in a fax.</string>
+	<string name="open_with">Open with</string>
+    <string name="outbox_recipients_title">Recipients</string>
+	
+	
+    <!-- Menu Tab  -->
+    <string name="menu_list_favorites">Favorites</string>
+    <string name="menu_list_messages">Messages</string>
+    <string name="menu_list_contact">Contacts</string>
+    <string name="menu_list_conference">Conferencing</string>
+    <string name="menu_list_recents">Call Log</string>
+    <string name="menu_list_settings">Settings</string>
+    <string name="menu_list_voip_calling">VoIP Calling</string>
+    <string name="menu_list_video_meeting">Meetings</string>
+    <string name="menu_list_dnd">DND</string>
+    <string name="menu_more_than_99">99+</string>
+    <!-- Menu Outbox -->
+    <string name="menu_outbox_retry_sending">Retry Sending</string>
+    <string name="menu_outbox_delete">Delete</string>
+    
+    <!-- Outbox Event Detail -->
+    <string name="outbox_event_detail_pending">Pending</string>
+    <string name="outbox_event_detail_success">Sent</string>
+    <string name="outbox_event_detail_failed">Failed</string>
+    <string name="outbox_event_detail_network_error">(Network error)</string>
+    <string name="outbox_event_detail_server_error">(Server error)</string>
+    <string name="outbox_event_detail_app_exit">(App exit)</string>    
+    <string name="outbox_retry_sending_title">Retry Fax Sending</string>
+    <string name="outbox_retry_sending_content">You are retrying to send the fax to all recipients, are you sure you want to continue?</string>
+    
+    <!-- No content string -->
+    <string name="outbox_no_content">Your faxes are sent or no fax</string>
+    <string name="no_documents">Documents imported from email or other apps will be stored here. You will be able to use them for faxing.</string>
+    <string name="no_drafts">No Drafts</string>
+    
+    <!-- Open Mode -->
+    <string name="open_mode_always">Always</string>
+    <string name="open_mode_just_once">Just once</string>
+    
+    <!-- ExpandableTextView -->
+    <string name="expandable_text_dots"> &#8230; </string>
+    
+    <!-- Contact Group -->
+    <string name="group_hide_contacts">Hide All Contacts</string>
+    <string name="group_show_contacts">Show All Contacts</string>
+    <string name="contact_top_left">Filters</string>
+    <string name="group_top_right">Done</string>
+    <string name="group_all_contacts">All</string>
+    <string name="group_phone_contacts">Phone</string>
+    <string name="group_htc_brand_up">System Group:</string>
+    <string name="group_htc_brand_down">system Group:</string>
+    <string name="group_all_contact_type">AllContacts</string>
+    <string name="group_account_type">Account</string>
+    
+    <!-- Contact add another field menu -->
+    <string name="contact_another_field_menu_notes">Notes</string>
+
+    <!-- Contact im menu -->
+    <string name="contact_im_type_menu_aim">AIM</string>
+    <string name="contact_im_type_menu_windows_live">Windows Live</string>
+    <string name="contact_im_type_menu_yahoo">Yahoo</string>
+    <string name="contact_im_type_menu_skype">Skype</string>
+    <string name="contact_im_type_menu_qq">QQ</string>
+    <string name="contact_im_type_menu_google_talk">Google Talk</string>
+    <string name="contact_im_type_menu_icq">ICQ</string>
+    <string name="contact_im_type_menu_jabber">Jabber</string>
+    <string name="contact_im_type_menu_netmeeting">Netmeeting</string>
+
+    <!-- Contact website menu -->
+    <string name="contact_website_type_menu_homepage">Homepage</string>
+    <string name="contact_website_type_menu_blog">Blog</string>
+    <string name="contact_website_type_menu_profile">Profile</string>
+    <string name="contact_website_type_menu_home">Home</string>
+    <string name="contact_website_type_menu_work">Work</string>
+    <string name="contact_website_type_menu_ftp">FTP</string>
+    <string name="contact_website_type_menu_other">Other</string>
+
+    <!-- Contact events menu -->
+    <string name="contact_events_type_menu_anniversary">Anniversary</string>
+    <string name="contact_events_type_menu_birthday">Birthday</string>
+    <string name="contact_events_type_menu_other">Other</string>
+
+    <!-- Contact custom label -->
+    <string name="contact_custom_label_ok_btn">OK</string>
+    <string name="contact_no_name">Unknown</string>
+    
+    <string name="contact_title">Contact Info</string>
+    <string name="message_event_detail_from_text_filter_title">Conversation details</string>
+    <string name="groups">Filters</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="hide_all_contacts">Hide All Contacts</string>
+    <string name="show_all_contacts">Show All Contacts</string>
+    <string name="user_extensions">User Extensions and Others</string>
+    <string name="department_extensions">Groups</string>
+    
+    <!-- Contact topright button menu -->
+    <string name="contact_top_right_menu_new_contact">Create New Contact</string>
+    <string name="contact_top_right_menu_groups">Set Filters</string>
+    
+    <!-- RC UK -->
+    <string name="yesterday">Yesterday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="just_now">just now</string>
+    
+    <string name="rcm_numeric_date_format">M/d/yyyy</string>
+    <string name="rcm_numeric_date_template">"%1$s/%2$s/%3$s"</string>
+    <string name="rcm_numeric_date_space_template">"%1$s %2$s %3$s"</string>
+    <string name="rcm_numeric_date_space_dot_template">"%1$s %2$s, %3$s"</string>
+   
+    <string name="intercom_dialog_title">Cannot Start Intercom</string>
+    <string name="intercom_dialog_text">Please use your desk phone to place an Intercom call.</string>
+    
+    <string name="importing_failed_in_voip_call">You are currently in VoIP call, please try again after the call ends.</string>
+    
+    <!-- favoriteslist -->
+    <string name="favorite_top_right_menu_add">Add Contact</string>
+    <string name="favorite_top_right_menu_edit">Edit</string>
+    
+        
+    <!-- Group filter -->
+    <string-array name="config_group_filter">
+       <item>com.outlook.Z7.eas</item>
+       <item>com.osp.app.signin</item>
+       <item>com.skype.contacts.sync</item>
+       <item>com.android.exchange</item>
+       <item>com.yahoo.mobile.client.share.account</item>
+       <item>com.sec.android.app.sns3.facebook</item>
+       <item>com.google</item>
+    </string-array> 
+    
+    <!-- Group titile -->
+    <string-array name="config_group_title">
+       <item>Outlook.com</item>
+       <item>Samsung account</item>
+       <item>Skype™</item>
+       <item>Microsoft Exchange ActiveSync</item>
+       <item>Yahoo</item>
+       <item>Facebook</item>
+       <item>Google</item>
+    </string-array>    
+        
+    <string name="voip_agent_network_error">Network is not available. An Android phone call will be placed instead.</string>
+    <string name="voip_agent_need_login">Call can only be placed after login. Please login and try again.</string>
+    <string name="voip_agent_is_allow_call">The extension you are using does not support calling feature. An Android phone call will be placed instead.</string>
+    
+    
+    
+    <!-- 3rd party app voip call warning -->
+    <string name="zoom_prompt">Start or join your meetings now.</string>
+    
+    <string name="cannot_logout_title">Cannot Logout</string>
+    <string name="cannot_logout_message">You cannot logout during the call. Please try again after the call ends.</string>
+    
+    <string name="importing">Importing&#8230;</string>
+    <string name="unknown_tier_name">Unknown</string>
+    
+    <string name="first_record_dialog_title">Call Recording</string>
+    <string name="first_record_dialog_message">Your call is now being recorded. To download the recordings, please log in to (%1$s) and go to "Messages -> Recordings".</string>
+    
+    <string name="transfer_confirm_dialog_title">Call Transfer</string>
+    <string name="transfer_confirm_dialog_message"> Are you sure you want to transfer the call to %1$s%2$s? </string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_cancel" />
+    <string name="boxandroidlibv2_alert_dialog_cancel" description="">Cancel</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_ok" />
+    <string name="boxandroidlibv2_alert_dialog_ok" description="">Submit</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_password" />
+    <string name="boxandroidlibv2_alert_dialog_password" description="">Password</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_text_entry" />
+    <string name="boxandroidlibv2_alert_dialog_text_entry" description="">This website or application is requesting authentication.</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_alert_dialog_username" />
+    <string name="boxandroidlibv2_alert_dialog_username" description="">Username</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_title_activity_oauth" />
+    <string name="boxandroidlibv2_title_activity_oauth">OAuthActivity</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Select" />
+    <string name="boxandroidlibv2_Select">Select</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Cancel" />
+    <string name="boxandroidlibv2_Cancel">Cancel</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Please_wait" />
+    <string name="boxandroidlibv2_Please_wait">Please wait&#8230;</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Problem_fetching_folder" />
+    <string name="boxandroidlibv2_Problem_fetching_folder">Problem fetching folder.</string>
+    
+    <add-resource type="string" name="boxandroidlibv2_Create_folder" />
+    <string name="boxandroidlibv2_Create_folder">Create folder</string>
+    
+    <string name="telus_copyright">
+        © 2014 TELUS Communications Company\n
+        TELUS and the TELUS logo are trademarks of TELUS Intellectual Property.\n
+        All other marks, logos, designs and otherwise are the trademarks and intellectual property of RingCentral, Inc.
+    </string>
+    
+    <!-- Call Control -->
+    <string name="transfer">Transfer</string>
+    <string name="flip">Flip</string>
+    <string name="park">Park</string>
+    <string name="record">Record</string>
+    
+    <string name="call_flip_header">Flip Call to</string>
+    <string name="empty_message_in_flip_list">Sorry, you have not set any flip number. Go to \"Settings -> My Extension Settings -> Call Handling &amp; Forwarding\" to set a number.</string>
+    <string name="voip_call_flip">Make sure to pick up your other phone before completing the flip</string>
+    <string name="voip_call_flip_toast">Your call has been flipped to "%1$s".</string>
+    <string name="call_flip_request_code">result_code</string>
+    <string name="call_flip_number">flip_number</string>
+    <string name="call_flip_name">flip_name</string>
+    <string name="call_flip_get_data_failed">Flip Number Not Available \n\nAn error occurred while fetching the flip numbers. Please try again later.</string>
+    <string name="call_flip_intercept_title">Cannot Flip Call</string>
+    <string name="call_flip_intercept_message">Call flip is not available if there is an Android phone call in progress. Please end the Android phone call and try again.</string>
+    <string name="call_flip_in_recording_voice_title">Cannot Start Call Flip</string>
+    <string name="call_flip_start_recording_voice_message">Your call recording is in initializing progress, please try to flip the call later.</string>
+    <string name="call_flip_end_recording_voice_message">Your call recording is in saving progress, please try to flip the call later.</string>
+    <string name="call_park_in_recording_voice_title">Cannot Start Call Park</string>
+    <string name="call_park_start_recording_voice_message">Your call recording is in initializing progress, please try to park the call later.</string>
+    <string name="call_park_end_recording_voice_message">Your call recording is in saving progress, please try to park the call later.</string>
+    
+    <string name="dialog_transfer_error_cannot_transfer_title">Cannot Transfer Call</string>
+    <string name="dialog_transfer_error_cannot_transfer_message">Call transfer is not available if there are more than 3 active calls.</string>
+    <string name="dialog_transfer_error_invalid_number_title">Invalid Phone Number</string>
+    <string name="dialog_transfer_error_special_number_message">Sorry, the call cannot be transferred to this number.</string>
+    <string name="dialog_transfer_error_invalid_number_message">Sorry, the phone number is not a valid number, please check it and try again.</string>
+    <string name="dialog_transfer_error_emergency_number_message">Sorry, the call cannot be transferred to an emergency number.</string>
+    <string name="dialog_transfer_error_invalid_extension_title">Invalid Extension</string>
+    <string name="dialog_transfer_error_invalid_extension_message">Sorry, the extension number does not exist. Please check it and try again.</string>
+    <string name="dialog_transfer_error_account_no_international_call_message">Sorry, your account is not enabled for international calling. Please contact your Administrator to enable international calling for the country and/or destination you would like to reach.</string>
+    <string name="dialog_transfer_error_free_account_no_international_call_message">We\'re sorry, international calls are not available for free or trial accounts. To enable international calling, please upgrade your account to a paid plan.</string>
+    
+    <string name="call_control_error_messages_title">Call %1$s Not Supported</string>
+    <string name="call_control_error_messages">Sorry, your account does not have the feature to %1$s a call. Please contact your account administrator.</string>
+    
+    <string name="call_control_call_recording_error_title">Call Recording Failed</string>
+    <string name="call_control_stop_recording_error_title">Stop Recording Failed</string>
+    <string name="call_control_call_unhold_error_title">Call Unhold Failed</string>
+    <string name="call_control_call_hold_error_title">Call Hold Failed</string>
+    <string name="call_control_call_flip_error_title">Call Flip Failed</string>
+    <string name="call_control_call_transfer_error_title">Call Transfer Failed</string>
+    
+    <string name="call_control_call_recording_error_messages">The call cannot be successfully recorded now, please try again later.</string>
+    <string name="call_control_stop_recording_error_messages">The call recording cannot be successfully stopped now, please try again later.</string>
+    <string name="call_control_call_unhold_error_messages">The call cannot be successfully unheld now, please try again later.</string>
+    <string name="call_control_call_hold_error_messages">The call cannot be successfully held now, please try again later.</string>
+    <string name="call_control_call_flip_error_messages">The call cannot be successfully flipped now, please try again later.</string>
+    <string name="call_control_call_transfer_error_messages">The call cannot be successfully transferred now, please try again later.</string>
+    
+    <string name="offline_title">Unable to Access Server</string>
+    <string name="offline_text">Please check your network connection.</string>
+    <string name="get_contact_information_error">Cann\'t get correct contact information.</string>
+</resources>

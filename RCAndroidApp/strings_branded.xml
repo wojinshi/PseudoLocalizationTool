@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!--
+    Copyright (C) 2010-2013, RingCentral, Inc. All Rights Reserved.
+  -->
+
+  <!-- ===================================================================
+    Brand-dependent string resources for the RingCentral brand.
+  =====================================================================-->
+  
+  <!-- ===================================================================
+    IMPORTANT!!!
+    
+    This file MUST contain ALL brand-dependent string definitions. 
+	All other project resources (XML files) MUST NOT contain any brand-dependent strings
+	but only references to this file.
+
+	Don't reference strings from this file directly in the Java code.
+    Use references from 'strings.xml'.
+  =====================================================================-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- =====================================================================-->
+    <!-- ===================== Brand definition ==============================-->
+    <!-- =====================================================================-->
+
+	<!-- This is the EXTERNAL application name -->
+	<!-- as seen in the App Store, on the Android desktop etc. -->
+    <string name="brand_AppLabel">RingCentral</string>
+    
+	<!-- This is the INTERNAL application name used inside the application UI -->
+    <string name="brand_AppName">RingCentral</string>
+    
+    <!-- =====================================================================-->
+    <!-- ========================= Login Screen ==============================-->
+    <!-- =====================================================================-->
+    <string name="branded_loginscreen_setup_dialog_msg">Please finish express setup to fully take advantage of your RingCentral phone system and send activation emails to your extension users.</string> 
+    
+    <string name="branded_loginscreen_trial_dlg_msg_admin_expired">Your free trial has expired. To upgrade to a paid account and continue enjoying the RingCentral features you love, click Upgrade Now below.</string>
+    <string name="branded_loginscreen_trial_dlg_msg_admin_expireinxdays">Your free trial expires in %d days. To upgrade to a paid account and continue enjoying the RingCentral features you love, click Upgrade Now below.</string>
+    <string name="branded_loginscreen_trial_dlg_msg_admin_expirein1day">Your free trial expires in 1 day. To upgrade to a paid account and continue enjoying the RingCentral features you love, click Upgrade Now below.</string>
+    <string name="branded_loginscreen_trial_dlg_msg_admin_expiretoday">Your free trial expires today. To upgrade to a paid account and continue enjoying the RingCentral features you love, click Upgrade Now below.</string>
+    <string name="branded_loginscreen_trial_dlg_msg_user_expired">Your free trial has expired. To upgrade to a paid account and continue enjoying the RingCentral features you love, please ask an administrator to login and upgrade your account.</string>
+    <string name="branded_user_account_is_disabled">Your RingCentral account is currently disabled. Please contact customer support to re-activate your account.</string>
+
+    <!-- =====================================================================-->
+    <!-- ================= RING OUT ==========================================-->
+    <!-- =====================================================================-->
+	
+    <!-- RingOut Status screen -->
+    <string name="branded_ringout_status_mid_label_text_2line">The other party will see your RingCentral \nnumber as caller ID:</string>
+    
+
+    <!-- =====================================================================-->
+    <!-- ================= MESSAGES ========================================= -->
+    <!-- =====================================================================-->
+    
+    <string name="branded_messages_notification_ticker">New RingCentral Message.</string>
+ 	
+ 	<string name="branded_PDF_viewer_could_not_be_detected">Your Android device does not have a PDF viewer installed. To view RingCentral faxes, RingCentral recommends you download the free Adobe Reader from Google Play.</string>
+        
+        
+    <!-- =====================================================================-->
+    <!-- ================= SETTINGS ============================== -->
+    <!-- =====================================================================-->
+
+    <string name="branded_settings_tell_a_friend_body_value">\n<xliff:g id="user_name">%1$s</xliff:g> thought you should know about business phone service from RingCentral.
+\n\nYou get an instantly activated toll free or local number with advanced call forwarding, a professional auto-receptionist that answers and directs calls to virtual extensions, Internet fax and a whole lot more. Turn your Android phone into feature-rich mobile office with this free app from RingCentral.
+\n\nSo go ahead. Port your existing numbers to RingCentral, or get an entirely new number for your business. Either way, you’ll soon be converting callers into customers.
+\n\nTo learn more about RingCentral service, please visit: www.ringcentral.com</string>
+    <string name="branded_settings_tell_a_friend_subject_value"><xliff:g id="user_name">%1$s</xliff:g> has sent you a recommendation</string>
+    <string name="branded_settings_header_about_title">About</string>
+    <string name="branded_settings_about_title">About RingCentral</string>
+    <string name="branded_settings_about_feedback_email">rcmobilefeedback&#64;ringcentral.com</string>
+        
+    <string name="branded_settings_noname_user_name">RingCentral User</string>
+        
+    <string name="branded_ringcentral_calls_place">Choose where you would like to take your RingCentral calls:</string>
+        
+
+    <!-- =====================================================================-->
+    <!-- ================= OUTGOING CALL ACTIVITY ==================-->
+    <!-- =====================================================================-->
+
+    <string name="branded_voip_call_incoming">Incoming call</string>
+        
+
+    <!-- =====================================================================-->
+    <!-- =================      AUDIO SETUP WIZARD     =======================-->
+    <!-- =====================================================================-->
+        
+    <string name="branded_asw_calibration_description">To ensure the best sound quality during your VoIP calls please allow the RingCentral application to perform a 30 seconds microphone calibration of your Android device.</string>
+    <string name="branded_asw_calibration_completed_ok">Your Android device microphone was successfully calibrated with the RingCentral application. If you want to run the microphone calibration again you can find it under the settings menu.</string>
+        
+    
+    <!-- =====================================================================-->
+    <!-- =================      INTERNAL PERMISSIONS   =======================-->
+    <!-- =====================================================================-->
+    <string name="branded_internal_permission_label">Internal RingCentral service actions</string>
+    <string name="branded_internal_permission_description">Allows the application to use internal RingCentral service actions</string>
+    
+    
+    <!-- ============================== -->
+	<!-- =============911 ToS========== -->
+    <!-- ============================== -->
+
+    <string name="branded_tos911_title"><b>E911 Terms of Service</b></string>
+
+    <string name="branded_tos911_text"><b>911 Disclaimer*</b>
+     \n\nYOU ACKNOWLEDGE THAT THE MOBILE APP USES YOUR DEVICE\'S DIALER AND CELLULAR TELEPHONE SERVICE TO MAKE 911 CALLS. IF YOUR CELLULAR TELEPHONE SERVICE IS UNAVAILABLE, YOU WILL NOT BE ABLE TO CALL 911 FROM THE MOBILE APP. PLEASE SEE THE END USER LICENSE AGREEMENT AND TERMS OF SERVICE FOR MORE INFORMATION.
+     \n\n*This disclaimer is only applicable if RingCentral VoIP is available with your service.
+         
+    </string>
+
+	<string name="branded_tos911_dlg_voip_calling_message">VoIP calling capabilities will be disabled until you acknowledge that 911 calling may not be available when using RingCentral.</string>
+
+    <!-- =====================================================================-->
+    <!-- =================      What's New DIALOG   ==========================-->
+    <!-- =====================================================================-->
+   <string name="branded_voip_whats_new_description">
+        &lt;b>What\'s new in this version (3.9.0):&lt;/b>
+        &lt;br>
+        &lt;br>We added a bunch of call features.*
+        &lt;br>
+        &lt;br>&#8226; Flip: Move your active call to your desk phone, softphone, or mobile phone
+        &lt;br>&#8226; Transfer: Transfer your call to another extension or phone number
+        &lt;br>&#8226; Park: Hold a call on a virtual location, and pick-up the call from any other phone in your system
+        &lt;br>&#8226; Record: Record your important calls anytime
+        &lt;br>
+        &lt;br>We also added some additional features.
+        &lt;br>
+        &lt;br>&#8226; Block your caller ID for outgoing calls
+        &lt;br>&#8226; Easily toggling VoIP between VoIP and regular mobile calls from the navigation menu
+        &lt;br>&#8226; Delete record by \'swipe from right to left\' gesture
+        &lt;br>&#8226; Admin can filter between the company\'s or extension\'s call log records
+        &lt;br>
+        &lt;br>&lt;b>Updates in previous version (3.8.18): &lt;/b>
+        &lt;br>
+        &lt;br>&#8226; Place RingCentral calls when dialing from other applications
+        &lt;br>&#8226; Ability to put app run in background by tapping \"Back\" hard key on top-level screens
+        &lt;br>&#8226; Various bug fixes
+        &lt;br>
+        &lt;br>&lt;b>Updates in versions prior to 3.8.18: &lt;/b>
+        &lt;br>
+        &lt;br>&#8226; View Direct Number of other users in the company directory.
+        &lt;br>&#8226; Access Contacts from the dialpad.
+		&lt;br>&#8226; Initiate Intercom and Unpark calls using touch commands (on VoIP).
+		&lt;br>&#8226; Bug fix, where new messages were not appearing in mobile app.
+		&lt;br>&#8226; Fax: Send and receive faxes from your mobile phone, by accessing photos, email attachments, and cloud storage such as Dropbox and Box.
+		&lt;br>&#8226; Mobile Conferencing: Start conferences with just one tap and easily invite attendees using email or Business SMS.
+		&lt;br>&#8226; Call Quality Indicator: Knowing the real-time quality status of your VoIP call connection enables you to choose between call modes, to ensure optimum call quality.
+		&lt;br>&#8226; Improved navigation: You can now swipe from left-to-right on any screen to access the navigation menu.
+		&lt;br>&#8226; Inbound VoIP: Ability to receive incoming calls.
+		&lt;br>&#8226; Business SMS feature to send and receive text messages with your RC local number**
+		&lt;br>&#8226; Department messaging feature of Business SMS to send and receive text messages to department members as a group**
+		&lt;br>&#8226; Conference feature with unlimited conference calling for up to 1000 participants per conference***
+        &lt;br>
+        &lt;br>* The call controller features are available for select user only.
+        &lt;br>** Business SMS is currently available for Office customers.
+        &lt;br>*** Currently available on select RingCentral Office plans for US customers.
+    </string>
+    
+    <!-- ============================== -->
+    <!--  Application Description       -->
+    <!-- ============================== -->
+	<string name="branded_descriptionTextOldUser">Download the RingCentral app for Android - the essential application to your RingCentral business phone system. Manage your phone system directly from your Android phone and take your business calls, voice messages, business SMS text messages, and faxes—anywhere
+        &lt;br>&lt;br>&lt;b>Use the RingCentral app on your Android phone to:&lt;/b>
+        &lt;br>&#8226; Show your RingCentral business number as your Caller ID when you make calls.
+        &lt;br>&#8226; Business SMS feature to send and receive text messages with your RC local number.*
+        &lt;br>&#8226; Department messaging feature to send and receive text messages to department members.*
+        &lt;br>&#8226; Make VoIP calls over Wi-Fi without using your carrier minutes.
+        &lt;br>&#8226; Use VoIP calling to make local calls to the US while traveling internationally.
+        &lt;br>&#8226; VoIP calls can be received directly on this app by turning ON the option in Settings. If the call is not answered on the app, it will ring other numbers based on the forwarding rules.
+        &lt;br>&#8226; Keep all your business voicemails and faxes separate from your personal messages.
+        &lt;br>&#8226; See who left a message, forward messages, and tap to return calls with Visual Voicemail.
+        &lt;br>&#8226; Send and receive faxes, by accessing photos, email attachments, and cloud storage such as Dropbox.
+        &lt;br>&#8226; View call time, date, and duration, and return calls directly from your RingCentral call logs.
+        &lt;br>&#8226; Receive push notifications for incoming messages.
+        &lt;br>&#8226; Access your company extensions as a contact group.
+        &lt;br>&#8226; Conferencing feature with unlimited conference calling for up to 1000 participants per conference**
+        &lt;br>&lt;br>&lt;b>Get a cloud business phone system from RingCentral that delivers:&lt;/b>
+        &lt;br>&#8226; Local or toll-free numbers (including 800, 855, 866, 877 and 888 numbers)
+        &lt;br>&#8226; Business SMS*
+        &lt;br>&#8226; Auto-receptionist
+        &lt;br>&#8226; Multiple extensions
+        &lt;br>&#8226; Advanced call management and answering rules
+        &lt;br>&#8226; Multiple voicemail boxes
+        &lt;br>&#8226; Visual voicemail
+        &lt;br>&#8226; Internet fax
+        &lt;br>&#8226; Music on hold
+        &lt;br>&#8226; Custom greetings
+        &lt;br>&#8226; Call screening
+        &lt;br>&#8226; Call queues
+        &lt;br>&#8226; Dial-by-name directory
+        &lt;br>&#8226; Conferencing**
+        &lt;br>&lt;br>&lt;b>IMPORTANT:&lt;/b> RingCentral for Android requires an existing RingCentral account.
+        &lt;br>&lt;i>* Business SMS is currently available for new Office customers. We are working hard to make this feature available to existing customers.&lt;/i>
+        &lt;br>&lt;i>** Currently available on select RingCentral Office plans for new US customers. Available soon to all existing US customers.&lt;/i>
+        &lt;br>&lt;br>Tell us what you think at rcmobilefeedback@ringcentral.com
+        &lt;br>
+        &lt;br>To view our privacy policy, visit http://www.ringcentral.com/legal/privacy-policy.html
+    </string>
+    
+    <string name="branded_descriptionTextAmarosaUser">Download the RingCentral app for Android - the essential application to your RingCentral business phone system. Manage your phone system directly from your Android phone and take your business calls, voice messages, business SMS text messages, and faxes—anywhere
+        &lt;br>&lt;br>&lt;b>Use the RingCentral app on your Android phone to:&lt;/b>
+        &lt;br>&#8226; Show your RingCentral business number as your Caller ID when you make calls.
+        &lt;br>&#8226; Business SMS feature to send and receive text messages with your RC local number.*
+        &lt;br>&#8226; Department messaging feature to send and receive text messages to department members.*
+        &lt;br>&#8226; Make VoIP calls over Wi-Fi without using your carrier minutes.
+        &lt;br>&#8226; Use VoIP calling to make local calls to the US while traveling internationally.
+        &lt;br>&#8226; VoIP calls can be received directly on this app by turning ON the option in Settings. If the call is not answered on the app, it will ring other numbers based on the forwarding rules.
+        &lt;br>&#8226; Keep all your business voicemails and faxes separate from your personal messages.
+        &lt;br>&#8226; See who left a message, forward messages, and tap to return calls with Visual Voicemail.
+        &lt;br>&#8226; Send and receive faxes, by accessing photos, email attachments, and cloud storage such as Dropbox.
+        &lt;br>&#8226; View call time, date, and duration, and return calls directly from your RingCentral call logs.
+        &lt;br>&#8226; Receive push notifications for incoming messages.
+        &lt;br>&#8226; Access your company extensions as a contact group.
+        &lt;br>&#8226; Conferencing feature with unlimited conference calling for up to 1000 participants per conference**
+        &lt;br>&lt;br>&lt;b>Get a cloud business phone system from RingCentral that delivers:&lt;/b>
+        &lt;br>&#8226; Local or toll-free numbers (including 800, 855, 866, 877 and 888 numbers)
+        &lt;br>&#8226; Business SMS*
+        &lt;br>&#8226; Auto-receptionist
+        &lt;br>&#8226; Multiple extensions
+        &lt;br>&#8226; Advanced call management and answering rules
+        &lt;br>&#8226; Multiple voicemail boxes
+        &lt;br>&#8226; Visual voicemail
+        &lt;br>&#8226; Internet fax
+        &lt;br>&#8226; Music on hold
+        &lt;br>&#8226; Custom greetings
+        &lt;br>&#8226; Call screening
+        &lt;br>&#8226; Call queues
+        &lt;br>&#8226; Dial-by-name directory
+        &lt;br>&#8226; Conferencing**
+        &lt;br>&lt;br>&lt;b>IMPORTANT:&lt;/b> RingCentral for Android requires an existing RingCentral account.
+        &lt;br>&lt;i>* Business SMS is currently available for new Office customers. We are working hard to make this feature available to existing customers.&lt;/i>
+        &lt;br>&lt;i>** Currently available on select RingCentral Office plans for new US customers. Available soon to all existing US customers.&lt;/i>
+        &lt;br>&lt;br>Tell us what you think at rcmobilefeedback@ringcentral.com
+        &lt;br>
+        &lt;br>To view our privacy policy, visit http://www.ringcentral.com/legal/privacy-policy.html
+    </string>
+	    
+    <!-- =====================================================================-->
+    <!-- ======================= Terms of Services ===========================-->
+    <!-- =====================================================================-->
+
+    <string name="branded_tos_title"><b>Summary of Legal Terms</b></string>
+ 	<string name="branded_tos_text1">
+      	You agree to use the RingCentral Mobile Application (\"Mobile App\") and Service only as set forth in this Summary and the RingCentral End User License Agreement and Terms of Service (\"EULA/TOS\"), available at http://www.ringcentral.com/legal/eulatos.html, which is incorporated herein, and in compliance with any applicable laws and regulations.
+	    &lt;br>&lt;br>YOU ACKNOWLEDGE THAT THE MOBILE APP USES YOUR DEVICE\'S DIALER AND CELLULAR TELEPHONE SERVICE TO MAKE 911 CALLS. IF YOUR CELLULAR TELEPHONE SERVICE IS UNAVAILABLE, YOU WILL NOT BE ABLE TO CALL 911 FROM THE MOBILE APP.
+	    &lt;br>&lt;br>This agreement is between the legal entity you represent by signing up for the Service or downloading the Mobile App (\"You\", \"Your\") and RingCentral.
+	    &lt;br>&lt;br>You agree to provide true, accurate, current, and complete contact information for Your company and any individuals that will be using the Service on Your account. You are solely responsible for any activities that occur on Your account, and You shall immediately notify RingCentral of any unauthorized use of Your account.
+	    &lt;br>&lt;br>RingCentral does not provide Internet service or Public Switched Telephone Network (\"PSTN\") service (e.g., traditional telephone or cellular telephone service), which are required to use features of the Service and Mobile App. You are solely responsible for obtaining and paying for any required Internet or PSTN service.
+     </string>
+     <string name="branded_tos_text2">
+        &lt;br>You shall not use the Service for any illegal, fraudulent, improper, or abusive purpose or in any way that interferes with RingCentral\'s ability to provide the Service to other customers. If RingCentral finds that You are using the Service for anything other than the permitted uses in the EULA/TOS or for any of the prohibited uses in the EULA/TOS, RingCentral may at its sole discretion terminate Your Service and charge You any applicable fees for the Services used plus damages caused by Your improper use.
+        &lt;br>&lt;br>RingCentral owns exclusive right, title, and interest to their respective parts of the Service and Mobile App, including all patents, copyrights, trademarks, service marks, trade secrets, and all other intellectual property rights thereto. RingCentral grants You a limited, personal, revocable, non-exclusive, non-sublicensable, non-assignable, non-transferable, non-resellable license and right to use the Service and Mobile App in strict accordance with the Terms.
+        &lt;br>&lt;br>THE SERVICE AND MOBILE APP ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE\" AND RINGCENTRAL DOES NOT MAKE ANY WARRANTIES, EXPRESS OR LIMITED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS OR WARRANTIES OF NONINFRINGEMENT. THE ENTIRE RISK ASSOCIATED WITH THE USE OF THE SERVICE AND MOBILE APP SHALL BE BORNE SOLELY BY YOU. RINGCENTRAL’S TOTAL LIABILITY FOR ANY AND ALL DAMAGES, REGARDLESS OF THE FORM OF ACTION, SHALL BE LIMITED TO ONE MONTH\'S FEES FOR THE SERVICE.
+        &lt;br>&lt;br>You shall indemnify and hold harmless, RingCentral, its affiliates, agents, and other providers who furnish goods and services to You in connection with the Service, and their officers, directors, managers, employees, and shareholders from and against any and all liability, claims, losses, damages, fines, penalties, injuries, costs and expenses (including reasonable attorneys\' fees) arising from or related to Your use of the Service or Mobile App, any breach of the EULA/TOS by You, or other covered activities as specified in the EULA/TOS.
+        &lt;br>&lt;br>In the event of any dispute, claim, question, or disagreement (\"Dispute\") between You and RingCentral, You agree to first use reasonable best efforts to settle the Dispute directly with RingCentral. If such efforts fail, for any Dispute with RingCentral involving $10,000 or less, either party may choose to resolve the Dispute through binding, non-appearance-based arbitration. You agree that venue for any other Dispute with RingCentral shall be the Superior Court of California, County of San Mateo for state court cases and the United States District Court of the Northern District of California for federal court cases. You agree to submit to the jurisdiction of such courts and agree not to bring any Dispute with RingCentral in any other court or adjudicative body. The non-prevailing party shall reimburse the prevailing party for all reasonable and documented attorneys\' fees, costs, and expenses relating to Disputes with RingCentral.
+        &lt;br>&lt;br>Your use of the Service and Mobile App shall be governed by and construed under the laws of California and U.S. without regard to its conflict of law rules.
+        &lt;br>&lt;br>By clicking on \"I Accept\", (a) You acknowledge that You have read and are bound by this Summary and the RingCentral End User License Agreement and Terms of Service, and (b) You warrant that if enrolling in the Service on behalf of a legal entity that You have the authority to agree to the EULA/TOS and to bind the legal entity and its individuals that use the Service. If You do not agree to the terms of this Summary and the End User License Agreement and the Terms of Service, do not click on \"I Accept\".
+      </string>
+    
+    <!-- =====================================================================-->
+    <!-- ======================= conference ===========================-->
+    <!-- =====================================================================-->
+    <string name="branded_conference_email_content">Hello,\n\nPlease join my meeting that is currently in progress.\n\nDial-in Number: <xliff:g id="dial_in_number">%1$s</xliff:g>\nParticipant Access: <xliff:g id="participant_access">%2$s</xliff:g>\n\nFor additional information including touch&#8211;tones to use for control during the conference and a list of international dial&#8211;in phone numbers please visit http://www.ringcentral.com/conferencing. This conference call is brought to you by RingCentral.</string>
+    
+	<!-- =====================================================================-->
+    <!-- ======================= FaxOut ===========================-->
+    <!-- =====================================================================-->
+	<string name="branded_faxout_save_fax_as_draft_toast">Your fax has been saved as draft in Documents.</string>
+	<string name="branded_rc_documents_dialog_content">RingCentral does not support preview for this file. Would you like to import it into \"Documents\"?</string>
+	
+	<string name="brand_ringout_alert_login_using_direct_number">RingOut cannot be completed when logged in using your toll free number. To complete a RingOut call, log in using your direct extension number or please go to settings and change your RingOut mode to \"Another Phone\".</string>
+    
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <!--
+    Copyright (C) 2013, RingCentral, Inc. All Rights Reserved.
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="cloud_storage_dropbox_display_name">Dropbox</string>
+    <string name="cloud_storage_dropbox_authorization_dialog_body">Please wait&#8230;</string>
+</resources>

@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=F:\projects\PseudoLocalizationTool\libpseudolocalization-0.2.jar -DgroupId=com.google -DartifactId=pseudo-localization -Dversion=0.2 -Dpackaging=jar
