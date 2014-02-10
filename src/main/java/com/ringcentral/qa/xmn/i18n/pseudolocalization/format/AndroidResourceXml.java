@@ -29,6 +29,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.dom4j.Branch;
 import org.dom4j.Document;
@@ -44,12 +45,14 @@ import org.dom4j.Node;
 public class AndroidResourceXml implements MessageCatalog {
 
   private static final Charset UTF8 = Charset.forName("UTF-8");
+  private static final Pattern ENTITY_PATTERN = Pattern.compile(
+          "&((#\\d+)|(#[xX][a-fA-F0-9]+)|(\\w+));");
   private List<Message> messages = new ArrayList<Message>();
   private static final Pattern REFERENCE_STRING_PATTERN = Pattern.compile(
           "^@string/.*");
   private static final Pattern TAG_PATTERN = Pattern.compile(
           "(<(\\S+)[^>]*>)[\\s\\S]*(</\\2>)");
-  
+
   static {
     FormatRegistry.register(AndroidResourceXml.class, "xml");
   }
@@ -101,7 +104,7 @@ public class AndroidResourceXml implements MessageCatalog {
 
   @Override
   public WritableMessageCatalog writeTo(final OutputStream out) {
-    return new WritableMessageCatalog() {        
+    return new WritableMessageCatalog() {
       @Override
       public void writeMessage(Message msg) throws IOException {
         // TODO(jat): extract this to a common place
@@ -109,7 +112,7 @@ public class AndroidResourceXml implements MessageCatalog {
         msg.accept(new DefaultVisitor() {
           @Override
           public void visitNonlocalizableTextFragment(VisitorContext ctx,
-              NonlocalizableTextFragment fragment) {
+                  NonlocalizableTextFragment fragment) {
             buf.append(fragment.getText());
           }
 
@@ -125,7 +128,7 @@ public class AndroidResourceXml implements MessageCatalog {
         });
         out.write(buf.toString().getBytes(UTF8));
       }
-      
+
       public void close() throws IOException {
         out.close();
       }
@@ -157,7 +160,11 @@ public class AndroidResourceXml implements MessageCatalog {
       if (node.getNodeType() == Node.COMMENT_NODE) {
         result.add(new SimpleNonlocalizableTextFragment(xml));
       } else if (node.getNodeType() == Node.TEXT_NODE) {
-        result.add(new SimpleNonlocalizableTextFragment(xml));
+        if (xml.trim().length() != 0) {
+          result.add(new SimpleTextFragment(xml));
+        } else {
+          result.add(new SimpleNonlocalizableTextFragment(xml));
+        }
       } else if (node.getNodeType() == Node.ELEMENT_NODE) {
         String startTag = xml.trim().replaceAll(TAG_PATTERN.pattern(), "$1");
         String endTag = xml.trim().replaceAll(TAG_PATTERN.pattern(), "$3");
@@ -166,7 +173,7 @@ public class AndroidResourceXml implements MessageCatalog {
           if (!node.getText().matches(REFERENCE_STRING_PATTERN.pattern())) {
             result.add(new SimpleTextFragment(node.getText()));
           } else {
-            result.add(new SimpleNonlocalizableTextFragment(node.getText()));
+            visitText(result, xml);
           }
         } else {
           visitNodes(result, (Element) node);
@@ -177,6 +184,28 @@ public class AndroidResourceXml implements MessageCatalog {
       } else {
         result.add(new SimpleNonlocalizableTextFragment(xml));
       }
+    }
+  }
+
+  private void visitText(List<MessageFragment> result, String xml) {
+    if (xml.trim().length() != 0) {
+      Matcher m = ENTITY_PATTERN.matcher(xml);
+      int start = 0;
+      while (m.find()) {
+        String plainText = xml.substring(start, m.start());
+        start = m.end();
+        String entity = m.group();
+        if (plainText.length() > 0) {
+          result.add(new SimpleTextFragment(plainText));
+        }
+        result.add(new SimpleNonlocalizableTextFragment(entity));
+      }
+      String plainText = xml.substring(start);
+      if (plainText.length() > 0) {
+        result.add(new SimpleTextFragment(plainText));
+      }
+    } else {
+      result.add(new SimpleNonlocalizableTextFragment(xml));
     }
   }
 }
