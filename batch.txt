@@ -1,0 +1,9 @@
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_branded.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_branded_pseudo.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_cloud_storage_box.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_cloud_storage_box_pseudo.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_cloud_storage_dropbox.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_cloud_storage_dropbox_pseudo.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_cloud_storage_google_drive.xml
+D:\RCProjects\PseudoLocalizationTool\RCAndroidApp\strings_cloud_storage_google_drive_pseudo.xml

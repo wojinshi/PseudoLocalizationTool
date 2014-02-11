@@ -52,6 +52,7 @@ public class AndroidResourceXml implements MessageCatalog {
           "^@string/.*");
   private static final Pattern TAG_PATTERN = Pattern.compile(
           "(<(\\S+)[^>]*>)[\\s\\S]*(</\\2>)");
+  private static final String XLIFF_TAG = "xliff:g" ;
 
   static {
     FormatRegistry.register(AndroidResourceXml.class, "xml");
@@ -168,17 +169,21 @@ public class AndroidResourceXml implements MessageCatalog {
       } else if (node.getNodeType() == Node.ELEMENT_NODE) {
         String startTag = xml.trim().replaceAll(TAG_PATTERN.pattern(), "$1");
         String endTag = xml.trim().replaceAll(TAG_PATTERN.pattern(), "$3");
-        result.add(new SimpleNonlocalizableTextFragment(startTag));
-        if (((Element) node).isTextOnly()) {
-          if (!node.getText().matches(REFERENCE_STRING_PATTERN.pattern())) {
-            result.add(new SimpleTextFragment(node.getText()));
-          } else {
-            visitText(result, xml);
-          }
+        if(startTag.contains(XLIFF_TAG)) {
+            result.add(new SimpleNonlocalizableTextFragment(xml));
         } else {
-          visitNodes(result, (Element) node);
+            result.add(new SimpleNonlocalizableTextFragment(startTag));
+            if (((Element) node).isTextOnly()) {
+                if (!node.getText().matches(REFERENCE_STRING_PATTERN.pattern())) {
+                    result.add(new SimpleTextFragment(node.getText()));
+                } else {
+                    visitText(result, xml);
+                }
+            } else {
+                visitNodes(result, (Element) node);
+            }
+            result.add(new SimpleNonlocalizableTextFragment(endTag));
         }
-        result.add(new SimpleNonlocalizableTextFragment(endTag));
       } else if (node.getNodeType() == Node.NAMESPACE_NODE) {
         // do nothing
       } else {

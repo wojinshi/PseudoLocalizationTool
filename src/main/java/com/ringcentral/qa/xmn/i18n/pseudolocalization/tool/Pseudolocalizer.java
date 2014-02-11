@@ -25,6 +25,7 @@ import com.google.i18n.pseudolocalization.message.Message;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -68,7 +69,7 @@ public class Pseudolocalizer {
 
     private final PseudolocalizationPipeline pipeline;
 
-    private final String variant;
+    private final String variant;  
 
     /**
      * Process command-line arguments.
@@ -82,6 +83,7 @@ public class Pseudolocalizer {
       boolean tmpIsInteractive = false;
       String tmpVariant = null;
       String tmpFileType = null;
+      String tmpBatch = null;
       int argIndex = 0;
       while (argIndex < args.length && args[argIndex].startsWith("--")) {
         String argName = args[argIndex].substring(2);
@@ -114,6 +116,8 @@ public class Pseudolocalizer {
           }
         } else if (argName.startsWith("type=")) {
           tmpFileType = argName.substring(5);
+        } else if (argName.startsWith("batch=")) {
+          tmpBatch = argName.substring(6);
         } else if (argName.equals("interactive")) {
           tmpIsInteractive = true;
         } else {
@@ -142,6 +146,9 @@ public class Pseudolocalizer {
 
       // collect file names to process
       fileNames = new ArrayList<String>();
+      if(tmpBatch != null) {
+          readFileNamesFromBatchFile(tmpBatch);
+      }
       while (argIndex < args.length) {
         fileNames.add(args[argIndex++]);
       }
@@ -150,13 +157,28 @@ public class Pseudolocalizer {
       if (variant != null) {
         pipeline = PseudolocalizationPipeline.getVariantPipeline(variant);
       } else {
-        pipeline = PseudolocalizationPipeline.buildPipeline(methods); // TODO: replace by julia
-//          pipeline = PseudolocalizationPipeline.buildPipeline(null, false, methods);
+//        pipeline = PseudolocalizationPipeline.buildPipeline(methods); // TODO: replace by julia
+          pipeline = PseudolocalizationPipeline.buildPipeline(null, false, methods);
       }
       if (pipeline == null) {
         throw new RuntimeException("Unable to construct pipeline for methods " + methods);
       }
     }
+    
+      private void readFileNamesFromBatchFile(String batchName) {
+          try {
+              FileInputStream in = new FileInputStream(batchName);
+              BufferedReader dr = new BufferedReader(new InputStreamReader(in));
+              String file = null;
+              while ((file = dr.readLine()) != null) {
+                  fileNames.add(file);
+              }
+          } catch (FileNotFoundException ex) {
+              ex.printStackTrace();
+          } catch (IOException ex) {
+              ex.printStackTrace();
+          }
+      }
 
     /**
      * @return list of filenames -- empty if should read from stdin

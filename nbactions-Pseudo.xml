@@ -8,8 +8,8 @@
             </goals>
             <properties>
                 <exec.classpathScope>runtime</exec.classpathScope>
-                <exec.workingdir>F:\projects\PseudoLocalizationTool</exec.workingdir>
-                <exec.args>-classpath %classpath com.ringcentral.qa.xmn.i18n.pseudolocalization.tool.Pseudolocalizer --ext=com.ringcentral.qa.xmn.i18n.pseudolocalization.format.AndroidResourceXml --method=accents --type=xml strings_branded.xml</exec.args>
+                <exec.workingdir>D:\RCProjects\PseudoLocalizationTool</exec.workingdir>
+                <exec.args>-classpath %classpath com.ringcentral.qa.xmn.i18n.pseudolocalization.tool.Pseudolocalizer --ext=com.ringcentral.qa.xmn.i18n.pseudolocalization.format.AndroidResourceXml --method=accents --type=xml --batch=batch.txt</exec.args>
                 <exec.executable>java</exec.executable>
             </properties>
         </action>
@@ -21,8 +21,8 @@
             </goals>
             <properties>
                 <exec.classpathScope>runtime</exec.classpathScope>
-                <exec.workingdir>F:\projects\PseudoLocalizationTool</exec.workingdir>
-                <exec.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=${jpda.address} -classpath %classpath com.ringcentral.qa.xmn.i18n.pseudolocalization.tool.Pseudolocalizer --ext=com.ringcentral.qa.xmn.i18n.pseudolocalization.format.AndroidResourceXml --method=accents --type=xml strings_branded.xml</exec.args>
+                <exec.workingdir>D:\RCProjects\PseudoLocalizationTool</exec.workingdir>
+                <exec.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=${jpda.address} -classpath %classpath com.ringcentral.qa.xmn.i18n.pseudolocalization.tool.Pseudolocalizer --ext=com.ringcentral.qa.xmn.i18n.pseudolocalization.format.AndroidResourceXml --method=accents --type=xml --batch=batch.txt</exec.args>
                 <jpda.listen>true</jpda.listen>
                 <exec.executable>java</exec.executable>
             </properties>
@@ -34,8 +34,8 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.1.1:exec</goal>
             </goals>
             <properties>
-                <exec.args>${profiler.args} -classpath %classpath com.ringcentral.qa.xmn.i18n.pseudolocalization.tool.Pseudolocalizer --ext=com.ringcentral.qa.xmn.i18n.pseudolocalization.format.AndroidResourceXml --method=accents --type=xml strings_branded.xml</exec.args>
-                <exec.workingdir>F:\projects\PseudoLocalizationTool</exec.workingdir>
+                <exec.args>${profiler.args} -classpath %classpath com.ringcentral.qa.xmn.i18n.pseudolocalization.tool.Pseudolocalizer --ext=com.ringcentral.qa.xmn.i18n.pseudolocalization.format.AndroidResourceXml --method=accents --type=xml --batch=batch.txt</exec.args>
+                <exec.workingdir>D:\RCProjects\PseudoLocalizationTool</exec.workingdir>
                 <profiler.action>profile</profiler.action>
                 <exec.executable>${profiler.java}</exec.executable>
             </properties>
