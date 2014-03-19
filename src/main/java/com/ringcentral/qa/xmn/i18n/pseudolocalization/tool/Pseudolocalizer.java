@@ -58,18 +58,13 @@ public class Pseudolocalizer {
             System.err.println("If a method list is used instead of a variant, the suffix is \"pseudo\"");
             System.err.println("If no variant or methods are given, psaccent is used");
         }
-
         private final List<String> fileNames;
-
         private final String fileType;
-
         private final boolean isInteractive;
-
         private final List<String> methods;
-
         private final PseudolocalizationPipeline pipeline;
-
         private final String variant;
+        private final boolean isOverwrite;
 
         /**
          * Process command-line arguments.
@@ -84,6 +79,7 @@ public class Pseudolocalizer {
             String tmpVariant = null;
             String tmpFileType = null;
             String tmpBatch = null;
+            String tmpOverwrite = null;
             int argIndex = 0;
             while (argIndex < args.length && args[argIndex].startsWith("--")) {
                 String argName = args[argIndex].substring(2);
@@ -118,6 +114,8 @@ public class Pseudolocalizer {
                     tmpFileType = argName.substring(5);
                 } else if (argName.startsWith("batch=")) {
                     tmpBatch = argName.substring(6);
+                } else if (argName.startsWith("overwrite=")) {
+                    tmpOverwrite = argName.substring(10);
                 } else if (argName.equals("interactive")) {
                     tmpIsInteractive = true;
                 } else {
@@ -125,6 +123,12 @@ public class Pseudolocalizer {
                     error = true;
                 }
                 argIndex++;
+            }
+
+            if (tmpOverwrite != null && tmpOverwrite.equals("true")) {
+                isOverwrite = true;
+            } else {
+                isOverwrite = false;
             }
 
             if (tmpVariant != null) {
@@ -220,6 +224,13 @@ public class Pseudolocalizer {
         public boolean isInteractive() {
             return isInteractive;
         }
+
+        /**
+         * @return the isOverwrite, replace pseudolocalized file with source file.
+         */
+        public boolean isOverwrite() {
+            return isOverwrite;
+        }
     }
 
     /**
@@ -262,38 +273,52 @@ public class Pseudolocalizer {
         }
 
         for (String fileName : fileNames) {
-            File file = new File(fileName);
-            if (!file.exists()) {
-                System.err.println("File " + fileName + " not found");
-                continue;
+            try {
+                File file = new File(fileName);
+                if (!file.exists()) {
+                    System.err.println("File " + fileName + " not found");
+                    continue;
+                }
+
+                // get the extension of the input file and construct the output file name
+                int lastDot = fileName.lastIndexOf('.');
+                String extension;
+                String outFileName;
+                if (lastDot >= 0) {
+                    extension = fileName.substring(lastDot + 1);
+                    outFileName = fileName.substring(0, lastDot) + suffix + "." + extension;
+                } else {
+                    extension = "";
+                    outFileName = fileName + suffix;
+                }
+
+                if (arguments.isOverwrite()) {
+                    outFileName = fileName;
+                }
+                System.out.println("Processing " + fileName + " into " + outFileName);
+
+                // get the message catalog object for the specified (or inferred) file type
+                String fileType = arguments.getType();
+                if (fileType == null) {
+                    fileType = extension;
+                }
+                MessageCatalog msgCat = FormatRegistry.getMessageCatalog(fileType);
+
+                // read and process messages
+                InputStream inputStream = new FileInputStream(file);
+                List<Message> processedMessages = readAndProcessMessages(pipeline, msgCat, inputStream);
+
+                // replace source with psudolocalized file
+                if (arguments.isOverwrite()) {
+//                    System.out.println("Back up source file " + file.getName() + " to " + file.getName() + "_backup");
+//                    file.renameTo(new File(file.getName() + "_backup"));
+                }
+
+                OutputStream outputStream = new FileOutputStream(new File(outFileName));
+                writeMessages(msgCat, processedMessages, outputStream);
+            } catch (Exception e) {
+                System.out.println("Failed to processing " + fileName + " " + e.getMessage());
             }
-
-            // get the extension of the input file and construct the output file name
-            int lastDot = fileName.lastIndexOf('.');
-            String extension;
-            String outFileName;
-            if (lastDot >= 0) {
-                extension = fileName.substring(lastDot + 1);
-                outFileName = fileName.substring(0, lastDot) + suffix + "." + extension;
-            } else {
-                extension = "";
-                outFileName = fileName + suffix;
-            }
-            System.out.println("Processing " + fileName + " into " + outFileName);
-
-            // get the message catalog object for the specified (or inferred) file type
-            String fileType = arguments.getType();
-            if (fileType == null) {
-                fileType = extension;
-            }
-            MessageCatalog msgCat = FormatRegistry.getMessageCatalog(fileType);
-
-            // read and process messages
-            InputStream inputStream = new FileInputStream(file);
-            List<Message> processedMessages = readAndProcessMessages(pipeline, msgCat, inputStream);
-
-            OutputStream outputStream = new FileOutputStream(new File(outFileName));
-            writeMessages(msgCat, processedMessages, outputStream);
         }
     }
 

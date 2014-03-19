@@ -126,8 +126,11 @@ public class WebResourceJS implements MessageCatalog {
 
         final List<MessageFragment> result = new ArrayList<MessageFragment>();
         contentBeforeJson = content.substring(0, jsonStart);
-        // TODO: process json
+        // process json content
         String json = content.substring(jsonStart, jsonEnd + 1);
+        
+        json = json.replaceAll("(['\"])\\s*\\+\\s*\\1", "");
+        
         JSONObject jsonObject = JSONObject.fromObject(json);
         String key = null;
         Iterator it = jsonObject.keys();
